@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace _11C_All_Az_Alku
 {
@@ -11,9 +12,7 @@ namespace _11C_All_Az_Alku
             50000000, 20000000, 15000000, 10000000, 7000000, 5000000, 2500000, 1000000, 800000, 500000, 300000, 150000, 80000, 50000, 25000, 10000, 5000, 1000, 500, 100, 10, 5, 1
         };
         static Random rand = new Random();
-        static int korok = 1;
-        static int[] nyitasok = new int[9] { 5, 3, 3, 3, 2, 2, 2, 1, 1 };
-        static double[] ajanlatSzazalek = new double[9]
+        static public double[] ajanlatSzazalek = new double[9]
         {0.2, 0.3, 0.3, 0.3, 0.5, 0.5, 0.5, 0.6, 0.7 };
 
 
@@ -28,7 +27,10 @@ namespace _11C_All_Az_Alku
 
             return osszeg;
         }
-
+        public static Taska[] GetTaskak()
+        {
+            return taskak;
+        }
 
         private static void InitTaskak()
         {
@@ -37,7 +39,12 @@ namespace _11C_All_Az_Alku
 
         }
 
-
+        public static void UjraRajzol()
+        {
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.White;
+            TaskakRajzol();
+        }
         public static void StartJatek()
         {
             Console.ForegroundColor = ConsoleColor.White;
@@ -73,25 +80,31 @@ namespace _11C_All_Az_Alku
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("\n");
         }
-
-
-        public static int BankAjanlat()
+        public static bool NyitvaVanE(int sorszam)
         {
-            int osszeg = 0;
-            int db = 0;
-            for (int i = 0; i < taskak.Length; i++)
-                if (!taskak[i].Nyitva)
+            for(int i = 0;i < taskak.Length;i++)
+            {
+                if (taskak[i].Sorszam == sorszam)
                 {
-                    osszeg += taskak[i].Osszeg();
-                    db++;
+                    return taskak[i].Nyitva;
                 }
-
-            double atlag = (double)osszeg / db;
-
-            int rFaktor = rand.Next(-25000, 25000);
-
-            return
-               Math.Abs(((int)Math.Floor(atlag * ajanlatSzazalek[korok - 1])) + rFaktor);
+            }
+            return false;
         }
+        public static int MennyVanBenne(int sorszam)
+        {
+
+            for (int i = 0; i < taskak.Length; i++)
+            {
+                if (taskak[i].Sorszam == sorszam)
+                {
+                    return taskak[i].Kinyit();
+                }
+            }
+            return -1;
+        }
+    
+
+
     }
 }

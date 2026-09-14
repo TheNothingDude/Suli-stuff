@@ -44,7 +44,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bank.cs" />
-    <Compile Include="BonusCase.cs" />
     <Compile Include="Case.cs" />
     <Compile Include="Cases.cs" />
     <Compile Include="jatek.cs" />

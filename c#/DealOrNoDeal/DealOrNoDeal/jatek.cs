@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace _11C_All_Az_Alku
 {
@@ -14,7 +16,37 @@ namespace _11C_All_Az_Alku
 
         static string formatError = "Csakis egész számot írhatsz be!";
         static string rangeError = "Csakis 1-23 közötti számot írhatsz be!";
+        static string nyitoSzoveg = "Nyiss ki egy zart taskat";
+        static Random rand = new Random();
+        static int[] nyitasok = new int[9] { 5, 3, 3, 3, 2, 2, 2, 1, 1 };
+        static public int korok = 1;
+        static public double[] ajanlatSzazalek = new double[9];
 
+        private static int BemenetValidacio()
+        {
+            bool siker = false;
+
+            while (!siker)
+            {
+                Console.WriteLine("Választott táska sorszáma: ");
+                string s = Console.ReadLine();
+
+                siker = int.TryParse(s, out int sorszam);
+
+                if (siker == false)
+                    Console.WriteLine(formatError);
+                else if (sorszam < 1 || sorszam > 23)
+                {
+                    Console.WriteLine(rangeError);
+                    siker = false;
+                }
+                if (siker == true)
+                {
+                    return sorszam;
+                }
+            }
+            return -1;
+        }
         public static int SajatTaskaValaszt()
         {
             bool siker = false;
@@ -40,7 +72,58 @@ namespace _11C_All_Az_Alku
             }
             return -1;
         }
+        private static int BankAjanlat()
+        {
+            Taska[] taskak = Taskak.GetTaskak();
+            int osszeg = 0;
+            int db = 0;
+            for (int i = 0; i < taskak.Length; i++)
+                if (!taskak[i].Nyitva)
+                {
+                    osszeg += taskak[i].Osszeg();
+                    db++;
+                }
 
+            double atlag = (double)osszeg / db;
+
+            int rFaktor = rand.Next(-25000, 25000);
+
+            return
+               Math.Abs(((int)Math.Floor(atlag * ajanlatSzazalek[korok - 1])) + rFaktor);
+        }
+        private static void Nyitasok()
+        {
+            int count = nyitasok[korok-1];
+            int sorszam = -1;
+            for (int i = count; i > 0; i--)
+            {
+                while(sorszam == -1)
+                {
+                    Console.WriteLine(nyitoSzoveg);
+                    sorszam = BemenetValidacio();
+                    if (sorszam == Taska.JatekosTaska)
+                    {
+                        sorszam = -1;
+                        Console.WriteLine("A sajat taskadat nem nyithatod ki");
+                    }
+                    else if(Taskak.NyitvaVanE(sorszam))
+                    {
+                        sorszam = -1;
+                        Console.WriteLine("Ez mar nyitva van");
+                    }
+                }
+                Console.Write($"Az altalad nyitott {sorszam}. taskaban ");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write(Taskak.MennyVanBenne(sorszam));
+                Console.ForegroundColor= ConsoleColor.White;
+                Console.WriteLine("forint volt");
+                Thread.Sleep(1000);
+                Taskak.UjraRajzol();
+                sorszam = -1;
+               
+            }
+
+        }
         public static void Jatekmenet()
         {
             Console.WriteLine(udvozlo + "\n");
@@ -50,6 +133,7 @@ namespace _11C_All_Az_Alku
             Taska.JatekosTaskaBeallit(sajat);
             Console.Clear();
             Taskak.StartJatek();
+            Nyitasok();
         }
     }
 }

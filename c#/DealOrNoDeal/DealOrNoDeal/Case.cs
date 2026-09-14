@@ -19,6 +19,7 @@ namespace _11C_All_Az_Alku
             nyitva = false;
         }
 
+
         public static void JatekosTaskaBeallit(int sorszam)
         {
             jatekosTaska = sorszam;
