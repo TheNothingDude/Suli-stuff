@@ -94,6 +94,7 @@ namespace _11C_All_Az_Alku
         private static void Nyitasok()
         {
             int count = nyitasok[korok-1];
+            Console.WriteLine($"Ebben a korben osszesen {count} ladat kell nyitni");
             int sorszam = -1;
             for (int i = count; i > 0; i--)
             {
@@ -135,7 +136,7 @@ namespace _11C_All_Az_Alku
             Taskak.StartJatek();
             bool elfogadja = false;
             for (int i = 0; i < nyitasok.Length && !elfogadja; i++)
-            { 
+            {
                 Nyitasok();
                 int ajanlat = BankAjanlat();
                 Console.WriteLine($"A bank ajanlata {korok}. kor utan {ajanlat} forint");
@@ -143,12 +144,13 @@ namespace _11C_All_Az_Alku
                 string elfogad = Console.ReadLine().ToLower();
                 if (string.Compare(elfogad, "i") == 0)
                 {
-                    Console.WriteLine($"A nyeremeded: {ajanlat} forint");
-                    elfogadja = true;
+                  Console.WriteLine($"A nyeremeded: {ajanlat} forint");
+                  elfogadja = true;
                 }
                 korok++;
                     
             }
+            Console.WriteLine($"Nyeremenyed {Taskak.MennyVanBenne(Taska.JatekosTaska)}");
 
         }
     }
