@@ -133,7 +133,23 @@ namespace _11C_All_Az_Alku
             Taska.JatekosTaskaBeallit(sajat);
             Console.Clear();
             Taskak.StartJatek();
-            Nyitasok();
+            bool elfogadja = false;
+            for (int i = 0; i < nyitasok.Length && !elfogadja; i++)
+            { 
+                Nyitasok();
+                int ajanlat = BankAjanlat();
+                Console.WriteLine($"A bank ajanlata {korok}. kor utan {ajanlat} forint");
+                Console.Write("elfogadod? (I/N)");
+                string elfogad = Console.ReadLine().ToLower();
+                if (string.Compare(elfogad, "i") == 0)
+                {
+                    Console.WriteLine($"A nyeremeded: {ajanlat} forint");
+                    elfogadja = true;
+                }
+                korok++;
+                    
+            }
+
         }
     }
 }
