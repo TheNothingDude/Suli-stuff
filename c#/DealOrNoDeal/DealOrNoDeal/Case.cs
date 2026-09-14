@@ -1,75 +1,68 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace DealOrNoDeal
+namespace _11C_All_Az_Alku
 {
-    class Case
+    internal class Taska
     {
-        int value;
-        bool opened;
-        static int playersCase;
-        int id;
-        static char[,] draw = new char[,]
+        int osszeg;
+        bool nyitva;
+        int sorszam;
+        public int Sorszam { get { return sorszam; } }
+        public bool Nyitva { get { return nyitva; } }
+
+        static int jatekosTaska;
+
+        public Taska(int osszeg, int sorszam)
+        {
+            this.osszeg = osszeg;
+            this.sorszam = sorszam;
+            nyitva = false;
+        }
+
+        public static void JatekosTaskaBeallit(int sorszam)
+        {
+            jatekosTaska = sorszam;
+        }
+
+        public static int JatekosTaska
+        {
+            get { return jatekosTaska; }
+        }
+
+        public int Kinyit()
+        {
+            nyitva = true;
+            return osszeg;
+        }
+
+        public int Osszeg()
+        {
+            return osszeg;
+        }
+
+
+        static char[,] taskaRajz = new char[,]
         {
             {'┌', '█', '█', '┐' },
             {'│', ' ', ' ', '│' },
             {'└', '─', '─', '┘' },
         };
-        public int Id { get { return id; } }
-        public bool Opened
-        {
-            get { return opened; }
-        }
-        public Case(int value, int id)
-        {
-            this.value = value;
-            this.id = id;
-            opened = false;
-        }
-        public static void SetPlayersCase(Case s)
-        {
-            playersCase = s.id;
-        }
 
-        public int Open()
+        public static void TaskaKirajzol(int x, int y, int sorszam)
         {
-            opened = true;
-            return value;
-        }
-
-        public int Value
-        {
-            get { return value; }
-        }
-
-
-
-        public void DrawCase(int x, int y)
-        {
-            for (int i = 0; i < draw.GetLength(0); i++)
+            for (int i = 0; i < taskaRajz.GetLength(0); i++)
             {
-                for(int j = 0;  j < draw.GetLength(1); j++)
+                for (int j = 0; j < taskaRajz.GetLength(1); j++)
                 {
-                    Console.SetCursorPosition(x+ j, y + i);
-                    Console.WriteLine(draw[i,j]);
+
+
+                    Console.SetCursorPosition(x + j, y + i);
+                    Console.Write(taskaRajz[i, j]);
                 }
             }
-            string num = id.ToString();
-            if (id <= 9)
-            {
-                Console.SetCursorPosition(x+2, y+1);
-                Console.WriteLine(num);
-            }
-            else
-            {
-                Console.SetCursorPosition(x+1, y+1);
-                Console.Write(num[0]);
-                Console.Write(num[1]);
-            }
+
+            Console.SetCursorPosition(x + 1, y + 1);
+            Console.Write(sorszam.ToString().PadLeft(2, ' '));
         }
     }
 }

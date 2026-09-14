@@ -1,87 +1,97 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace DealOrNoDeal
+namespace _11C_All_Az_Alku
 {
-    static class Cases
+    static class Taskak
     {
-        static Case[] cases = new Case[23];
-        static List<int> values = new List<int>
+        static Taska[] taskak = new Taska[23];
+        static List<int> osszegek = new List<int>
         {
-            50000000, 20000000, 15000000, 10000000, 7000000, 5000000, 2500000, 1000000, 800000, 500000, 300000, 150000,
-            80000, 50000, 25000, 10000, 5000, 1000, 500, 100, 10, 5, 1
+            50000000, 20000000, 15000000, 10000000, 7000000, 5000000, 2500000, 1000000, 800000, 500000, 300000, 150000, 80000, 50000, 25000, 10000, 5000, 1000, 500, 100, 10, 5, 1
         };
-        static int rounds = 1;
-        static int[] Openings = new int[9] { 5,3,3,3,2,2,2,1,1};
-        static double[] offerPercent = new double[9] { 0.2, 0.3, 0.3, 0.3, 0.5, 0.5, 0.5, 0.6, 0.7 };
-        static Random rnd = new Random();
-        private static int GetValue()
+        static Random rand = new Random();
+        static int korok = 1;
+        static int[] nyitasok = new int[9] { 5, 3, 3, 3, 2, 2, 2, 1, 1 };
+        static double[] ajanlatSzazalek = new double[9]
+        {0.2, 0.3, 0.3, 0.3, 0.5, 0.5, 0.5, 0.6, 0.7 };
+
+
+        private static int GetOsszeg()
         {
-            if (values.Count == 0)
-            {
+            if (osszegek.Count == 0)
                 return -1;
-            }
-            int index = rnd.Next(0, values.Count);
-            int value = values[index];
-            values.RemoveAt(index);
-            return value;
+
+            int index = rand.Next(0, osszegek.Count);
+            int osszeg = osszegek[index];
+            osszegek.RemoveAt(index);
+
+            return osszeg;
         }
 
-        private static void InitCases()
+
+        private static void InitTaskak()
         {
-            for (int i = 0; i < cases.Length; i++)
-                cases[i] = new Case(GetValue(), i + 1);
+            for (int i = 0; i < taskak.Length; i++)
+                taskak[i] = new Taska(GetOsszeg(), i + 1);
+
         }
 
-        public static void StartGame()
+
+        public static void StartJatek()
         {
-            InitCases();
-            CaseDraw();
+            Console.ForegroundColor = ConsoleColor.White;
+            InitTaskak();
+            TaskakRajzol();
         }
-        private static void CaseDraw(int x =0, int y = 0)
+
+        private static void TaskakRajzol(int x = 0, int y = 0)
         {
             Console.SetCursorPosition(x, y);
             int width = Console.WindowWidth;
-            int oneLine =0;
+            int egySorba = 0;
 
-            for(int i  = 0; i < cases.Length; i++)
+            for (int i = 0; i < taskak.Length; i++)
             {
-                cases[i].DrawCase(x, y);
-                x += 6;
-                oneLine++;
+                Console.ForegroundColor = ConsoleColor.White;
+                if (taskak[i].Sorszam == Taska.JatekosTaska)
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                else if (taskak[i].Nyitva)
+                    Console.ForegroundColor = ConsoleColor.Red;
 
-                if(width / 6 <= oneLine)
+                Taska.TaskaKirajzol(x, y, taskak[i].Sorszam);
+                x += 6;
+                egySorba++;
+
+                if (width / 6 == egySorba)
                 {
                     y += 4;
                     x = 0;
-                    oneLine = 0;
+                    egySorba = 0;
                 }
             }
-
-            Console.WriteLine();
-            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("\n");
         }
 
 
-
-        public static int BankOffer(int round)
+        public static int BankAjanlat()
         {
-            int sum = 0;
-            int c = 0;
-            for(int i = 0;i < cases.Length;i++)
-            {
-                if (!cases[i].Opened)
+            int osszeg = 0;
+            int db = 0;
+            for (int i = 0; i < taskak.Length; i++)
+                if (!taskak[i].Nyitva)
                 {
-                    sum += cases[i].Value;
-                    c++;
+                    osszeg += taskak[i].Osszeg();
+                    db++;
                 }
-            }
-            double avg = (double)sum / c;
-            int rFakt = rnd.Next(-25000, 25000);
-            return Math.Abs((int)Math.Floor(avg * offerPercent[round-1]) + rFakt);
+
+            double atlag = (double)osszeg / db;
+
+            int rFaktor = rand.Next(-25000, 25000);
+
+            return
+               Math.Abs(((int)Math.Floor(atlag * ajanlatSzazalek[korok - 1])) + rFaktor);
         }
     }
 }

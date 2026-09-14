@@ -47,6 +47,7 @@
     <Compile Include="BonusCase.cs" />
     <Compile Include="Case.cs" />
     <Compile Include="Cases.cs" />
+    <Compile Include="jatek.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
