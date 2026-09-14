@@ -1,0 +1,36 @@
+
+div{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 10px;
+    background-color: coral;
+    animation-name: proba;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+
+}
+#div1{
+    animation-timing-function: linear;
+}
+#div2{
+    animation-timing-function: ease;
+}
+#div3{
+    animation-timing-function: ease-in;
+}
+
+#div4{
+    animation-timing-function: ease-out;
+}
+#div5{
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes proba {
+    0%{top: 0; left: 0;}
+    50%{top: 0; left: 100%;}
+    100%{ top: 0; left: 0;}
+    
+}

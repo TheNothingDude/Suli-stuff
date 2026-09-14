@@ -1,0 +1,14 @@
+H:\c#\valamifel\bin\Debug\net9.0\valamifel.exe
+H:\c#\valamifel\bin\Debug\net9.0\valamifel.deps.json
+H:\c#\valamifel\bin\Debug\net9.0\valamifel.runtimeconfig.json
+H:\c#\valamifel\bin\Debug\net9.0\valamifel.dll
+H:\c#\valamifel\bin\Debug\net9.0\valamifel.pdb
+H:\c#\valamifel\obj\Debug\net9.0\valamifel.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\valamifel\obj\Debug\net9.0\valamifel.AssemblyInfoInputs.cache
+H:\c#\valamifel\obj\Debug\net9.0\valamifel.AssemblyInfo.cs
+H:\c#\valamifel\obj\Debug\net9.0\valamifel.csproj.CoreCompileInputs.cache
+H:\c#\valamifel\obj\Debug\net9.0\valamifel.dll
+H:\c#\valamifel\obj\Debug\net9.0\refint\valamifel.dll
+H:\c#\valamifel\obj\Debug\net9.0\valamifel.pdb
+H:\c#\valamifel\obj\Debug\net9.0\valamifel.genruntimeconfig.cache
+H:\c#\valamifel\obj\Debug\net9.0\ref\valamifel.dll

@@ -1,0 +1,7 @@
+H:\c#\fakt\fakt\bin\Debug\fakt.exe.config
+H:\c#\fakt\fakt\bin\Debug\fakt.exe
+H:\c#\fakt\fakt\bin\Debug\fakt.pdb
+H:\c#\fakt\fakt\obj\Debug\fakt.csproj.AssemblyReference.cache
+H:\c#\fakt\fakt\obj\Debug\fakt.csproj.CoreCompileInputs.cache
+H:\c#\fakt\fakt\obj\Debug\fakt.exe
+H:\c#\fakt\fakt\obj\Debug\fakt.pdb

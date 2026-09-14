@@ -1,0 +1,14 @@
+H:\c#\fuggvenyek_fel\bin\Debug\net9.0\fuggvenyek_fel.exe
+H:\c#\fuggvenyek_fel\bin\Debug\net9.0\fuggvenyek_fel.deps.json
+H:\c#\fuggvenyek_fel\bin\Debug\net9.0\fuggvenyek_fel.runtimeconfig.json
+H:\c#\fuggvenyek_fel\bin\Debug\net9.0\fuggvenyek_fel.dll
+H:\c#\fuggvenyek_fel\bin\Debug\net9.0\fuggvenyek_fel.pdb
+H:\c#\fuggvenyek_fel\obj\Debug\net9.0\fuggvenyek_fel.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\fuggvenyek_fel\obj\Debug\net9.0\fuggvenyek_fel.AssemblyInfoInputs.cache
+H:\c#\fuggvenyek_fel\obj\Debug\net9.0\fuggvenyek_fel.AssemblyInfo.cs
+H:\c#\fuggvenyek_fel\obj\Debug\net9.0\fuggvenyek_fel.csproj.CoreCompileInputs.cache
+H:\c#\fuggvenyek_fel\obj\Debug\net9.0\fuggvenyek_fel.dll
+H:\c#\fuggvenyek_fel\obj\Debug\net9.0\refint\fuggvenyek_fel.dll
+H:\c#\fuggvenyek_fel\obj\Debug\net9.0\fuggvenyek_fel.pdb
+H:\c#\fuggvenyek_fel\obj\Debug\net9.0\fuggvenyek_fel.genruntimeconfig.cache
+H:\c#\fuggvenyek_fel\obj\Debug\net9.0\ref\fuggvenyek_fel.dll

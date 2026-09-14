@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cont">
+      <form>
+        <div id="kerdes1">
+          <h3>
+            In JavaScript, a variable declared with const cannot have its
+            internal values changed at all. For example, if you make a const
+            array, you cannot add new items to it.
+          </h3>
+          <label for="q1">True</label>
+          <input type="radio" name="q1" id="input1" value="true" />
+          <label for="">False</label>
+          <input type="radio" name="q1" id="true" value="false" />
+        </div>
+        <div id="kerdes2">
+          <h3>
+            Which of the following are valid ways to declare a variable in
+            JavaScript?
+          </h3>
+          <label
+            ><input type="checkbox" name="q2" id="true" value="var" />
+            var</label
+          >
+          <label
+            ><input type="checkbox" name="q2" id="true" value="let" />
+            let</label
+          >
+          <label
+            ><input type="checkbox" name="q2" id="input2" value="variable" />
+            variable</label
+          >
+          <label
+            ><input type="checkbox" name="q2" id="true" value="const" />
+            const</label
+          >
+          <label
+            ><input type="checkbox" name="q2" id="input2" value="def" />
+            def</label
+          >
+          <p class="none"></p>
+        </div>
+        <div id="kerdes3">
+          <div>
+            3. Code Analysis: What will the following code output to the
+            console?<br />
+            <code
+              style="
+                background: #eee;
+                padding: 2px 6px;
+                display: inline-block;
+                margin-top: 5px;
+              "
+              >let count = 10;<br />count = count + "5";<br />console.log(count);</code
+            >
+          </div>
+          <select name="q3" id="true">
+            <option value="" disabled selected>-- Choose an answer --</option>
+            <option value="A">15</option>
+            <option value="B">105</option>
+            <option value="C">TypeError</option>
+            <option value="D">NaN</option>
+          </select>
+        </div>
+      </form>
+      <button id="submit">Submit</button>
+      <p id="points_display"></p>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

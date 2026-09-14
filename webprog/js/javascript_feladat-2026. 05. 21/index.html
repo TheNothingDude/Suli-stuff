@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cont">
+      <h1>Hegysegek es hegycsucsok</h1>
+      <p>1. Melyik a hegysegunknek legmagasabb pontja Csovanyos</p>
+      <div class="push">
+        <div>
+          <label for="bad">badacsony</label>
+          <input type="radio" name="1" id="elso" value="bad" />
+        </div>
+        <div>
+          <label for="bak">bakony</label>
+          <input type="radio" name="1" id="elso" value="bak" />
+        </div>
+        <div>
+          <label for="bor">borzsony</label>
+          <input type="radio" name="1" id="elso" value="bor" />
+        </div>
+        <div>
+          <label for="bukk">badacsony</label>
+          <input type="radio" name="1" id="elso" value="bukk" />
+        </div>
+      </div>
+      <p>2. Melyik Zempleni-hegyseg legmagasabb csucsa?</p>
+      <div class="push">
+        <label for=""></label>
+        <select name="2" id="ketto" size="5">
+          <option value="B">Nagy Balvany</option>
+          <option value="H">Nagy-Hideghegy</option>
+          <option value="I">Nagy-Inoc</option>
+          <option value="M">Nagy-Milic</option>
+          <option value="T">Nagy-Tubes</option>
+        </select>
+      </div>
+      <p>3. Melyek a Dunantuli-kozephegyseg reszei</p>
+      <div class="push">
+        <p>tobb helyes valasz is lehetseges</p>
+        <div style="display: inline-block">
+          <input type="checkbox" id="harom" name="3" />
+          <label for="3">Budai-Hegyseg</label>
+          <br />
+          <input type="checkbox" id="harom" name="3" />
+          <label for="3">Cserehat</label>
+          <br />
+          <input type="checkbox" id="harom" name="3" />
+          <label for="3">Gerecse</label>
+          <br />
+          <input type="checkbox" id="harom" name="3" />
+          <label for="3">Keszthelyi-hegyseg</label>
+        </div>
+        <div style="display: inline-block">
+          <input type="checkbox" id="harom" name="3" />
+          <label for="3">Mecsek</label>
+          <br />
+          <input type="checkbox" id="harom" name="3" />
+          <label for="3">Pilis</label>
+          <br />
+          <input type="checkbox" id="harom" name="3" />
+          <label for="3">Vertes</label>
+          <br />
+          <input type="checkbox" id="harom" name="3" />
+          <label for="3">Zselic</label>
+        </div>
+      </div>
+      <p>4. Melyik hegysegunkben talalhato Galyateto</p>
+      <div class="push">
+        <input type="text" name="4" id="negy" />
+      </div>
+      <div style="display: flex; flex-direction: row">
+        <p>5. Melyik terkep jelzi pirossal a Bukk-hegyseget?</p>
+        <p
+          style="
+            border: 1px solid black;
+            background-color: lightgray;
+            width: 40px;
+            height: 20px;
+            margin-left: 0.5em;
+            border-radius: 5px;
+          "
+          id="val5"
+        ></p>
+      </div>
+      <div>
+        <div style="display: inline-block; width: 45%">
+          <input type="radio" src="forras/1.png" name="5" id="ot" value="A" />
+          <img src="forras/1.png" alt="" />
+          <br />
+          <input type="radio" src="forras/2.png" name="5" id="ot" value="B" />
+          <img src="forras/2.png" alt="" />
+        </div>
+        <div style="display: inline-block; width: 45%">
+          <input type="radio" src="forras/3.png" name="5" id="ot" value="C" />
+          <img src="forras/3.png" alt="" />
+          <br />
+          <input type="radio" src="forras/4.png" name="5" id="ot" value="D" />
+          <img src="forras/4.png" alt="" />
+        </div>
+      </div>
+      <div style="display: flex; flex-direction: row">
+        <p>6. Milyen magas hegycsucs az Irottko?</p>
+        <p
+          style="
+            border: 1px solid black;
+            background-color: lightgray;
+            width: 40px;
+            height: 20px;
+            margin-left: 0.5em;
+            border-radius: 5px;
+          "
+          id="val6"
+        ></p>
+      </div>
+      <div style="display: flex; flex-direction: row" class="push">
+        <p id="min">0</p>
+        <input type="range" id="hat" min="700" max="1014" style="width: 30%" />
+        <p id="max">0</p>
+      </div>
+      <p>7. Hany darab 1000 meter feletti hegycsuc van Magyarorszagon</p>
+      <div class="push" style="display: flex; flex-direction: row">
+        <input
+          type="number"
+          min="0"
+          id="het"
+          style="width: 5%; height: 10%; margin-top: 15px; margin-right: 5px"
+        />
+        <p>darab</p>
+      </div>
+      <hr />
+      <div style="float: right; margin: 1em">
+        <button id="submit">Teszt lezarasa es valaszok elkuldese</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

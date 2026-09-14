@@ -1,0 +1,11 @@
+body >p{
+    background-color: yellow;
+}
+
+p::before{
+    content: "";
+}
+
+p::after{
+    content: "";
+}

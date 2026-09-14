@@ -1,0 +1,14 @@
+H:\c#\fileremhir\bin\Debug\net9.0\fileremhir.exe
+H:\c#\fileremhir\bin\Debug\net9.0\fileremhir.deps.json
+H:\c#\fileremhir\bin\Debug\net9.0\fileremhir.runtimeconfig.json
+H:\c#\fileremhir\bin\Debug\net9.0\fileremhir.dll
+H:\c#\fileremhir\bin\Debug\net9.0\fileremhir.pdb
+H:\c#\fileremhir\obj\Debug\net9.0\fileremhir.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\fileremhir\obj\Debug\net9.0\fileremhir.AssemblyInfoInputs.cache
+H:\c#\fileremhir\obj\Debug\net9.0\fileremhir.AssemblyInfo.cs
+H:\c#\fileremhir\obj\Debug\net9.0\fileremhir.csproj.CoreCompileInputs.cache
+H:\c#\fileremhir\obj\Debug\net9.0\fileremhir.dll
+H:\c#\fileremhir\obj\Debug\net9.0\refint\fileremhir.dll
+H:\c#\fileremhir\obj\Debug\net9.0\fileremhir.pdb
+H:\c#\fileremhir\obj\Debug\net9.0\fileremhir.genruntimeconfig.cache
+H:\c#\fileremhir\obj\Debug\net9.0\ref\fileremhir.dll

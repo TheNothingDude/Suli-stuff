@@ -1,0 +1,18 @@
+@keyframes rainbow {
+    14.2857142857%{background-color: red;}
+    28.5714285714%{background-color: orange;}
+    42.8571428571%{background-color: yellow;}
+    57.1428571428%{background-color: limegreen;}
+    71.4285714285%{background-color: blue;}
+    85.7142857142%{background-color:indigo}
+    100%{background-color: red;}
+
+}
+
+div{
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    animation: rainbow 10s linear 0s infinite;
+}

@@ -1,0 +1,14 @@
+H:\c#\fuggveny\bin\Debug\net9.0\fuggveny.exe
+H:\c#\fuggveny\bin\Debug\net9.0\fuggveny.deps.json
+H:\c#\fuggveny\bin\Debug\net9.0\fuggveny.runtimeconfig.json
+H:\c#\fuggveny\bin\Debug\net9.0\fuggveny.dll
+H:\c#\fuggveny\bin\Debug\net9.0\fuggveny.pdb
+H:\c#\fuggveny\obj\Debug\net9.0\fuggveny.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\fuggveny\obj\Debug\net9.0\fuggveny.AssemblyInfoInputs.cache
+H:\c#\fuggveny\obj\Debug\net9.0\fuggveny.AssemblyInfo.cs
+H:\c#\fuggveny\obj\Debug\net9.0\fuggveny.csproj.CoreCompileInputs.cache
+H:\c#\fuggveny\obj\Debug\net9.0\fuggveny.dll
+H:\c#\fuggveny\obj\Debug\net9.0\refint\fuggveny.dll
+H:\c#\fuggveny\obj\Debug\net9.0\fuggveny.pdb
+H:\c#\fuggveny\obj\Debug\net9.0\fuggveny.genruntimeconfig.cache
+H:\c#\fuggveny\obj\Debug\net9.0\ref\fuggveny.dll

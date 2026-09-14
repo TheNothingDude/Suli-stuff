@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\c#\\MyLittleBinary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{498B88DE-D68D-4651-A90D-CDF4F7B4427D}|MyLittleBinary\\MyLittleBinary.csproj|H:\\c#\\MyLittleBinary\\mylittlebinary\\mybinary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{498B88DE-D68D-4651-A90D-CDF4F7B4427D}|MyLittleBinary\\MyLittleBinary.csproj|solutionrelative:mylittlebinary\\mybinary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{498B88DE-D68D-4651-A90D-CDF4F7B4427D}|MyLittleBinary\\MyLittleBinary.csproj|h:\\c#\\mylittlebinary\\mylittlebinary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{498B88DE-D68D-4651-A90D-CDF4F7B4427D}|MyLittleBinary\\MyLittleBinary.csproj|solutionrelative:mylittlebinary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\c#\\MyLittleBinary\\MyLittleBinary\\Program.cs",
+              "RelativeDocumentMoniker": "MyLittleBinary\\Program.cs",
+              "ToolTip": "H:\\c#\\MyLittleBinary\\MyLittleBinary\\Program.cs",
+              "RelativeToolTip": "MyLittleBinary\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T09:34:52.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyBinary.cs",
+              "DocumentMoniker": "H:\\c#\\MyLittleBinary\\MyLittleBinary\\MyBinary.cs",
+              "RelativeDocumentMoniker": "MyLittleBinary\\MyBinary.cs",
+              "ToolTip": "H:\\c#\\MyLittleBinary\\MyLittleBinary\\MyBinary.cs",
+              "RelativeToolTip": "MyLittleBinary\\MyBinary.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAmwFoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T09:35:19.578Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

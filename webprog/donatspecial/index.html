@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #cube {
+        width: 300px;
+        height: 300px;
+        border: 1px solid black;
+        transition: all 1s ease;
+      }
+      p {
+        display: inline;
+      }
+      input {
+        width: 300px;
+        margin: 1em;
+      }
+      #red-range {
+        accent-color: red;
+      }
+      #blue-range {
+        accent-color: blue;
+      }
+      #green-range {
+        accent-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="cube"></div>
+    <div>
+      <input id="red-range" type="range" min="0" max="255" value="255" />
+      <input type="number" id="red-range-val" value="255" />
+    </div>
+    <div>
+      <input id="green-range" type="range" min="0" max="255" value="255" />
+      <input type="number" id="green-range-val" value="255" />
+    </div>
+    <div>
+      <input id="blue-range" type="range" min="0" max="255" value="255" />
+      <input type="number" id="blue-range-val" value="255" />
+    </div>
+    <div>
+      <input
+        id="opacity-range"
+        type="range"
+        min="0"
+        max="1"
+        step="0.01"
+        value="1"
+      />
+      <input type="number" id="opacity-range-val" value="1" />
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

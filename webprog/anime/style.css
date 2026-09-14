@@ -1,0 +1,23 @@
+div{
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+    transition: transform 1s ease, background-color 1s ease, content 5s;
+    perspective: 800px;
+    backface-visibility: hidden;
+}
+div::before{
+    content: "valami";
+}
+
+div:hover{
+    transform:rotateY(180deg);
+    transform-style:preserve-3d;
+    background-color: greenyellow;
+}
+
+div:hover{
+    display: inline-block;
+    content: "Back";
+    transform: rotateY(180deg);
+}

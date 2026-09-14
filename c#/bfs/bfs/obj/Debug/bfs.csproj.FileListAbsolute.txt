@@ -1,0 +1,7 @@
+H:\c#\bfs\bfs\bin\Debug\bfs.exe.config
+H:\c#\bfs\bfs\bin\Debug\bfs.exe
+H:\c#\bfs\bfs\bin\Debug\bfs.pdb
+H:\c#\bfs\bfs\obj\Debug\bfs.csproj.AssemblyReference.cache
+H:\c#\bfs\bfs\obj\Debug\bfs.csproj.CoreCompileInputs.cache
+H:\c#\bfs\bfs\obj\Debug\bfs.exe
+H:\c#\bfs\bfs\obj\Debug\bfs.pdb

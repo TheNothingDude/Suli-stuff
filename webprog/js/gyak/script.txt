@@ -1,0 +1,95 @@
+let szamok1 = [2, 4, 6, 8];
+
+function osszeg(szamok)
+{
+    let c = 0;
+    szamok.forEach(element =>
+    {
+        c += element;
+    });
+    return c;
+}
+
+console.log(osszeg(szamok1));
+
+let szamok2 = [1, 2, 3, 4, 5, 6, 7];
+
+function parosSzamok(szamok)
+{
+    let paros = [];
+
+    szamok.forEach(element =>
+    {
+        if (element % 2 == 0)
+        {
+            paros.push(element);
+        }
+    });
+    return paros;
+}
+
+console.log(parosSzamok(szamok2));
+
+let szamok3 = [10, 20, 30, 40, 50];
+
+function atlag(szamok)
+{
+    return osszeg(szamok) / szamok.length;
+}
+
+function atlagFeletti(szamok)
+{
+    let avg = atlag(szamok);
+    let atlagfelett = [];
+    szamok.forEach(element =>
+    {
+        if (element > avg)
+        {
+            atlagfelett.push(element);
+        }
+    });
+}
+
+console.log(atlag(szamok3));
+console.log(atlagFeletti(szamok3));
+
+
+let szamok4 = [3, 17, 9, 25, 4];
+
+function maxErtek(szamok)
+{
+    let max = szamok[0];
+    szamok.forEach(element =>
+    {
+        if (element > max)
+        {
+            max = element;
+        }
+    });
+    return max;
+
+}
+console.log(maxErtek(szamok4));
+
+let szamok5 = [-3, 5, -7, 12, -1, 8];
+
+function negativakSzama(szamok)
+{
+    let c = 0;
+    szamok.forEach(element =>
+    {
+        if (element < 0)
+        {
+            c++;
+        }
+    });
+    return c;
+}
+
+function negativakAranya(szamok)
+{
+    return negativakSzama(szamok) / szamok.length;
+}
+
+console.log(negativakSzama(szamok5));
+console.log(negativakAranya(szamok5));

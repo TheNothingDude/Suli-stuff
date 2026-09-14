@@ -1,0 +1,14 @@
+H:\c#\dijkstrasegits\bin\Debug\net9.0\dijkstrasegits.exe
+H:\c#\dijkstrasegits\bin\Debug\net9.0\dijkstrasegits.deps.json
+H:\c#\dijkstrasegits\bin\Debug\net9.0\dijkstrasegits.runtimeconfig.json
+H:\c#\dijkstrasegits\bin\Debug\net9.0\dijkstrasegits.dll
+H:\c#\dijkstrasegits\bin\Debug\net9.0\dijkstrasegits.pdb
+H:\c#\dijkstrasegits\obj\Debug\net9.0\dijkstrasegits.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\dijkstrasegits\obj\Debug\net9.0\dijkstrasegits.AssemblyInfoInputs.cache
+H:\c#\dijkstrasegits\obj\Debug\net9.0\dijkstrasegits.AssemblyInfo.cs
+H:\c#\dijkstrasegits\obj\Debug\net9.0\dijkstrasegits.csproj.CoreCompileInputs.cache
+H:\c#\dijkstrasegits\obj\Debug\net9.0\dijkstrasegits.dll
+H:\c#\dijkstrasegits\obj\Debug\net9.0\refint\dijkstrasegits.dll
+H:\c#\dijkstrasegits\obj\Debug\net9.0\dijkstrasegits.pdb
+H:\c#\dijkstrasegits\obj\Debug\net9.0\dijkstrasegits.genruntimeconfig.cache
+H:\c#\dijkstrasegits\obj\Debug\net9.0\ref\dijkstrasegits.dll

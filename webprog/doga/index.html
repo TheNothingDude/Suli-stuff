@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Itt megtalál minden információt a kerti növényekről">
+    <meta name="keywords" content="novenyek, kert, locsolas, green">
+    <meta name="author" content="Nemes-Hertelendy Áron">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        function togglediv(id) {
+    var div = document.getElementById(id);
+    div.style.display = div.style.display == "none" ? "block" : "none";
+    }
+    </script>
+    <title>Kerti Növények</title>
+</head>
+<body>
+    <header>
+        <h1>Kerti növenyek</h1>
+        <nav>
+            <ul>
+                <a href="#tavasz" onclick="togglediv('tavasz')"><li onclick="">Tavaszi</li></a>
+                <a href="#nyar" onclick="togglediv('nyar')"><li>Nyári</li></a>
+                <a href="#osz" onclick="togglediv('osz')"><li>Őszi</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    
+
+    <div class="cont">
+    <section id="nyar" class="container-fluid">
+        <figure><img src="images/nyári.jpg"  alt="Nyári" title="Dália"></figure>
+        <figcaption>Nyári növény</figcaption>
+        <p>A dália (Dahlia) a fészkesvirágzatúak (Asterales) rendjébe, ezen belül az őszirózsafélék (Asteraceae) családjába tartozó nemzetség. Nevét Andreas Dahl svéd botanikusról kapta.</p>
+    </section>
+    <section id="osz" class="container-fluid">
+        <figure><img src="images/oszi.jpg" alt="Őszi" title="Tarka vörösbegyvirág"></figure>
+        <figcaption>Öszi növény</figcaption>
+        <p>A tarka vörösbegyvirág (Nemesia strumosa) Dél-Afrikában őshonos évelő növény, melyet hazánkban egynyári dísznövényként tartanak. Nem túl nagytermetű, de annál kedvesebb megjelenésű virág. Nyáron nyíló virágai számtalan színben, a sárga, narancs, vörös, fehér és egyéb árnyalatokban játszanak.</p>
+    </section>
+    <section id="tavasz" class="container-fluid">
+        <figure><img src="images/tavasz.jfif" alt="Tavaszi" title="Sáfrány"></figure>
+        <figcaption>Tavaszi növény</figcaption>
+        <p>A sáfrány a nősziromfélék családjába tartozó növénynemzetség, illetve a nemzetséghez tartozó egyes fajok összegyűjtött és fűszerként használt bibéjének elnevezése. Szárleveleik nincsenek, a keskeny tőlevelek és a néhány centiméteres szár csúcsán álló virág a föld alatti</p>
+    </section>
+    <aside>
+        <ul>
+            <a href="https://hu.wikipedia.org/wiki/S%C3%A1fr%C3%A1ny" target="_blank"> <li>Sáfrány</li></a>
+            <a href="https://hu.wikipedia.org/wiki/D%C3%A1lia_(n%C3%B6v%C3%A9nynemzets%C3%A9g)" target="_blank"><li>Dália</li></a>
+            <a href="https://citygreen.hu/a-vorosbegyvirag-nemesia-gondozasa-2-vorosbegyvirag-faj-bemutatasa-kepekkel/#google_vignette" target="_blank"><li>Vörösbegyvirág (Nemesia)</li></a>
+        </ul>
+    </aside>
+
+    <article class="container-fluid">
+        <div class="video col-5">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8dXI5_bPSdQ?si=AcmkoIVW292m7j9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>A legjobb, hosszú virágzási idejű kerti növények azokból a kertekből, amelyeket meglátogattam. Ha pedig könnyen gondozható kerti növényeket keresel, itt találsz egy reális képet arról, melyik kerti virágok igényelnek kevés gondozást, és melyek nem! Nézd meg ezt a videót, ha időtálló kerti varázslatot keresel.</p>
+        </div>
+        <div class="video col-5">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MR3JbhFds3A?si=8j3tnxUQiJTjiRTN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>Üdvözöljük az Adam’s Garden Guides oldalon! 
+            Anglia keleti részén élek, amely a 8. zónába tartozik.  
+            Kérjük, iratkozzon fel csatornámra, ha tetszik ez a videó, és többet szeretne látni. 
+            Az egyik célom egy olyan kert létrehozása, amely egész évben színes és érdekes, és a szívós évelők a legjobb növények, amelyek a leghosszabb ideig színt adnak a kertnek... azzal a plusz előnnyel, hogy évről évre visszatérnek.</p>
+        </div>
+    </article>
+    </div>
+    
+    
+    
+    <footer>
+        <div class="div1"><a href="mailto:novenyek@example.com">írj nekünk!</a></div>
+        <div class="div2"><a href="tel:+36303124531">Telefonszám</a></div>
+        <div class="div3">Napi közmondás: kicsi a bors de erős</div>
+    </footer>
+</body>
+</html>

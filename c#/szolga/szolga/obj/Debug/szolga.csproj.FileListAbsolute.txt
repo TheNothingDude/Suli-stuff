@@ -1,0 +1,8 @@
+H:\c#\szolga\szolga\bin\Debug\szolga.be
+H:\c#\szolga\szolga\bin\Debug\szolga.exe.config
+H:\c#\szolga\szolga\bin\Debug\szolga.exe
+H:\c#\szolga\szolga\bin\Debug\szolga.pdb
+H:\c#\szolga\szolga\obj\Debug\szolga.csproj.AssemblyReference.cache
+H:\c#\szolga\szolga\obj\Debug\szolga.csproj.CoreCompileInputs.cache
+H:\c#\szolga\szolga\obj\Debug\szolga.exe
+H:\c#\szolga\szolga\obj\Debug\szolga.pdb

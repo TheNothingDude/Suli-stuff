@@ -1,0 +1,14 @@
+H:\c#\dinamika\bin\Debug\net9.0\dinamika.exe
+H:\c#\dinamika\bin\Debug\net9.0\dinamika.deps.json
+H:\c#\dinamika\bin\Debug\net9.0\dinamika.runtimeconfig.json
+H:\c#\dinamika\bin\Debug\net9.0\dinamika.dll
+H:\c#\dinamika\bin\Debug\net9.0\dinamika.pdb
+H:\c#\dinamika\obj\Debug\net9.0\dinamika.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\dinamika\obj\Debug\net9.0\dinamika.AssemblyInfoInputs.cache
+H:\c#\dinamika\obj\Debug\net9.0\dinamika.AssemblyInfo.cs
+H:\c#\dinamika\obj\Debug\net9.0\dinamika.csproj.CoreCompileInputs.cache
+H:\c#\dinamika\obj\Debug\net9.0\dinamika.dll
+H:\c#\dinamika\obj\Debug\net9.0\refint\dinamika.dll
+H:\c#\dinamika\obj\Debug\net9.0\dinamika.pdb
+H:\c#\dinamika\obj\Debug\net9.0\dinamika.genruntimeconfig.cache
+H:\c#\dinamika\obj\Debug\net9.0\ref\dinamika.dll

@@ -1,0 +1,58 @@
+const diak = {
+    nev: "Sanyi",
+    jegyek: [5, 2, 3, 4, 5, 3],
+    atlag: function ()
+    {
+        let sum = 0;
+        this.jegyek.forEach(element =>
+        {
+            sum += element;
+        });
+        return sum / this.jegyek.length;
+    }
+}
+
+const szemely = {
+    nev: "Albert",
+    kor: 12,
+
+    szuletesiEvSzamitas: function ()
+    {
+        //return 2026-this.kor;
+        this.szuletesiEv = 2026 - this.kor;
+    }
+}
+//1
+console.log(diak.atlag());
+//2
+szemely.szuletesiEvSzamitas();
+console.log(szemely.szuletesiEv);
+
+
+
+const ember = new Object();
+ember.nev = "Kata";
+ember.kor = 13;
+const emberek = [];
+emberek.push(ember);
+ember.nev = "Gabor";
+ember.kor = 34;
+emberek.push(ember);
+ember.nev = "Anna";
+ember.kor = 42;
+emberek.push(ember);
+
+function idosebbek(emberek)
+{
+    const harmincTobb = [];
+    emberek.forEach(element =>
+    {
+        if (element.kor > 30)
+        {
+            harmincTobb.push(element);
+        }
+    });
+    return harmincTobb;
+}
+
+console.log(idosebbek(emberek));

@@ -1,0 +1,8 @@
+H:\c#\kommando\kommando\bin\Debug\kommando.exe.config
+H:\c#\kommando\kommando\bin\Debug\kommando.exe
+H:\c#\kommando\kommando\bin\Debug\kommando.pdb
+H:\c#\kommando\kommando\obj\Debug\kommando.csproj.AssemblyReference.cache
+H:\c#\kommando\kommando\obj\Debug\kommando.csproj.CoreCompileInputs.cache
+H:\c#\kommando\kommando\obj\Debug\kommando.exe
+H:\c#\kommando\kommando\obj\Debug\kommando.pdb
+H:\c#\kommando\kommando\bin\Debug\kommando.be

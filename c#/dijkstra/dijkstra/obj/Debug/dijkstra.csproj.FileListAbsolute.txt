@@ -1,0 +1,7 @@
+H:\c#\dijkstra\dijkstra\bin\Debug\dijkstra.exe.config
+H:\c#\dijkstra\dijkstra\bin\Debug\dijkstra.exe
+H:\c#\dijkstra\dijkstra\bin\Debug\dijkstra.pdb
+H:\c#\dijkstra\dijkstra\obj\Debug\dijkstra.csproj.AssemblyReference.cache
+H:\c#\dijkstra\dijkstra\obj\Debug\dijkstra.csproj.CoreCompileInputs.cache
+H:\c#\dijkstra\dijkstra\obj\Debug\dijkstra.exe
+H:\c#\dijkstra\dijkstra\obj\Debug\dijkstra.pdb

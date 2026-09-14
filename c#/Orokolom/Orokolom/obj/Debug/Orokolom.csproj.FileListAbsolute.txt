@@ -1,0 +1,7 @@
+H:\c#\Orokolom\Orokolom\bin\Debug\Orokolom.exe.config
+H:\c#\Orokolom\Orokolom\bin\Debug\Orokolom.exe
+H:\c#\Orokolom\Orokolom\bin\Debug\Orokolom.pdb
+H:\c#\Orokolom\Orokolom\obj\Debug\Orokolom.csproj.AssemblyReference.cache
+H:\c#\Orokolom\Orokolom\obj\Debug\Orokolom.csproj.CoreCompileInputs.cache
+H:\c#\Orokolom\Orokolom\obj\Debug\Orokolom.exe
+H:\c#\Orokolom\Orokolom\obj\Debug\Orokolom.pdb

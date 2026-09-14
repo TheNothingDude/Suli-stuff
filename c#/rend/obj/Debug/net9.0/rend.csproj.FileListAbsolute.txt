@@ -1,0 +1,14 @@
+H:\c#\rend\bin\Debug\net9.0\rend.exe
+H:\c#\rend\bin\Debug\net9.0\rend.deps.json
+H:\c#\rend\bin\Debug\net9.0\rend.runtimeconfig.json
+H:\c#\rend\bin\Debug\net9.0\rend.dll
+H:\c#\rend\bin\Debug\net9.0\rend.pdb
+H:\c#\rend\obj\Debug\net9.0\rend.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\rend\obj\Debug\net9.0\rend.AssemblyInfoInputs.cache
+H:\c#\rend\obj\Debug\net9.0\rend.AssemblyInfo.cs
+H:\c#\rend\obj\Debug\net9.0\rend.csproj.CoreCompileInputs.cache
+H:\c#\rend\obj\Debug\net9.0\rend.dll
+H:\c#\rend\obj\Debug\net9.0\refint\rend.dll
+H:\c#\rend\obj\Debug\net9.0\rend.pdb
+H:\c#\rend\obj\Debug\net9.0\rend.genruntimeconfig.cache
+H:\c#\rend\obj\Debug\net9.0\ref\rend.dll

@@ -1,0 +1,26 @@
+.izzo {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+  display: inline-block;
+  margin: 5px;
+}
+.light {
+  background-color: yellow !important;
+}
+.target {
+  background-color: red;
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+#area {
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
+#area {
+  border: 1px solid black;
+}

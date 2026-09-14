@@ -1,0 +1,14 @@
+H:\c#\matrix\bin\Debug\net9.0\matrix.exe
+H:\c#\matrix\bin\Debug\net9.0\matrix.deps.json
+H:\c#\matrix\bin\Debug\net9.0\matrix.runtimeconfig.json
+H:\c#\matrix\bin\Debug\net9.0\matrix.dll
+H:\c#\matrix\bin\Debug\net9.0\matrix.pdb
+H:\c#\matrix\obj\Debug\net9.0\matrix.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\matrix\obj\Debug\net9.0\matrix.AssemblyInfoInputs.cache
+H:\c#\matrix\obj\Debug\net9.0\matrix.AssemblyInfo.cs
+H:\c#\matrix\obj\Debug\net9.0\matrix.csproj.CoreCompileInputs.cache
+H:\c#\matrix\obj\Debug\net9.0\matrix.dll
+H:\c#\matrix\obj\Debug\net9.0\refint\matrix.dll
+H:\c#\matrix\obj\Debug\net9.0\matrix.pdb
+H:\c#\matrix\obj\Debug\net9.0\matrix.genruntimeconfig.cache
+H:\c#\matrix\obj\Debug\net9.0\ref\matrix.dll

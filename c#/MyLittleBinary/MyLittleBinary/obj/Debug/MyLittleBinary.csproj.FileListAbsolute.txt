@@ -1,0 +1,7 @@
+H:\c#\MyLittleBinary\MyLittleBinary\bin\Debug\MyLittleBinary.exe.config
+H:\c#\MyLittleBinary\MyLittleBinary\bin\Debug\MyLittleBinary.exe
+H:\c#\MyLittleBinary\MyLittleBinary\bin\Debug\MyLittleBinary.pdb
+H:\c#\MyLittleBinary\MyLittleBinary\obj\Debug\MyLittleBinary.csproj.AssemblyReference.cache
+H:\c#\MyLittleBinary\MyLittleBinary\obj\Debug\MyLittleBinary.csproj.CoreCompileInputs.cache
+H:\c#\MyLittleBinary\MyLittleBinary\obj\Debug\MyLittleBinary.exe
+H:\c#\MyLittleBinary\MyLittleBinary\obj\Debug\MyLittleBinary.pdb

@@ -1,0 +1,7 @@
+H:\c#\dfs\dfs\bin\Debug\dfs.exe.config
+H:\c#\dfs\dfs\bin\Debug\dfs.exe
+H:\c#\dfs\dfs\bin\Debug\dfs.pdb
+H:\c#\dfs\dfs\obj\Debug\dfs.csproj.AssemblyReference.cache
+H:\c#\dfs\dfs\obj\Debug\dfs.csproj.CoreCompileInputs.cache
+H:\c#\dfs\dfs\obj\Debug\dfs.exe
+H:\c#\dfs\dfs\obj\Debug\dfs.pdb

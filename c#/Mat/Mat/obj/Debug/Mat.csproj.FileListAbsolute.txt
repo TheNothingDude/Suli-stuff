@@ -1,0 +1,7 @@
+H:\c#\Mat\Mat\bin\Debug\Mat.exe.config
+H:\c#\Mat\Mat\bin\Debug\Mat.exe
+H:\c#\Mat\Mat\bin\Debug\Mat.pdb
+H:\c#\Mat\Mat\obj\Debug\Mat.csproj.AssemblyReference.cache
+H:\c#\Mat\Mat\obj\Debug\Mat.csproj.CoreCompileInputs.cache
+H:\c#\Mat\Mat\obj\Debug\Mat.exe
+H:\c#\Mat\Mat\obj\Debug\Mat.pdb

@@ -1,0 +1,14 @@
+H:\c#\feladat\bin\Debug\net9.0\feladat.exe
+H:\c#\feladat\bin\Debug\net9.0\feladat.deps.json
+H:\c#\feladat\bin\Debug\net9.0\feladat.runtimeconfig.json
+H:\c#\feladat\bin\Debug\net9.0\feladat.dll
+H:\c#\feladat\bin\Debug\net9.0\feladat.pdb
+H:\c#\feladat\obj\Debug\net9.0\feladat.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\feladat\obj\Debug\net9.0\feladat.AssemblyInfoInputs.cache
+H:\c#\feladat\obj\Debug\net9.0\feladat.AssemblyInfo.cs
+H:\c#\feladat\obj\Debug\net9.0\feladat.csproj.CoreCompileInputs.cache
+H:\c#\feladat\obj\Debug\net9.0\feladat.dll
+H:\c#\feladat\obj\Debug\net9.0\refint\feladat.dll
+H:\c#\feladat\obj\Debug\net9.0\feladat.pdb
+H:\c#\feladat\obj\Debug\net9.0\feladat.genruntimeconfig.cache
+H:\c#\feladat\obj\Debug\net9.0\ref\feladat.dll

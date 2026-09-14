@@ -1,0 +1,14 @@
+H:\c#\hello12.09\bin\Debug\net9.0\hello12.09.exe
+H:\c#\hello12.09\bin\Debug\net9.0\hello12.09.deps.json
+H:\c#\hello12.09\bin\Debug\net9.0\hello12.09.runtimeconfig.json
+H:\c#\hello12.09\bin\Debug\net9.0\hello12.09.dll
+H:\c#\hello12.09\bin\Debug\net9.0\hello12.09.pdb
+H:\c#\hello12.09\obj\Debug\net9.0\hello12.09.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\hello12.09\obj\Debug\net9.0\hello12.09.AssemblyInfoInputs.cache
+H:\c#\hello12.09\obj\Debug\net9.0\hello12.09.AssemblyInfo.cs
+H:\c#\hello12.09\obj\Debug\net9.0\hello12.09.csproj.CoreCompileInputs.cache
+H:\c#\hello12.09\obj\Debug\net9.0\hello12.09.dll
+H:\c#\hello12.09\obj\Debug\net9.0\refint\hello12.09.dll
+H:\c#\hello12.09\obj\Debug\net9.0\hello12.09.pdb
+H:\c#\hello12.09\obj\Debug\net9.0\hello12.09.genruntimeconfig.cache
+H:\c#\hello12.09\obj\Debug\net9.0\ref\hello12.09.dll

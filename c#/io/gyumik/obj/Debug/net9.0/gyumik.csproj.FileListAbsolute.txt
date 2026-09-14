@@ -1,0 +1,14 @@
+H:\c#\io\gyumik\bin\Debug\net9.0\gyumik.exe
+H:\c#\io\gyumik\bin\Debug\net9.0\gyumik.deps.json
+H:\c#\io\gyumik\bin\Debug\net9.0\gyumik.runtimeconfig.json
+H:\c#\io\gyumik\bin\Debug\net9.0\gyumik.dll
+H:\c#\io\gyumik\bin\Debug\net9.0\gyumik.pdb
+H:\c#\io\gyumik\obj\Debug\net9.0\gyumik.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\io\gyumik\obj\Debug\net9.0\gyumik.AssemblyInfoInputs.cache
+H:\c#\io\gyumik\obj\Debug\net9.0\gyumik.AssemblyInfo.cs
+H:\c#\io\gyumik\obj\Debug\net9.0\gyumik.csproj.CoreCompileInputs.cache
+H:\c#\io\gyumik\obj\Debug\net9.0\gyumik.dll
+H:\c#\io\gyumik\obj\Debug\net9.0\refint\gyumik.dll
+H:\c#\io\gyumik\obj\Debug\net9.0\gyumik.pdb
+H:\c#\io\gyumik\obj\Debug\net9.0\gyumik.genruntimeconfig.cache
+H:\c#\io\gyumik\obj\Debug\net9.0\ref\gyumik.dll

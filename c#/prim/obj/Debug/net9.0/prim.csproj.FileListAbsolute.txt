@@ -1,0 +1,14 @@
+H:\c#\prim\bin\Debug\net9.0\prim.exe
+H:\c#\prim\bin\Debug\net9.0\prim.deps.json
+H:\c#\prim\bin\Debug\net9.0\prim.runtimeconfig.json
+H:\c#\prim\bin\Debug\net9.0\prim.dll
+H:\c#\prim\bin\Debug\net9.0\prim.pdb
+H:\c#\prim\obj\Debug\net9.0\prim.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\prim\obj\Debug\net9.0\prim.AssemblyInfoInputs.cache
+H:\c#\prim\obj\Debug\net9.0\prim.AssemblyInfo.cs
+H:\c#\prim\obj\Debug\net9.0\prim.csproj.CoreCompileInputs.cache
+H:\c#\prim\obj\Debug\net9.0\prim.dll
+H:\c#\prim\obj\Debug\net9.0\refint\prim.dll
+H:\c#\prim\obj\Debug\net9.0\prim.pdb
+H:\c#\prim\obj\Debug\net9.0\prim.genruntimeconfig.cache
+H:\c#\prim\obj\Debug\net9.0\ref\prim.dll

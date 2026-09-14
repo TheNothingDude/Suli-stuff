@@ -1,0 +1,7 @@
+H:\c#\Class\Class\bin\Debug\Class.exe.config
+H:\c#\Class\Class\bin\Debug\Class.exe
+H:\c#\Class\Class\bin\Debug\Class.pdb
+H:\c#\Class\Class\obj\Debug\Class.csproj.AssemblyReference.cache
+H:\c#\Class\Class\obj\Debug\Class.csproj.CoreCompileInputs.cache
+H:\c#\Class\Class\obj\Debug\Class.exe
+H:\c#\Class\Class\obj\Debug\Class.pdb

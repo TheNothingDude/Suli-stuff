@@ -1,0 +1,8 @@
+H:\c#\osztaly\osztaly\bin\Debug\osztaly.exe.config
+H:\c#\osztaly\osztaly\bin\Debug\osztaly.exe
+H:\c#\osztaly\osztaly\bin\Debug\osztaly.pdb
+H:\c#\osztaly\osztaly\obj\Debug\osztaly.csproj.AssemblyReference.cache
+H:\c#\osztaly\osztaly\obj\Debug\osztaly.csproj.CoreCompileInputs.cache
+H:\c#\osztaly\osztaly\obj\Debug\osztaly.exe
+H:\c#\osztaly\osztaly\obj\Debug\osztaly.pdb
+H:\c#\osztaly\osztaly\bin\Debug\osztaly.be

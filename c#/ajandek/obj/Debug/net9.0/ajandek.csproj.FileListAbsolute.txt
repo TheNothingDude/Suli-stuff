@@ -1,0 +1,14 @@
+H:\c#\ajandek\bin\Debug\net9.0\ajandek.exe
+H:\c#\ajandek\bin\Debug\net9.0\ajandek.deps.json
+H:\c#\ajandek\bin\Debug\net9.0\ajandek.runtimeconfig.json
+H:\c#\ajandek\bin\Debug\net9.0\ajandek.dll
+H:\c#\ajandek\bin\Debug\net9.0\ajandek.pdb
+H:\c#\ajandek\obj\Debug\net9.0\ajandek.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\ajandek\obj\Debug\net9.0\ajandek.AssemblyInfoInputs.cache
+H:\c#\ajandek\obj\Debug\net9.0\ajandek.AssemblyInfo.cs
+H:\c#\ajandek\obj\Debug\net9.0\ajandek.csproj.CoreCompileInputs.cache
+H:\c#\ajandek\obj\Debug\net9.0\ajandek.dll
+H:\c#\ajandek\obj\Debug\net9.0\refint\ajandek.dll
+H:\c#\ajandek\obj\Debug\net9.0\ajandek.pdb
+H:\c#\ajandek\obj\Debug\net9.0\ajandek.genruntimeconfig.cache
+H:\c#\ajandek\obj\Debug\net9.0\ref\ajandek.dll

@@ -1,0 +1,113 @@
+//1
+const tanulok = [
+    { nev: "Anna", pont: 92 },
+    { nev: "Sanyi", pont: 54 },
+    { nev: "Karcsi", pont: 73 },
+    { nev: "Mariann", pont: 32 },
+    { nev: "Vera", pont: 85 }
+]
+function ertekeles(element)
+{
+    if (element < 50)
+    {
+        return 'elegtelen';
+    }
+    else if (element < 59)
+    {
+        return 'elegseges';
+    }
+    else if (element < 74)
+    {
+        return 'kozepes';
+    }
+    else if (element < 90)
+    {
+        return 'jo';
+    }
+    else
+    {
+        return 'jeles';
+    }
+}
+
+tanulok.forEach(element =>
+{
+    console.log(`${element.nev} : ${ertekeles(element.pont)}`);
+});
+
+//2
+function kedvezmeny(ppl)
+{
+    switch (ppl)
+    {
+        case 'diák':
+            return 0.9;
+        case 'nyugdijas':
+            return 0.8;
+        case 'nincs':
+            return 1
+    }
+}
+
+const kosar = [1000, 500, 2000, 3500, 4200];
+let i = 0;
+let sum = 0;
+while (i < kosar.length)
+{
+    sum += kosar[i];
+    i++;
+}
+console.log(sum * kedvezmeny('diák'));
+
+//3
+
+function olcsoAutok(autok)
+{
+    const olcso = [];
+    autok.forEach(element =>
+    {
+        if (element.ar < 5000000)
+        {
+            olcso.push(element);
+        }
+    });
+    return olcso;
+}
+const autok = [
+    { marka: "Opel", ar: 4200000 },
+    { marka: "Toyota", ar: 5300000 },
+    { marka: "Volkswagen", ar: 3500000 },
+    { marka: "Hyundai", ar: 8600000 },
+    { marka: "Ford", ar: 5700000 },
+];
+
+olcsoAutok(autok).forEach(element =>
+{
+    console.log(`${element.marka} : ${element.ar}`);
+});
+
+//4
+
+function elemzes(szamok)
+{
+    const eredmeny = new Object();
+    let paros = 0;
+    let paratlan = 0;
+    szamok.forEach(element =>
+    {
+        if (element % 2 == 0)
+        {
+            paros++;
+        }
+        else
+        {
+            paratlan++;
+        }
+    });
+    eredmeny.paros = paros;
+    eredmeny.paratlan = paratlan;
+    return eredmeny;
+}
+const szamok = [5, 53, 62, 31, 12];
+
+console.log(elemzes(szamok));

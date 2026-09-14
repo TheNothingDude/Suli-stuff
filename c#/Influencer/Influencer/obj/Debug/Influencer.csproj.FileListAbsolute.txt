@@ -1,0 +1,8 @@
+H:\c#\Influencer\Influencer\obj\Debug\Influencer.csproj.AssemblyReference.cache
+H:\c#\Influencer\Influencer\obj\Debug\Influencer.csproj.CoreCompileInputs.cache
+H:\c#\Influencer\Influencer\bin\Debug\Influencer.exe.config
+H:\c#\Influencer\Influencer\bin\Debug\Influencer.exe
+H:\c#\Influencer\Influencer\bin\Debug\Influencer.pdb
+H:\c#\Influencer\Influencer\obj\Debug\Influencer.exe
+H:\c#\Influencer\Influencer\obj\Debug\Influencer.pdb
+H:\c#\Influencer\Influencer\bin\Debug\halozat.txt

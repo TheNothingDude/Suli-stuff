@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\c#\\kommando\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{529A9549-80B7-41F7-A785-E922C99A53C5}|kommando\\kommando.csproj|h:\\c#\\kommando\\kommando\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{529A9549-80B7-41F7-A785-E922C99A53C5}|kommando\\kommando.csproj|solutionrelative:kommando\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{529A9549-80B7-41F7-A785-E922C99A53C5}|kommando\\kommando.csproj|h:\\c#\\kommando\\kommando\\kommando.be||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{529A9549-80B7-41F7-A785-E922C99A53C5}|kommando\\kommando.csproj|solutionrelative:kommando\\kommando.be||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "kommando.be",
+              "DocumentMoniker": "H:\\c#\\kommando\\kommando\\kommando.be",
+              "RelativeDocumentMoniker": "kommando\\kommando.be",
+              "ToolTip": "H:\\c#\\kommando\\kommando\\kommando.be",
+              "RelativeToolTip": "kommando\\kommando.be",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-17T08:41:51.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\c#\\kommando\\kommando\\Program.cs",
+              "RelativeDocumentMoniker": "kommando\\Program.cs",
+              "ToolTip": "H:\\c#\\kommando\\kommando\\Program.cs",
+              "RelativeToolTip": "kommando\\Program.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAqwJUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T08:27:31.434Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

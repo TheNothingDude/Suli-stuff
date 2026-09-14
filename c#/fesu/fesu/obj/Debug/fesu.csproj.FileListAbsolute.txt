@@ -1,0 +1,15 @@
+H:\c#\fesu\fesu\bin\Debug\fesu.exe.config
+H:\c#\fesu\fesu\bin\Debug\fesu.exe
+H:\c#\fesu\fesu\bin\Debug\fesu.pdb
+H:\c#\fesu\fesu\obj\Debug\fesu.csproj.AssemblyReference.cache
+H:\c#\fesu\fesu\obj\Debug\fesu.csproj.CoreCompileInputs.cache
+H:\c#\fesu\fesu\obj\Debug\fesu.exe
+H:\c#\fesu\fesu\obj\Debug\fesu.pdb
+C:\Users\TheNothingDude\Downloads\fesu\fesu\fesu\bin\Debug\fesu.exe.config
+C:\Users\TheNothingDude\Downloads\fesu\fesu\fesu\bin\Debug\fesu.exe
+C:\Users\TheNothingDude\Downloads\fesu\fesu\fesu\bin\Debug\fesu.pdb
+C:\Users\TheNothingDude\Downloads\fesu\fesu\fesu\obj\Debug\fesu.csproj.AssemblyReference.cache
+C:\Users\TheNothingDude\Downloads\fesu\fesu\fesu\obj\Debug\fesu.exe.config
+C:\Users\TheNothingDude\Downloads\fesu\fesu\fesu\obj\Debug\fesu.csproj.CoreCompileInputs.cache
+C:\Users\TheNothingDude\Downloads\fesu\fesu\fesu\obj\Debug\fesu.exe
+C:\Users\TheNothingDude\Downloads\fesu\fesu\fesu\obj\Debug\fesu.pdb

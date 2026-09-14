@@ -1,0 +1,112 @@
+h1{
+    text-align: center;
+}
+
+@media (min-width: 0px) {
+    body{
+        background-color: #4A70A9;
+    }
+    h1{
+        color: #EFECE3;
+    }
+
+}
+@media (min-width: 960px) {
+    body{
+        background-color: #C9B59C;
+    }
+    h1{
+        color: #EFE9E3;
+    }
+
+}
+@media (min-width: 1240px) {
+    body{
+        background-color: #B7A3E3;
+    }
+    h1{
+        color: #C2E2FA;
+    }
+
+}
+
+#egy_dimenzios{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background: #FF8FB7;
+    background: linear-gradient(270deg, rgba(255, 143, 183, 1) 0%, rgba(232, 60, 145, 1) 50%, rgba(67, 51, 76, 1) 100%);
+    height: 5em;
+    border-radius: 10px;
+    margin: 1em;
+}
+
+#egy_dimenzios div{
+    border: 2.5px solid black;
+    border-radius: 5px;
+    padding: 0.5em;
+    transition: background-color 0.4s ease-in;
+
+}
+#egy_dimenzios div:hover{
+    background-color: white;
+
+}
+#ket_dimenzios{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    row-gap:50px;
+    column-gap: 30px;
+    align-self: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#ket_dimenzios div{
+    border: 2.5px solid black;
+    padding: 0.5em;
+    border-radius: 5px;
+    transition: transform 0.5s ease-out;
+
+}
+#ket_dimenzios div:hover{
+    transform: rotate(360deg);
+
+}
+#egyeb{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:center;
+}
+#egyeb div{
+    box-shadow: 5px -5px 5px black;
+    text-shadow: 5px -5px 3px;
+    margin: 1.5em;
+    padding: 1em;
+    transition:transform 0.3s ease ;
+}
+#egyeb div:hover{
+    transform: scale(1.2);
+ 
+}
+#egyeb >p{
+    color: #FFF1CB;
+}
+#egyeb p+p{
+    color: #C2E2FA;
+}
+
+body{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button{
+    border: 5px solid white;
+    outline: 2px dotted black;
+    box-shadow: 5px -5px;
+}

@@ -1,0 +1,11 @@
+#cont .selected {
+  background-color: orange !important;
+}
+#cont div {
+  display: inline-block;
+  width: 7.5%;
+  height: 200px;
+  text-align: center;
+  align-content: center;
+  margin: 5px;
+}

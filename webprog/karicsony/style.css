@@ -1,0 +1,123 @@
+
+@keyframes slidein {
+    0%{top: -200px;}
+    100%{top: 0;}
+}
+@keyframes spin {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+
+}
+@keyframes jumpy{
+    0%{bottom: 0px;}
+    50%{bottom: 22px;}
+    100%{bottom: 0px;}    
+}
+
+body{
+    position: relative;
+    animation: slidein 1s 1;
+    background: #ff0000;
+    background: linear-gradient(25deg, rgba(255, 0, 0, 1) 49%, rgba(91, 196, 49, 1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    overflow: hidden;
+    filter: drop-shadow(0 0 10px white);
+}
+
+
+nav{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    border-radius: 20px;
+    background: #6A994E;
+    background: linear-gradient(25deg, rgba(106, 153, 78, 1) 38%, rgba(91, 196, 49, 1) 100%);
+    border: 2.5px solid #F3F4F6;
+}
+
+.container-fluid{
+    width: 70%;
+    background: #F3F4F6;
+    background: linear-gradient(25deg, rgba(243, 244, 246, 1) 22%, rgba(142, 4, 19, 1) 100%);
+    border-radius: 20px;
+    border: 2.5px solid #F3F4F6;
+}
+
+section{
+    border:2px solid rgba(91, 196, 49, 1);
+    border-radius: 10px;
+    filter: drop-shadow(0 0 10px white);
+    margin: 1em;
+    transition: background-color 1s ease,transform 0.5s ease;
+}
+section:hover{
+    background-color: #568d66;
+    transform: translateY(15px);
+}
+.row{
+    margin: 1em;
+}
+
+ul{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+li{
+    list-style: none;
+    padding: 0.5em;
+    transition: all 1s ease, border-radius 0s ease;
+}
+li:hover{
+    border-radius: 10px;
+    background-color: #568d66;
+    overflow: hidden;
+    filter: drop-shadow(0 0 10px white);
+    color: white;
+}
+
+.jump{
+    position: relative;
+    animation: jumpy 0.5s linear infinite;
+    border-radius: 30px;
+}
+img:hover{
+    filter: drop-shadow(0 0 10px white);
+}
+
+aside{
+    border: 2.5px solid rgba(91, 196, 49, 1);
+    filter: drop-shadow(0 0 10px white);
+    border-radius: 20px;
+    transition: background-color 1s ease;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+aside:hover{
+    background-color: #568d66;
+}
+.cube{
+    width: 10em;
+    height: 10em;
+    background-color: rgba(91, 196, 49, 1);
+    animation: spin 1s linear infinite;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}

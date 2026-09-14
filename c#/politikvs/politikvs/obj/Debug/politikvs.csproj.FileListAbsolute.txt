@@ -1,0 +1,8 @@
+H:\c#\politikvs\politikvs\bin\Debug\politikvs.exe.config
+H:\c#\politikvs\politikvs\bin\Debug\politikvs.exe
+H:\c#\politikvs\politikvs\bin\Debug\politikvs.pdb
+H:\c#\politikvs\politikvs\obj\Debug\politikvs.csproj.AssemblyReference.cache
+H:\c#\politikvs\politikvs\obj\Debug\politikvs.csproj.CoreCompileInputs.cache
+H:\c#\politikvs\politikvs\obj\Debug\politikvs.exe
+H:\c#\politikvs\politikvs\obj\Debug\politikvs.pdb
+H:\c#\politikvs\politikvs\bin\Debug\szavazatok.txt

@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\c#\\BinaryTree\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89766CD2-22FB-437B-B2CE-AB8D7142AD4A}|BinaryTree\\BinaryTree.csproj|h:\\c#\\binarytree\\binarytree\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89766CD2-22FB-437B-B2CE-AB8D7142AD4A}|BinaryTree\\BinaryTree.csproj|solutionrelative:binarytree\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89766CD2-22FB-437B-B2CE-AB8D7142AD4A}|BinaryTree\\BinaryTree.csproj|H:\\c#\\BinaryTree\\binarytree\\binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89766CD2-22FB-437B-B2CE-AB8D7142AD4A}|BinaryTree\\BinaryTree.csproj|solutionrelative:binarytree\\binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89766CD2-22FB-437B-B2CE-AB8D7142AD4A}|BinaryTree\\BinaryTree.csproj|H:\\c#\\BinaryTree\\binarytree\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89766CD2-22FB-437B-B2CE-AB8D7142AD4A}|BinaryTree\\BinaryTree.csproj|solutionrelative:binarytree\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Node.cs",
+              "DocumentMoniker": "H:\\c#\\BinaryTree\\BinaryTree\\Node.cs",
+              "RelativeDocumentMoniker": "BinaryTree\\Node.cs",
+              "ToolTip": "H:\\c#\\BinaryTree\\BinaryTree\\Node.cs",
+              "RelativeToolTip": "BinaryTree\\Node.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:43:51.584Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BinaryTree.cs",
+              "DocumentMoniker": "H:\\c#\\BinaryTree\\BinaryTree\\BinaryTree.cs",
+              "RelativeDocumentMoniker": "BinaryTree\\BinaryTree.cs",
+              "ToolTip": "H:\\c#\\BinaryTree\\BinaryTree\\BinaryTree.cs",
+              "RelativeToolTip": "BinaryTree\\BinaryTree.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAkwEIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:46:55.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\c#\\BinaryTree\\BinaryTree\\Program.cs",
+              "RelativeDocumentMoniker": "BinaryTree\\Program.cs",
+              "ToolTip": "H:\\c#\\BinaryTree\\BinaryTree\\Program.cs",
+              "RelativeToolTip": "BinaryTree\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwCMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:42:20.722Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

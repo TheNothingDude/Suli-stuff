@@ -1,0 +1,14 @@
+h:\c#\politik\bin\Debug\net9.0\politik.exe
+h:\c#\politik\bin\Debug\net9.0\politik.deps.json
+h:\c#\politik\bin\Debug\net9.0\politik.runtimeconfig.json
+h:\c#\politik\bin\Debug\net9.0\politik.dll
+h:\c#\politik\bin\Debug\net9.0\politik.pdb
+h:\c#\politik\obj\Debug\net9.0\politik.GeneratedMSBuildEditorConfig.editorconfig
+h:\c#\politik\obj\Debug\net9.0\politik.AssemblyInfoInputs.cache
+h:\c#\politik\obj\Debug\net9.0\politik.AssemblyInfo.cs
+h:\c#\politik\obj\Debug\net9.0\politik.csproj.CoreCompileInputs.cache
+h:\c#\politik\obj\Debug\net9.0\politik.dll
+h:\c#\politik\obj\Debug\net9.0\refint\politik.dll
+h:\c#\politik\obj\Debug\net9.0\politik.pdb
+h:\c#\politik\obj\Debug\net9.0\politik.genruntimeconfig.cache
+h:\c#\politik\obj\Debug\net9.0\ref\politik.dll

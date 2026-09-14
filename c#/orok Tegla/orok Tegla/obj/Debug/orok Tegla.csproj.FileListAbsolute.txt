@@ -1,0 +1,7 @@
+H:\c#\orok Tegla\orok Tegla\bin\Debug\orok Tegla.exe.config
+H:\c#\orok Tegla\orok Tegla\bin\Debug\orok Tegla.exe
+H:\c#\orok Tegla\orok Tegla\bin\Debug\orok Tegla.pdb
+H:\c#\orok Tegla\orok Tegla\obj\Debug\orok Tegla.csproj.AssemblyReference.cache
+H:\c#\orok Tegla\orok Tegla\obj\Debug\orok Tegla.csproj.CoreCompileInputs.cache
+H:\c#\orok Tegla\orok Tegla\obj\Debug\orok Tegla.exe
+H:\c#\orok Tegla\orok Tegla\obj\Debug\orok Tegla.pdb

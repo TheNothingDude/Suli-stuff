@@ -1,0 +1,14 @@
+H:\c#\valami\bin\Debug\net9.0\valami.exe
+H:\c#\valami\bin\Debug\net9.0\valami.deps.json
+H:\c#\valami\bin\Debug\net9.0\valami.runtimeconfig.json
+H:\c#\valami\bin\Debug\net9.0\valami.dll
+H:\c#\valami\bin\Debug\net9.0\valami.pdb
+H:\c#\valami\obj\Debug\net9.0\valami.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\valami\obj\Debug\net9.0\valami.AssemblyInfoInputs.cache
+H:\c#\valami\obj\Debug\net9.0\valami.AssemblyInfo.cs
+H:\c#\valami\obj\Debug\net9.0\valami.csproj.CoreCompileInputs.cache
+H:\c#\valami\obj\Debug\net9.0\valami.dll
+H:\c#\valami\obj\Debug\net9.0\refint\valami.dll
+H:\c#\valami\obj\Debug\net9.0\valami.pdb
+H:\c#\valami\obj\Debug\net9.0\valami.genruntimeconfig.cache
+H:\c#\valami\obj\Debug\net9.0\ref\valami.dll

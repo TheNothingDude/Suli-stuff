@@ -1,0 +1,14 @@
+H:\c#\labda\bin\Debug\net9.0\labda.exe
+H:\c#\labda\bin\Debug\net9.0\labda.deps.json
+H:\c#\labda\bin\Debug\net9.0\labda.runtimeconfig.json
+H:\c#\labda\bin\Debug\net9.0\labda.dll
+H:\c#\labda\bin\Debug\net9.0\labda.pdb
+H:\c#\labda\obj\Debug\net9.0\labda.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\labda\obj\Debug\net9.0\labda.AssemblyInfoInputs.cache
+H:\c#\labda\obj\Debug\net9.0\labda.AssemblyInfo.cs
+H:\c#\labda\obj\Debug\net9.0\labda.csproj.CoreCompileInputs.cache
+H:\c#\labda\obj\Debug\net9.0\labda.dll
+H:\c#\labda\obj\Debug\net9.0\refint\labda.dll
+H:\c#\labda\obj\Debug\net9.0\labda.pdb
+H:\c#\labda\obj\Debug\net9.0\labda.genruntimeconfig.cache
+H:\c#\labda\obj\Debug\net9.0\ref\labda.dll

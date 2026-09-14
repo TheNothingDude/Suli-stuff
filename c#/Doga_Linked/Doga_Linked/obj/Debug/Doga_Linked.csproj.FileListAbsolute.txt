@@ -1,0 +1,7 @@
+H:\c#\Doga_Linked\Doga_Linked\bin\Debug\Doga_Linked.exe.config
+H:\c#\Doga_Linked\Doga_Linked\bin\Debug\Doga_Linked.exe
+H:\c#\Doga_Linked\Doga_Linked\bin\Debug\Doga_Linked.pdb
+H:\c#\Doga_Linked\Doga_Linked\obj\Debug\Doga_Linked.csproj.AssemblyReference.cache
+H:\c#\Doga_Linked\Doga_Linked\obj\Debug\Doga_Linked.csproj.CoreCompileInputs.cache
+H:\c#\Doga_Linked\Doga_Linked\obj\Debug\Doga_Linked.exe
+H:\c#\Doga_Linked\Doga_Linked\obj\Debug\Doga_Linked.pdb

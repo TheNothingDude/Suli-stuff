@@ -1,0 +1,17 @@
+li{
+    display: inline-block;
+    margin: 5px;
+}
+ul{
+    text-align: center;
+}
+figcaption{
+    text-align: center;
+}
+img{
+    display: block;
+    margin: auto;
+}
+table img{
+    width: 400px;
+}

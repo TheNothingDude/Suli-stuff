@@ -1,0 +1,21 @@
+div{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: aqua;
+    animation-name: animacio;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes animacio {
+    0% {background-color: aqua; left: 0; top: 0;}
+    25% {background-color: blue; left: 50%; top:0 ;}
+    50%{background-color:cadetblue; left: 50%; top:0px;}
+    75%{background-color: chartreuse; left: 0; top: 0px;}
+    100%{background-color:darkgray; left: 0; top: 0;}
+}

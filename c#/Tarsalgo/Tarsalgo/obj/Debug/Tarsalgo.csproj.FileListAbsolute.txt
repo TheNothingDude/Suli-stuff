@@ -1,0 +1,8 @@
+H:\c#\Tarsalgo\Tarsalgo\bin\Debug\ajto.txt
+H:\c#\Tarsalgo\Tarsalgo\bin\Debug\Tarsalgo.exe.config
+H:\c#\Tarsalgo\Tarsalgo\bin\Debug\Tarsalgo.exe
+H:\c#\Tarsalgo\Tarsalgo\bin\Debug\Tarsalgo.pdb
+H:\c#\Tarsalgo\Tarsalgo\obj\Debug\Tarsalgo.csproj.AssemblyReference.cache
+H:\c#\Tarsalgo\Tarsalgo\obj\Debug\Tarsalgo.csproj.CoreCompileInputs.cache
+H:\c#\Tarsalgo\Tarsalgo\obj\Debug\Tarsalgo.exe
+H:\c#\Tarsalgo\Tarsalgo\obj\Debug\Tarsalgo.pdb

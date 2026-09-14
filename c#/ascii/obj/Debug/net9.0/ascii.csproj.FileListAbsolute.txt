@@ -1,0 +1,14 @@
+H:\c#\ascii\bin\Debug\net9.0\ascii.exe
+H:\c#\ascii\bin\Debug\net9.0\ascii.deps.json
+H:\c#\ascii\bin\Debug\net9.0\ascii.runtimeconfig.json
+H:\c#\ascii\bin\Debug\net9.0\ascii.dll
+H:\c#\ascii\bin\Debug\net9.0\ascii.pdb
+H:\c#\ascii\obj\Debug\net9.0\ascii.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\ascii\obj\Debug\net9.0\ascii.AssemblyInfoInputs.cache
+H:\c#\ascii\obj\Debug\net9.0\ascii.AssemblyInfo.cs
+H:\c#\ascii\obj\Debug\net9.0\ascii.csproj.CoreCompileInputs.cache
+H:\c#\ascii\obj\Debug\net9.0\ascii.dll
+H:\c#\ascii\obj\Debug\net9.0\refint\ascii.dll
+H:\c#\ascii\obj\Debug\net9.0\ascii.pdb
+H:\c#\ascii\obj\Debug\net9.0\ascii.genruntimeconfig.cache
+H:\c#\ascii\obj\Debug\net9.0\ref\ascii.dll

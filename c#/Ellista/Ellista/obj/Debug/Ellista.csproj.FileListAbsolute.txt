@@ -1,0 +1,7 @@
+H:\c#\Ellista\Ellista\bin\Debug\Ellista.exe.config
+H:\c#\Ellista\Ellista\bin\Debug\Ellista.exe
+H:\c#\Ellista\Ellista\bin\Debug\Ellista.pdb
+H:\c#\Ellista\Ellista\obj\Debug\Ellista.csproj.AssemblyReference.cache
+H:\c#\Ellista\Ellista\obj\Debug\Ellista.csproj.CoreCompileInputs.cache
+H:\c#\Ellista\Ellista\obj\Debug\Ellista.exe
+H:\c#\Ellista\Ellista\obj\Debug\Ellista.pdb

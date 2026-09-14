@@ -1,0 +1,10 @@
+.kiemelt
+{
+    background-color: burlywood;
+    transition: all 1s ease-out;
+    width: 20%;
+}
+.kiemelt:hover{
+    transform: rotate(360deg);
+    
+}

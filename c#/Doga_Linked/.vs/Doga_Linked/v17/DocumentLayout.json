@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\c#\\Doga_Linked\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24455D8A-3B65-41EE-B292-EAE07D83CFD2}|Doga_Linked\\Doga_Linked.csproj|H:\\c#\\Doga_Linked\\doga_linked\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24455D8A-3B65-41EE-B292-EAE07D83CFD2}|Doga_Linked\\Doga_Linked.csproj|solutionrelative:doga_linked\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24455D8A-3B65-41EE-B292-EAE07D83CFD2}|Doga_Linked\\Doga_Linked.csproj|H:\\c#\\Doga_Linked\\doga_linked\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24455D8A-3B65-41EE-B292-EAE07D83CFD2}|Doga_Linked\\Doga_Linked.csproj|solutionrelative:doga_linked\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24455D8A-3B65-41EE-B292-EAE07D83CFD2}|Doga_Linked\\Doga_Linked.csproj|h:\\c#\\doga_linked\\doga_linked\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24455D8A-3B65-41EE-B292-EAE07D83CFD2}|Doga_Linked\\Doga_Linked.csproj|solutionrelative:doga_linked\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LinkedList.cs",
+              "DocumentMoniker": "H:\\c#\\Doga_Linked\\Doga_Linked\\LinkedList.cs",
+              "RelativeDocumentMoniker": "Doga_Linked\\LinkedList.cs",
+              "ToolTip": "H:\\c#\\Doga_Linked\\Doga_Linked\\LinkedList.cs",
+              "RelativeToolTip": "Doga_Linked\\LinkedList.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAD4v1sAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:45:56.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Node.cs",
+              "DocumentMoniker": "H:\\c#\\Doga_Linked\\Doga_Linked\\Node.cs",
+              "RelativeDocumentMoniker": "Doga_Linked\\Node.cs",
+              "ToolTip": "H:\\c#\\Doga_Linked\\Doga_Linked\\Node.cs",
+              "RelativeToolTip": "Doga_Linked\\Node.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:44:02.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\c#\\Doga_Linked\\Doga_Linked\\Program.cs",
+              "RelativeDocumentMoniker": "Doga_Linked\\Program.cs",
+              "ToolTip": "H:\\c#\\Doga_Linked\\Doga_Linked\\Program.cs",
+              "RelativeToolTip": "Doga_Linked\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:43:30.484Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

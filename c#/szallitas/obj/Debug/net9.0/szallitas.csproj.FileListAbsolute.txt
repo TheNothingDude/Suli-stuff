@@ -1,0 +1,14 @@
+H:\c#\szallitas\bin\Debug\net9.0\szallitas.exe
+H:\c#\szallitas\bin\Debug\net9.0\szallitas.deps.json
+H:\c#\szallitas\bin\Debug\net9.0\szallitas.runtimeconfig.json
+H:\c#\szallitas\bin\Debug\net9.0\szallitas.dll
+H:\c#\szallitas\bin\Debug\net9.0\szallitas.pdb
+H:\c#\szallitas\obj\Debug\net9.0\szallitas.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\szallitas\obj\Debug\net9.0\szallitas.AssemblyInfoInputs.cache
+H:\c#\szallitas\obj\Debug\net9.0\szallitas.AssemblyInfo.cs
+H:\c#\szallitas\obj\Debug\net9.0\szallitas.csproj.CoreCompileInputs.cache
+H:\c#\szallitas\obj\Debug\net9.0\szallitas.dll
+H:\c#\szallitas\obj\Debug\net9.0\refint\szallitas.dll
+H:\c#\szallitas\obj\Debug\net9.0\szallitas.pdb
+H:\c#\szallitas\obj\Debug\net9.0\szallitas.genruntimeconfig.cache
+H:\c#\szallitas\obj\Debug\net9.0\ref\szallitas.dll

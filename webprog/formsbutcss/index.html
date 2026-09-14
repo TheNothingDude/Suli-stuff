@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Könyvek felvitele</h1>
+    <form action="">
+        <table>
+            <tr>
+                <td> <label for="kszam">Könyv száma:</label></td>
+                <td><input type="text" name="kszam" id="kszam"></td>
+            </tr>
+            <tr>
+                <td><label for="kcim">Könyv címe:</label></td>
+                <td><input type="text" name="kcim" id="kcim"></td>
+            </tr>
+            <tr>
+                <td><label for="kszer">Szerző:</label></td>
+                <td><input type="text" name="kszer" id="kszer"></td>
+            </tr>
+            <tr>
+                <td><label for="kado">Kiadó:</label></td>
+                <td><input type="text" name="kado" id="kado"></td>
+            </tr>
+            <tr>
+                <td> <label for="kev">Kiadás éve: </label></td>
+                <td><input type="text" name="kev" id="kev"></td>
+            </tr>
+        </table>
+          <input type="submit" name="" id="">
+    </form>
+    
+    <form action="" class="masodik">
+       <fieldset>
+            <legend>Regisztrációs adatok</legend>
+            <div>
+                <label for="nev">Teljes név</label>
+                <input type="text" name="nev" id="nev">
+            </div>
+            <div>
+                <label for="felnev">Felhaszáló név</label>
+                <input type="text" name="felnev" id="felnev">
+            </div>
+            <div>
+                <label for="pswd">Jelszó</label>
+                <input type="password" name="pswd" id="pswd">
+            </div>
+            <div>
+                <label for="pswdagain">Jelszó ismét</label>
+                <input type="password" name="pswdagain" id="pswdagain">
+            </div>
+            <div>
+                <label for="szul">Születési dátum</label>
+                <input type="date" name="szul" id="szul">
+            </div>
+            <div>
+                <label for="emailcim">E-mail:</label>
+                <input type="email" name="emailcim" id="emailcim">
+            </div>
+            <div>
+                <label for="felaz">Felhaszáló azonosító</label>
+                <input type="number" name="felaz" id="felaz">
+            </div>
+       </fieldset>
+       <div>
+        <label for="iskola">Legmagasabb iskolai végzetség</label>
+        <select name="iskola" id="iskola">
+            <option value="">Egyeb</option>
+            <option value="alt">Általános</option>
+            <option value="kozep">Közép Iskola</option>
+        </select>
+       </div>
+       <div>
+        <label for="gender">Nem:</label>
+        <input type="radio" name="gender">
+        <label for="gender">Férfi</label>
+        <input type="radio" name="gender">
+        <label for="gender">Nő</label>
+       </div>
+
+       <div>
+        <label for=""></label>
+        <input type="reset">
+       </div>
+       <div>
+        <label for=""></label>
+        <input type="submit" name="" id="">
+       </div>
+    </form>
+</body>
+</html>

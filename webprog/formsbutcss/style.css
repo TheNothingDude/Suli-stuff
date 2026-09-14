@@ -1,0 +1,38 @@
+.cont{
+    display: flex;
+    
+}
+html{
+    background-color: aqua;
+}
+body{
+    background-color: bisque;
+    width: 50%;
+    padding: 0.4em;
+    border-radius: 10px;
+}
+.masodik{
+    display: flex;
+    flex-flow:column wrap;
+}
+div{
+    margin: 0.2em;
+}
+td input[type=text]
+{
+    width: 100%;
+}
+input[type=text]{
+    border-radius: 5px;
+    width: 20%;
+    border: 1px solid gray;
+}
+input[type=submit]
+{
+    width: 10%;
+    height: 35px;
+    margin: 0.4em;
+}
+table{
+    gap: 0.4em;
+}

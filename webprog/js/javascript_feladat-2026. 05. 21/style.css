@@ -1,0 +1,11 @@
+.none {
+  display: none;
+}
+.cont {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.push {
+  margin-left: 40px;
+}

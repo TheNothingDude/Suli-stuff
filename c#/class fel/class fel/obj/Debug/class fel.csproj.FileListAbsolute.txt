@@ -1,0 +1,7 @@
+H:\c#\class fel\class fel\bin\Debug\class fel.exe.config
+H:\c#\class fel\class fel\bin\Debug\class fel.exe
+H:\c#\class fel\class fel\bin\Debug\class fel.pdb
+H:\c#\class fel\class fel\obj\Debug\class fel.csproj.AssemblyReference.cache
+H:\c#\class fel\class fel\obj\Debug\class fel.csproj.CoreCompileInputs.cache
+H:\c#\class fel\class fel\obj\Debug\class fel.exe
+H:\c#\class fel\class fel\obj\Debug\class fel.pdb

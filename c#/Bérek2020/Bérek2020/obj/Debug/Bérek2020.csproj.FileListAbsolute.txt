@@ -1,0 +1,7 @@
+H:\c#\Bérek2020\Bérek2020\bin\Debug\Bérek2020.exe.config
+H:\c#\Bérek2020\Bérek2020\bin\Debug\Bérek2020.exe
+H:\c#\Bérek2020\Bérek2020\bin\Debug\Bérek2020.pdb
+H:\c#\Bérek2020\Bérek2020\obj\Debug\Bérek2020.csproj.AssemblyReference.cache
+H:\c#\Bérek2020\Bérek2020\obj\Debug\Bérek2020.csproj.CoreCompileInputs.cache
+H:\c#\Bérek2020\Bérek2020\obj\Debug\Bérek2020.exe
+H:\c#\Bérek2020\Bérek2020\obj\Debug\Bérek2020.pdb

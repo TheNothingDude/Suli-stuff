@@ -1,0 +1,7 @@
+H:\c#\GenericLinked\GenericLinked\bin\Debug\GenericLinked.exe.config
+H:\c#\GenericLinked\GenericLinked\bin\Debug\GenericLinked.exe
+H:\c#\GenericLinked\GenericLinked\bin\Debug\GenericLinked.pdb
+H:\c#\GenericLinked\GenericLinked\obj\Debug\GenericLinked.csproj.AssemblyReference.cache
+H:\c#\GenericLinked\GenericLinked\obj\Debug\GenericLinked.csproj.CoreCompileInputs.cache
+H:\c#\GenericLinked\GenericLinked\obj\Debug\GenericLinked.exe
+H:\c#\GenericLinked\GenericLinked\obj\Debug\GenericLinked.pdb

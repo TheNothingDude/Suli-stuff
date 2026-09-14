@@ -1,0 +1,7 @@
+H:\c#\talalka\talalka\bin\Debug\talalka.exe.config
+H:\c#\talalka\talalka\bin\Debug\talalka.exe
+H:\c#\talalka\talalka\bin\Debug\talalka.pdb
+H:\c#\talalka\talalka\obj\Debug\talalka.csproj.AssemblyReference.cache
+H:\c#\talalka\talalka\obj\Debug\talalka.csproj.CoreCompileInputs.cache
+H:\c#\talalka\talalka\obj\Debug\talalka.exe
+H:\c#\talalka\talalka\obj\Debug\talalka.pdb
