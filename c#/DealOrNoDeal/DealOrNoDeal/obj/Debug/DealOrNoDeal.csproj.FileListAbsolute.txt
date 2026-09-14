@@ -1,7 +1,0 @@
-H:\c#\DealOrNoDeal\DealOrNoDeal\bin\Debug\DealOrNoDeal.exe.config
-H:\c#\DealOrNoDeal\DealOrNoDeal\bin\Debug\DealOrNoDeal.exe
-H:\c#\DealOrNoDeal\DealOrNoDeal\bin\Debug\DealOrNoDeal.pdb
-H:\c#\DealOrNoDeal\DealOrNoDeal\obj\Debug\DealOrNoDeal.csproj.AssemblyReference.cache
-H:\c#\DealOrNoDeal\DealOrNoDeal\obj\Debug\DealOrNoDeal.csproj.CoreCompileInputs.cache
-H:\c#\DealOrNoDeal\DealOrNoDeal\obj\Debug\DealOrNoDeal.exe
-H:\c#\DealOrNoDeal\DealOrNoDeal\obj\Debug\DealOrNoDeal.pdb
