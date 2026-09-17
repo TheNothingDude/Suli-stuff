@@ -1,0 +1,34 @@
+vetseg, emberi hiba - error, mistake
+hiba, defekt - bug, defect, fautl
+meghibasodas - failure 
+
+
+Hiba eletciklusa
+1. new - uj
+2. assigned - hazzarendelve
+3. open /in progress - javitas alatt
+4. resolved /fixed - javitva      ^
+								  |
+5. ujrateszt - re-testing --------|
+	|                               |
+6. reopened - ujra nyitva or lezart - closed 
+
+
+severity 
+priority
+
+blokkolo, sulyos
+alacsony, kozepess
+
+
+Hibajegy
+
+Title: gay
+Summary: i saw some boys on the street and they were lwk cute pls help
+Enviornment: out in the street, me brainn
+prediction:
+steps to recreate: go outside, preferably to a populated area
+expected result:
+actual result;
+attachments: 
+severity: 
