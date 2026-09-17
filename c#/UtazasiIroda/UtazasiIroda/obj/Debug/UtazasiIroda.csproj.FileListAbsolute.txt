@@ -1,0 +1,7 @@
+H:\c#\UtazasiIroda\UtazasiIroda\bin\Debug\UtazasiIroda.exe.config
+H:\c#\UtazasiIroda\UtazasiIroda\bin\Debug\UtazasiIroda.exe
+H:\c#\UtazasiIroda\UtazasiIroda\bin\Debug\UtazasiIroda.pdb
+H:\c#\UtazasiIroda\UtazasiIroda\obj\Debug\UtazasiIroda.csproj.AssemblyReference.cache
+H:\c#\UtazasiIroda\UtazasiIroda\obj\Debug\UtazasiIroda.csproj.CoreCompileInputs.cache
+H:\c#\UtazasiIroda\UtazasiIroda\obj\Debug\UtazasiIroda.exe
+H:\c#\UtazasiIroda\UtazasiIroda\obj\Debug\UtazasiIroda.pdb

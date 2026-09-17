@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\c#\\UtazasiIroda\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C096BB-3193-4286-A79E-200F6FF39081}|UtazasiIroda\\UtazasiIroda.csproj|h:\\c#\\utazasiiroda\\utazasiiroda\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C096BB-3193-4286-A79E-200F6FF39081}|UtazasiIroda\\UtazasiIroda.csproj|solutionrelative:utazasiiroda\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C096BB-3193-4286-A79E-200F6FF39081}|UtazasiIroda\\UtazasiIroda.csproj|h:\\c#\\utazasiiroda\\utazasiiroda\\airroute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C096BB-3193-4286-A79E-200F6FF39081}|UtazasiIroda\\UtazasiIroda.csproj|solutionrelative:utazasiiroda\\airroute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C096BB-3193-4286-A79E-200F6FF39081}|UtazasiIroda\\UtazasiIroda.csproj|h:\\c#\\utazasiiroda\\utazasiiroda\\landroute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C096BB-3193-4286-A79E-200F6FF39081}|UtazasiIroda\\UtazasiIroda.csproj|solutionrelative:utazasiiroda\\landroute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C096BB-3193-4286-A79E-200F6FF39081}|UtazasiIroda\\UtazasiIroda.csproj|h:\\c#\\utazasiiroda\\utazasiiroda\\shiproute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C096BB-3193-4286-A79E-200F6FF39081}|UtazasiIroda\\UtazasiIroda.csproj|solutionrelative:utazasiiroda\\shiproute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C096BB-3193-4286-A79E-200F6FF39081}|UtazasiIroda\\UtazasiIroda.csproj|h:\\c#\\utazasiiroda\\utazasiiroda\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C096BB-3193-4286-A79E-200F6FF39081}|UtazasiIroda\\UtazasiIroda.csproj|solutionrelative:utazasiiroda\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AirRoute.cs",
+              "DocumentMoniker": "H:\\c#\\UtazasiIroda\\UtazasiIroda\\AirRoute.cs",
+              "RelativeDocumentMoniker": "UtazasiIroda\\AirRoute.cs",
+              "ToolTip": "H:\\c#\\UtazasiIroda\\UtazasiIroda\\AirRoute.cs",
+              "RelativeToolTip": "UtazasiIroda\\AirRoute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T06:55:00.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LandRoute.cs",
+              "DocumentMoniker": "H:\\c#\\UtazasiIroda\\UtazasiIroda\\LandRoute.cs",
+              "RelativeDocumentMoniker": "UtazasiIroda\\LandRoute.cs",
+              "ToolTip": "H:\\c#\\UtazasiIroda\\UtazasiIroda\\LandRoute.cs",
+              "RelativeToolTip": "UtazasiIroda\\LandRoute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T06:53:39.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShipRoute.cs",
+              "DocumentMoniker": "H:\\c#\\UtazasiIroda\\UtazasiIroda\\ShipRoute.cs",
+              "RelativeDocumentMoniker": "UtazasiIroda\\ShipRoute.cs",
+              "ToolTip": "H:\\c#\\UtazasiIroda\\UtazasiIroda\\ShipRoute.cs",
+              "RelativeToolTip": "UtazasiIroda\\ShipRoute.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T06:47:50.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Route.cs",
+              "DocumentMoniker": "H:\\c#\\UtazasiIroda\\UtazasiIroda\\Route.cs",
+              "RelativeDocumentMoniker": "UtazasiIroda\\Route.cs",
+              "ToolTip": "H:\\c#\\UtazasiIroda\\UtazasiIroda\\Route.cs",
+              "RelativeToolTip": "UtazasiIroda\\Route.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T06:43:32.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\c#\\UtazasiIroda\\UtazasiIroda\\Program.cs",
+              "RelativeDocumentMoniker": "UtazasiIroda\\Program.cs",
+              "ToolTip": "H:\\c#\\UtazasiIroda\\UtazasiIroda\\Program.cs",
+              "RelativeToolTip": "UtazasiIroda\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvx4AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T06:41:35.671Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
