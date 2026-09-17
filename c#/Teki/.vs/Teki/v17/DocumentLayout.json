@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\c#\\Teki\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF033BA-6601-4EFD-A366-12B4F33C1FC4}|Teki\\Teki.csproj|h:\\c#\\teki\\teki\\turtle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF033BA-6601-4EFD-A366-12B4F33C1FC4}|Teki\\Teki.csproj|solutionrelative:teki\\turtle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF033BA-6601-4EFD-A366-12B4F33C1FC4}|Teki\\Teki.csproj|h:\\c#\\teki\\teki\\crab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF033BA-6601-4EFD-A366-12B4F33C1FC4}|Teki\\Teki.csproj|solutionrelative:teki\\crab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF033BA-6601-4EFD-A366-12B4F33C1FC4}|Teki\\Teki.csproj|h:\\c#\\teki\\teki\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF033BA-6601-4EFD-A366-12B4F33C1FC4}|Teki\\Teki.csproj|solutionrelative:teki\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF033BA-6601-4EFD-A366-12B4F33C1FC4}|Teki\\Teki.csproj|h:\\c#\\teki\\teki\\salad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF033BA-6601-4EFD-A366-12B4F33C1FC4}|Teki\\Teki.csproj|solutionrelative:teki\\salad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF033BA-6601-4EFD-A366-12B4F33C1FC4}|Teki\\Teki.csproj|h:\\c#\\teki\\teki\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF033BA-6601-4EFD-A366-12B4F33C1FC4}|Teki\\Teki.csproj|solutionrelative:teki\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Turtle.cs",
+              "DocumentMoniker": "H:\\c#\\Teki\\Teki\\Turtle.cs",
+              "RelativeDocumentMoniker": "Teki\\Turtle.cs",
+              "ToolTip": "H:\\c#\\Teki\\Teki\\Turtle.cs",
+              "RelativeToolTip": "Teki\\Turtle.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T07:46:58.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Salad.cs",
+              "DocumentMoniker": "H:\\c#\\Teki\\Teki\\Salad.cs",
+              "RelativeDocumentMoniker": "Teki\\Salad.cs",
+              "ToolTip": "H:\\c#\\Teki\\Teki\\Salad.cs",
+              "RelativeToolTip": "Teki\\Salad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T07:46:02.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Crab.cs",
+              "DocumentMoniker": "H:\\c#\\Teki\\Teki\\Crab.cs",
+              "RelativeDocumentMoniker": "Teki\\Crab.cs",
+              "ToolTip": "H:\\c#\\Teki\\Teki\\Crab.cs",
+              "RelativeToolTip": "Teki\\Crab.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T07:40:59.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Food.cs",
+              "DocumentMoniker": "H:\\c#\\Teki\\Teki\\Food.cs",
+              "RelativeDocumentMoniker": "Teki\\Food.cs",
+              "ToolTip": "H:\\c#\\Teki\\Teki\\Food.cs",
+              "RelativeToolTip": "Teki\\Food.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T07:38:35.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\c#\\Teki\\Teki\\Program.cs",
+              "RelativeDocumentMoniker": "Teki\\Program.cs",
+              "ToolTip": "H:\\c#\\Teki\\Teki\\Program.cs",
+              "RelativeToolTip": "Teki\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T07:38:22.23Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
