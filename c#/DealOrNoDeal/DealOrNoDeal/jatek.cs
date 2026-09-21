@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Threading;
 using System.Threading.Tasks;
+using DealOrNoDeal;
 
 namespace _11C_All_Az_Alku
 {
@@ -21,7 +23,7 @@ namespace _11C_All_Az_Alku
         static int[] nyitasok = new int[9] { 5, 3, 3, 3, 2, 2, 2, 1, 1 };
         static public int korok = 1;
         static public double[] ajanlatSzazalek = new double[9];
-
+        static string menu = "\tFOMENU\t\n1. Uj jatek\n2. Toplista\n3. kilepes";
         private static int BemenetValidacio()
         {
             bool siker = false;
@@ -129,30 +131,58 @@ namespace _11C_All_Az_Alku
         {
             Console.WriteLine(udvozlo + "\n");
             int sajat = SajatTaskaValaszt();
-
-
             Taska.JatekosTaskaBeallit(sajat);
             Console.Clear();
             Taskak.StartJatek();
             bool elfogadja = false;
-            for (int i = 0; i < nyitasok.Length && !elfogadja; i++)
+            string sub;
+            Console.WriteLine(menu);
+            int menu_inp = int.Parse(Console.ReadLine());
+            if(menu_inp == 2 )
             {
-                Nyitasok();
-                int ajanlat = BankAjanlat();
-                Console.WriteLine($"A bank ajanlata {korok}. kor utan {ajanlat} forint");
-                Console.Write("elfogadod? (I/N)");
-                string elfogad = Console.ReadLine().ToLower();
-                if (string.Compare(elfogad, "i") == 0)
+                for (int i = 0; i < nyitasok.Length && !elfogadja; i++)
                 {
-                  Console.WriteLine($"A nyeremeded: {ajanlat} forint");
-                  elfogadja = true;
+                    Nyitasok();
+                    int ajanlat = BankAjanlat();
+                    Console.WriteLine($"A bank ajanlata {korok}. kor utan {ajanlat} forint");
+                    Console.Write("elfogadod? (I/N)");
+                    string elfogad = Console.ReadLine().ToLower();
+                    if (string.Compare(elfogad, "i") == 0)
+                    {
+                        Console.WriteLine($"A nyeremeded: {ajanlat} forint");
+                        elfogadja = true;
+                        Console.WriteLine("Fel akarsz iratkozni a toplistara? (I/N)");
+                        sub = Console.ReadLine();
+                        if (string.Compare(sub.ToLower(), "i") == 0)
+                        {
+                            Console.Write("Milyen neven mentsuk el? ");
+                            string name = Console.ReadLine();
+                            Top.Add(name, ajanlat);
+                        }
+                    }
+                    korok++;
+
                 }
-                korok++;
-                    
+            }
+            else if(menu_inp == 2 )
+            {
+
+            }
+            else
+            {
+                return;
             }
             if (!elfogadja)
             {
                 Console.WriteLine($"Nyeremenyed {Taskak.MennyVanBenne(Taska.JatekosTaska)}");
+                Console.WriteLine("Fel akarsz iratkozni a toplistara? (I/N)");
+                sub = Console.ReadLine();
+                if (string.Compare(sub.ToLower(), "i") == 0)
+                {
+                    Console.Write("Milyen neven mentsuk el? ");
+                    string name = Console.ReadLine();
+                    Top.Add(name, Taskak.MennyVanBenne(Taska.JatekosTaska));
+                }
             }
         }
     }
