@@ -1,0 +1,15 @@
+/home/helium/Suli-stuff/Projects/Teki/Teki/bin/Debug/net8.0/Teki
+/home/helium/Suli-stuff/Projects/Teki/Teki/bin/Debug/net8.0/Teki.deps.json
+/home/helium/Suli-stuff/Projects/Teki/Teki/bin/Debug/net8.0/Teki.runtimeconfig.json
+/home/helium/Suli-stuff/Projects/Teki/Teki/bin/Debug/net8.0/Teki.dll
+/home/helium/Suli-stuff/Projects/Teki/Teki/bin/Debug/net8.0/Teki.pdb
+/home/helium/Suli-stuff/Projects/Teki/Teki/obj/Debug/net8.0/Teki.GeneratedMSBuildEditorConfig.editorconfig
+/home/helium/Suli-stuff/Projects/Teki/Teki/obj/Debug/net8.0/Teki.AssemblyInfoInputs.cache
+/home/helium/Suli-stuff/Projects/Teki/Teki/obj/Debug/net8.0/Teki.AssemblyInfo.cs
+/home/helium/Suli-stuff/Projects/Teki/Teki/obj/Debug/net8.0/Teki.csproj.CoreCompileInputs.cache
+/home/helium/Suli-stuff/Projects/Teki/Teki/obj/Debug/net8.0/Teki.sourcelink.json
+/home/helium/Suli-stuff/Projects/Teki/Teki/obj/Debug/net8.0/Teki.dll
+/home/helium/Suli-stuff/Projects/Teki/Teki/obj/Debug/net8.0/refint/Teki.dll
+/home/helium/Suli-stuff/Projects/Teki/Teki/obj/Debug/net8.0/Teki.pdb
+/home/helium/Suli-stuff/Projects/Teki/Teki/obj/Debug/net8.0/Teki.genruntimeconfig.cache
+/home/helium/Suli-stuff/Projects/Teki/Teki/obj/Debug/net8.0/ref/Teki.dll
