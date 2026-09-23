@@ -1,0 +1,15 @@
+/home/helium/Suli-stuff/Projects/svgesus/svgesus/bin/Debug/net8.0/svgesus
+/home/helium/Suli-stuff/Projects/svgesus/svgesus/bin/Debug/net8.0/svgesus.deps.json
+/home/helium/Suli-stuff/Projects/svgesus/svgesus/bin/Debug/net8.0/svgesus.runtimeconfig.json
+/home/helium/Suli-stuff/Projects/svgesus/svgesus/bin/Debug/net8.0/svgesus.dll
+/home/helium/Suli-stuff/Projects/svgesus/svgesus/bin/Debug/net8.0/svgesus.pdb
+/home/helium/Suli-stuff/Projects/svgesus/svgesus/obj/Debug/net8.0/svgesus.GeneratedMSBuildEditorConfig.editorconfig
+/home/helium/Suli-stuff/Projects/svgesus/svgesus/obj/Debug/net8.0/svgesus.AssemblyInfoInputs.cache
+/home/helium/Suli-stuff/Projects/svgesus/svgesus/obj/Debug/net8.0/svgesus.AssemblyInfo.cs
+/home/helium/Suli-stuff/Projects/svgesus/svgesus/obj/Debug/net8.0/svgesus.csproj.CoreCompileInputs.cache
+/home/helium/Suli-stuff/Projects/svgesus/svgesus/obj/Debug/net8.0/svgesus.sourcelink.json
+/home/helium/Suli-stuff/Projects/svgesus/svgesus/obj/Debug/net8.0/svgesus.dll
+/home/helium/Suli-stuff/Projects/svgesus/svgesus/obj/Debug/net8.0/refint/svgesus.dll
+/home/helium/Suli-stuff/Projects/svgesus/svgesus/obj/Debug/net8.0/svgesus.pdb
+/home/helium/Suli-stuff/Projects/svgesus/svgesus/obj/Debug/net8.0/svgesus.genruntimeconfig.cache
+/home/helium/Suli-stuff/Projects/svgesus/svgesus/obj/Debug/net8.0/ref/svgesus.dll
