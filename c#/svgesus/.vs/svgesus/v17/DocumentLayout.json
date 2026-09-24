@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\c#\\svgesus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA17B408-463B-4153-9C56-BB606284A70A}|svgesus\\svgesus.csproj|H:\\c#\\svgesus\\svgesus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA17B408-463B-4153-9C56-BB606284A70A}|svgesus\\svgesus.csproj|solutionrelative:svgesus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA17B408-463B-4153-9C56-BB606284A70A}|svgesus\\svgesus.csproj|h:\\c#\\svgesus\\svgesus\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA17B408-463B-4153-9C56-BB606284A70A}|svgesus\\svgesus.csproj|solutionrelative:svgesus\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA17B408-463B-4153-9C56-BB606284A70A}|svgesus\\svgesus.csproj|H:\\c#\\svgesus\\svgesus\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA17B408-463B-4153-9C56-BB606284A70A}|svgesus\\svgesus.csproj|solutionrelative:svgesus\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA17B408-463B-4153-9C56-BB606284A70A}|svgesus\\svgesus.csproj|h:\\c#\\svgesus\\svgesus\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA17B408-463B-4153-9C56-BB606284A70A}|svgesus\\svgesus.csproj|solutionrelative:svgesus\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA17B408-463B-4153-9C56-BB606284A70A}|svgesus\\svgesus.csproj|h:\\c#\\svgesus\\svgesus\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA17B408-463B-4153-9C56-BB606284A70A}|svgesus\\svgesus.csproj|solutionrelative:svgesus\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Rectangle.cs",
+              "DocumentMoniker": "H:\\c#\\svgesus\\svgesus\\Rectangle.cs",
+              "RelativeDocumentMoniker": "svgesus\\Rectangle.cs",
+              "ToolTip": "H:\\c#\\svgesus\\svgesus\\Rectangle.cs",
+              "RelativeToolTip": "svgesus\\Rectangle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T07:50:33.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Circle.cs",
+              "DocumentMoniker": "H:\\c#\\svgesus\\svgesus\\Circle.cs",
+              "RelativeDocumentMoniker": "svgesus\\Circle.cs",
+              "ToolTip": "H:\\c#\\svgesus\\svgesus\\Circle.cs",
+              "RelativeToolTip": "svgesus\\Circle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T07:46:20.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Line.cs",
+              "DocumentMoniker": "H:\\c#\\svgesus\\svgesus\\Line.cs",
+              "RelativeDocumentMoniker": "svgesus\\Line.cs",
+              "ToolTip": "H:\\c#\\svgesus\\svgesus\\Line.cs",
+              "RelativeToolTip": "svgesus\\Line.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T06:08:13.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Shape.cs",
+              "DocumentMoniker": "H:\\c#\\svgesus\\svgesus\\Shape.cs",
+              "RelativeDocumentMoniker": "svgesus\\Shape.cs",
+              "ToolTip": "H:\\c#\\svgesus\\svgesus\\Shape.cs",
+              "RelativeToolTip": "svgesus\\Shape.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T06:03:25.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\c#\\svgesus\\svgesus\\Program.cs",
+              "RelativeDocumentMoniker": "svgesus\\Program.cs",
+              "ToolTip": "H:\\c#\\svgesus\\svgesus\\Program.cs",
+              "RelativeToolTip": "svgesus\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T06:02:43.136Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

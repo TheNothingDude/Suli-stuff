@@ -1,0 +1,7 @@
+H:\c#\svgesus\svgesus\bin\Debug\svgesus.exe.config
+H:\c#\svgesus\svgesus\bin\Debug\svgesus.exe
+H:\c#\svgesus\svgesus\bin\Debug\svgesus.pdb
+H:\c#\svgesus\svgesus\obj\Debug\svgesus.csproj.AssemblyReference.cache
+H:\c#\svgesus\svgesus\obj\Debug\svgesus.csproj.CoreCompileInputs.cache
+H:\c#\svgesus\svgesus\obj\Debug\svgesus.exe
+H:\c#\svgesus\svgesus\obj\Debug\svgesus.pdb

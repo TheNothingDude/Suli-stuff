@@ -20,22 +20,20 @@ namespace Teki
                 Console.WriteLine("teli van szegeny");
                 return;
             }
-            if (fedLevel < 500)
+            if (fedLevel <= 500)
             {
-                if(fedLevel + food.Value() <= 500)
+                int c = 0;
+                if(fedLevel +  food.Value() < 500)
                 {
-                    happiness += food.Value() * 2;
-                    fedLevel += food.Value();
+                    for (int i = fedLevel; i <= 500 && c < food.Value(); i++, c++) ;
+                    fedLevel += c * 2;
                 }
                 else
                 {
-                    happiness += (Math.Abs(fedLevel - 500)) * 2;
-                    fedLevel += food.Value();
+                    for (int i = fedLevel; i <= fedLevel + food.Value() && c < food.Value(); i++, c++) ;
+                    fedLevel -= c * 2;
                 }
-            }
-            else if (fedLevel > 500)
-            { 
-
+             
             }
 
         }
