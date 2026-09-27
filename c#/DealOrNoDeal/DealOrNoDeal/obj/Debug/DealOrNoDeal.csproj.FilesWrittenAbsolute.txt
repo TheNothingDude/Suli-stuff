@@ -1,0 +1,9 @@
+/home/helium/Suli-stuff/c#/DealOrNoDeal/DealOrNoDeal/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttribute.cs
+/home/helium/Suli-stuff/c#/DealOrNoDeal/DealOrNoDeal/obj/Debug/DealOrNoDeal.exe
+/home/helium/Suli-stuff/c#/DealOrNoDeal/DealOrNoDeal/obj/Debug/DealOrNoDeal.pdb
+/home/helium/Suli-stuff/c#/DealOrNoDeal/DealOrNoDeal/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/helium/Suli-stuff/c#/DealOrNoDeal/DealOrNoDeal/bin/Debug/DealOrNoDeal.exe.config
+/home/helium/Suli-stuff/c#/DealOrNoDeal/DealOrNoDeal/bin/Debug/DealOrNoDeal.exe.mdb
+/home/helium/Suli-stuff/c#/DealOrNoDeal/DealOrNoDeal/bin/Debug/DealOrNoDeal.pdb
+/home/helium/Suli-stuff/c#/DealOrNoDeal/DealOrNoDeal/bin/Debug/DealOrNoDeal.exe
+/home/helium/Suli-stuff/c#/DealOrNoDeal/DealOrNoDeal/obj/Debug/DealOrNoDeal.exe.mdb

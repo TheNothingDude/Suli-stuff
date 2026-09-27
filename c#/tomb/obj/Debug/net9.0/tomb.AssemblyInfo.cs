@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tomb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6fb9273200d3028cd66502c84569ad95f5e7a03")]
 [assembly: System.Reflection.AssemblyProductAttribute("tomb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tomb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

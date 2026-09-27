@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Dynamic;
 using System.Threading;
-using System.Threading.Tasks;
 using DealOrNoDeal;
+using System.IO;
+using System.Collections.Generic;
 
 namespace _11C_All_Az_Alku
 {
@@ -95,12 +94,12 @@ namespace _11C_All_Az_Alku
         }
         private static void Nyitasok()
         {
-            int count = nyitasok[korok-1];
+            int count = nyitasok[korok - 1];
             Console.WriteLine($"Ebben a korben osszesen {count} ladat kell nyitni");
             int sorszam = -1;
             for (int i = count; i > 0; i--)
             {
-                while(sorszam == -1)
+                while (sorszam == -1)
                 {
                     Console.WriteLine(nyitoSzoveg);
                     sorszam = BemenetValidacio();
@@ -109,7 +108,7 @@ namespace _11C_All_Az_Alku
                         sorszam = -1;
                         Console.WriteLine("A sajat taskadat nem nyithatod ki");
                     }
-                    else if(Taskak.NyitvaVanE(sorszam))
+                    else if (Taskak.NyitvaVanE(sorszam))
                     {
                         sorszam = -1;
                         Console.WriteLine("Ez mar nyitva van");
@@ -118,34 +117,35 @@ namespace _11C_All_Az_Alku
                 Console.Write($"Az altalad nyitott {sorszam}. taskaban ");
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write(Taskak.MennyVanBenne(sorszam));
-                Console.ForegroundColor= ConsoleColor.White;
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("forint volt");
                 Thread.Sleep(1000);
                 Taskak.UjraRajzol();
                 sorszam = -1;
-               
+
             }
 
         }
         public static void Jatekmenet()
         {
             Console.WriteLine(udvozlo + "\n");
-            int sajat = SajatTaskaValaszt();
-            Taska.JatekosTaskaBeallit(sajat);
-            Console.Clear();
-            Taskak.StartJatek();
             bool elfogadja = false;
             string sub;
             Console.WriteLine(menu);
             int menu_inp = int.Parse(Console.ReadLine());
-            if(menu_inp == 2 )
+            if (menu_inp == 1)
             {
+                int sajat = SajatTaskaValaszt();
+                Taska.JatekosTaskaBeallit(sajat);
+                Console.Clear();
+                Taskak.StartJatek();
                 for (int i = 0; i < nyitasok.Length && !elfogadja; i++)
                 {
                     Nyitasok();
                     int ajanlat = BankAjanlat();
                     Console.WriteLine($"A bank ajanlata {korok}. kor utan {ajanlat} forint");
                     Console.Write("elfogadod? (I/N)");
+                    System.Console.WriteLine();
                     string elfogad = Console.ReadLine().ToLower();
                     if (string.Compare(elfogad, "i") == 0)
                     {
@@ -161,29 +161,37 @@ namespace _11C_All_Az_Alku
                         }
                     }
                     korok++;
-
+                }
+                if (!elfogadja)
+                {
+                    Console.WriteLine($"Nyeremenyed {Taskak.MennyVanBenne(Taska.JatekosTaska)}");
+                    Console.WriteLine("Fel akarsz iratkozni a toplistara? (I/N)");
+                    sub = Console.ReadLine();
+                    if (string.Compare(sub.ToLower(), "i") == 0)
+                    {
+                        Console.Write("Milyen neven mentsuk el? ");
+                        string name = Console.ReadLine();
+                        Top.Add(name, Taskak.MennyVanBenne(Taska.JatekosTaska));
+                    }
                 }
             }
-            else if(menu_inp == 2 )
+            else if (menu_inp == 2)
             {
-
+                System.Console.WriteLine();
+                System.Console.WriteLine();
+                int c = 0;
+                foreach (string s in Top.Sort())
+                {
+                    string[] line = s.Split(';');
+                    System.Console.WriteLine($"{++c} {line[0]} {line[1]}");
+                }
+                return;
             }
             else
             {
                 return;
             }
-            if (!elfogadja)
-            {
-                Console.WriteLine($"Nyeremenyed {Taskak.MennyVanBenne(Taska.JatekosTaska)}");
-                Console.WriteLine("Fel akarsz iratkozni a toplistara? (I/N)");
-                sub = Console.ReadLine();
-                if (string.Compare(sub.ToLower(), "i") == 0)
-                {
-                    Console.Write("Milyen neven mentsuk el? ");
-                    string name = Console.ReadLine();
-                    Top.Add(name, Taskak.MennyVanBenne(Taska.JatekosTaska));
-                }
-            }
+
         }
     }
 }
