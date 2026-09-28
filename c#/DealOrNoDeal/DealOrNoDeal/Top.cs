@@ -10,12 +10,6 @@ namespace DealOrNoDeal
 {
     static class Top
     {
-
-        static public void GenToplist()
-        {
-            FileStream fs = new FileStream("./toplista.csv", FileMode.Create);
-            fs.Close();
-        }
         static public void Add(string name, int value)
         {
 
@@ -58,6 +52,16 @@ namespace DealOrNoDeal
                         temp = l[i];
                         l[i] = l[j];
                         l[j] = temp;
+                    }
+                    else if(int.Parse(l[i].Split(';')[1]) == int.Parse(l[j].Split(';')[1]))
+                    {
+                        if ( l[i].Split(';')[0][0] < l[j].Split(';')[0][0])
+                        {
+                            string temp = string.Empty;
+                            temp = l[i];
+                            l[i] = l[j];
+                            l[j] = temp;
+                        }
                     }
                 }
             }

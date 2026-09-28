@@ -8,11 +8,12 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>DealOrNoDeal</RootNamespace>
     <AssemblyName>DealOrNoDeal</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FrameworkPathOverride>/usr/lib/mono/4.5-api</FrameworkPathOverride>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

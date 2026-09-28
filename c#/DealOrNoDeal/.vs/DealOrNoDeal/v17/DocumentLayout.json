@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "H:\\c#\\DealOrNoDeal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5CCEA43-D920-4064-A21E-1540761C2247}|DealOrNoDeal\\DealOrNoDeal.csproj|h:\\c#\\dealornodeal\\dealornodeal\\top.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5CCEA43-D920-4064-A21E-1540761C2247}|DealOrNoDeal\\DealOrNoDeal.csproj|solutionrelative:dealornodeal\\top.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5CCEA43-D920-4064-A21E-1540761C2247}|DealOrNoDeal\\DealOrNoDeal.csproj|h:\\c#\\dealornodeal\\dealornodeal\\jatek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A5CCEA43-D920-4064-A21E-1540761C2247}|DealOrNoDeal\\DealOrNoDeal.csproj|H:\\c#\\DealOrNoDeal\\dealornodeal\\jatek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5CCEA43-D920-4064-A21E-1540761C2247}|DealOrNoDeal\\DealOrNoDeal.csproj|solutionrelative:dealornodeal\\jatek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5CCEA43-D920-4064-A21E-1540761C2247}|DealOrNoDeal\\DealOrNoDeal.csproj|H:\\c#\\DealOrNoDeal\\dealornodeal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5CCEA43-D920-4064-A21E-1540761C2247}|DealOrNoDeal\\DealOrNoDeal.csproj|solutionrelative:dealornodeal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5CCEA43-D920-4064-A21E-1540761C2247}|DealOrNoDeal\\DealOrNoDeal.csproj|H:\\c#\\DealOrNoDeal\\dealornodeal\\cases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5CCEA43-D920-4064-A21E-1540761C2247}|DealOrNoDeal\\DealOrNoDeal.csproj|solutionrelative:dealornodeal\\cases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5CCEA43-D920-4064-A21E-1540761C2247}|DealOrNoDeal\\DealOrNoDeal.csproj|h:\\c#\\dealornodeal\\dealornodeal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5CCEA43-D920-4064-A21E-1540761C2247}|DealOrNoDeal\\DealOrNoDeal.csproj|solutionrelative:dealornodeal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5CCEA43-D920-4064-A21E-1540761C2247}|DealOrNoDeal\\DealOrNoDeal.csproj|H:\\c#\\DealOrNoDeal\\dealornodeal\\top.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5CCEA43-D920-4064-A21E-1540761C2247}|DealOrNoDeal\\DealOrNoDeal.csproj|solutionrelative:dealornodeal\\top.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5CCEA43-D920-4064-A21E-1540761C2247}|DealOrNoDeal\\DealOrNoDeal.csproj|H:\\c#\\DealOrNoDeal\\dealornodeal\\case.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Cases.cs",
               "DocumentMoniker": "H:\\c#\\DealOrNoDeal\\DealOrNoDeal\\Cases.cs",
               "RelativeDocumentMoniker": "DealOrNoDeal\\Cases.cs",
@@ -52,26 +52,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Top.cs",
               "DocumentMoniker": "H:\\c#\\DealOrNoDeal\\DealOrNoDeal\\Top.cs",
               "RelativeDocumentMoniker": "DealOrNoDeal\\Top.cs",
               "ToolTip": "H:\\c#\\DealOrNoDeal\\DealOrNoDeal\\Top.cs",
               "RelativeToolTip": "DealOrNoDeal\\Top.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-21T10:27:28.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "jatek.cs",
               "DocumentMoniker": "H:\\c#\\DealOrNoDeal\\DealOrNoDeal\\jatek.cs",
               "RelativeDocumentMoniker": "DealOrNoDeal\\jatek.cs",
               "ToolTip": "H:\\c#\\DealOrNoDeal\\DealOrNoDeal\\jatek.cs",
               "RelativeToolTip": "DealOrNoDeal\\jatek.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAcwKgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAIwL8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-14T10:33:07.849Z",
               "EditorCaption": ""
@@ -96,7 +96,7 @@
               "RelativeDocumentMoniker": "DealOrNoDeal\\Program.cs",
               "ToolTip": "H:\\c#\\DealOrNoDeal\\DealOrNoDeal\\Program.cs",
               "RelativeToolTip": "DealOrNoDeal\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-29T08:40:30.29Z",
               "EditorCaption": ""

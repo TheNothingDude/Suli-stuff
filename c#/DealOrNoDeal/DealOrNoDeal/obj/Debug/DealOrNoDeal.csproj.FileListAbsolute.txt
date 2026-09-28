@@ -5,3 +5,11 @@ H:\c#\DealOrNoDeal\DealOrNoDeal\obj\Debug\DealOrNoDeal.csproj.AssemblyReference.
 H:\c#\DealOrNoDeal\DealOrNoDeal\obj\Debug\DealOrNoDeal.csproj.CoreCompileInputs.cache
 H:\c#\DealOrNoDeal\DealOrNoDeal\obj\Debug\DealOrNoDeal.exe
 H:\c#\DealOrNoDeal\DealOrNoDeal\obj\Debug\DealOrNoDeal.pdb
+H:\c#\DealOrNoDeal\DealOrNoDeal\bin\Debug\mscorlib.dll
+H:\c#\DealOrNoDeal\DealOrNoDeal\bin\Debug\hu\mscorlib.resources.dll
+H:\c#\DealOrNoDeal\DealOrNoDeal\bin\Debug\normidna.nlp
+H:\c#\DealOrNoDeal\DealOrNoDeal\bin\Debug\normnfc.nlp
+H:\c#\DealOrNoDeal\DealOrNoDeal\bin\Debug\normnfd.nlp
+H:\c#\DealOrNoDeal\DealOrNoDeal\bin\Debug\normnfkc.nlp
+H:\c#\DealOrNoDeal\DealOrNoDeal\bin\Debug\normnfkd.nlp
+H:\c#\DealOrNoDeal\DealOrNoDeal\obj\Debug\DealOrNo.DD1FAB5E.Up2Date

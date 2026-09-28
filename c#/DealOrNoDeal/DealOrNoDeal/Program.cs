@@ -12,7 +12,6 @@ namespace DealOrNoDeal
         static void Main(string[] args)
         {
             Jatek.Jatekmenet();
-
         }
     }
 }
