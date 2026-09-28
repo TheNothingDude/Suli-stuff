@@ -6,7 +6,6 @@ namespace LegyenOnIsMilliomos
     {
         static void Main(string[] args)
         {
-            Game.Interface();
             Game.Gameplay();
         }
 
