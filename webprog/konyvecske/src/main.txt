@@ -90,7 +90,6 @@ console.log(b.page);
 
 l.addBook(b);
 l.addBook(b2);
-l.addBook(b3);
 l.removeBook("Appe");
 console.log(l.Books);
 console.log(l.getUnreadBooks());

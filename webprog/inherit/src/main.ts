@@ -1,0 +1,37 @@
+class Car {
+  _brand: string;
+  _speed: number;
+  _doors: number;
+
+  constructor(brand: string, speed: number, doors: number) {
+    this._brand = brand;
+    this._doors = doors;
+    this._speed = speed;
+  }
+}
+
+class ElectricCar extends Car {
+  _battery: number = 1;
+
+  constructor(brand: string, speed: number, doors: number, battery: number) {
+    super(brand, speed, doors);
+    if (battery <= 100 && battery >= 0) this._battery = battery / 100;
+  }
+
+  charge(amount: number): void {
+    amount = amount / 100;
+    if (this._battery + amount > 1) {
+      this._battery = 1;
+      return;
+    }
+    this._battery += amount;
+  }
+
+  getDetails(): number[] {
+    return [this._doors, this._battery];
+  }
+}
+
+const E = new ElectricCar("Skoda", 50, 4, 50);
+E.charge(30);
+console.log(E.getDetails());

@@ -1,5 +1,3 @@
-import "./style.css";
-
 class Product {
   #id: number;
   #price: number;
