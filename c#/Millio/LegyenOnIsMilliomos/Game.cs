@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace LegyenOnIsMilliomos
 {
-    internal class Game
+    static class Game
     {
-        public static void Interface()
+        static void Interface()
         {
             Console.WriteLine("Köszöntünk a Legyen Ön Is Milliomos játékban!");
             Console.WriteLine("A játék szintekre osztható, maximum 15 szint lehet. Minden szinten egy kérdésre kell válaszolnia. Minden kérdéshez\ntartozik négy válaszlehetőség (A, B, C, D). A négy válaszlehetőség közül minden esetben csak egy a helyes.");
@@ -18,6 +18,7 @@ namespace LegyenOnIsMilliomos
 
         public static void Gameplay()
         {
+            Interface();
             Questions.ReadCvs();
             Random r = new Random();
             int pontszam = 0;
