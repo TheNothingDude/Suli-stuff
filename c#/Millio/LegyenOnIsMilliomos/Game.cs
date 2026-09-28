@@ -30,12 +30,13 @@ namespace LegyenOnIsMilliomos
                 Console.WriteLine();
                 Console.WriteLine();
 
-                Console.WriteLine($"\tA - {currentQuestion.A_answear}\t\t|\tB - {currentQuestion.B_answear}\n\tC - {currentQuestion.C_answear}\t\t|\tD - {currentQuestion.D_answear}");
+                Console.WriteLine($"\tA - {currentQuestion.A_answear,-20} | \tB - {currentQuestion.B_answear, -20}");
+                Console.WriteLine($"\tC - {currentQuestion.C_answear,-20} | \tD - {currentQuestion.D_answear, -20}");
                 Console.WriteLine();
 
 
                 Console.Write("Írja be a helyes válasz betűjelét: ");
-                char valasz = char.Parse(Console.ReadLine());
+                char valasz = char.Parse(Console.ReadLine().ToUpper());
 
                 if(valasz == currentQuestion.correctAnswear)
                 {
