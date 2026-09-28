@@ -1,0 +1,15 @@
+H:\C#\12C\LegyenOnIsMilliomos\LegyenOnIsMilliomos\obj\Debug\net8.0\LegyenOnIsMilliomos.GeneratedMSBuildEditorConfig.editorconfig
+H:\C#\12C\LegyenOnIsMilliomos\LegyenOnIsMilliomos\obj\Debug\net8.0\LegyenOnIsMilliomos.AssemblyInfoInputs.cache
+H:\C#\12C\LegyenOnIsMilliomos\LegyenOnIsMilliomos\obj\Debug\net8.0\LegyenOnIsMilliomos.AssemblyInfo.cs
+H:\C#\12C\LegyenOnIsMilliomos\LegyenOnIsMilliomos\obj\Debug\net8.0\LegyenOnIsMilliomos.csproj.CoreCompileInputs.cache
+H:\C#\12C\LegyenOnIsMilliomos\LegyenOnIsMilliomos\bin\Debug\net8.0\LegyenOnIsMilliomos.exe
+H:\C#\12C\LegyenOnIsMilliomos\LegyenOnIsMilliomos\bin\Debug\net8.0\loim.csv
+H:\C#\12C\LegyenOnIsMilliomos\LegyenOnIsMilliomos\bin\Debug\net8.0\LegyenOnIsMilliomos.deps.json
+H:\C#\12C\LegyenOnIsMilliomos\LegyenOnIsMilliomos\bin\Debug\net8.0\LegyenOnIsMilliomos.runtimeconfig.json
+H:\C#\12C\LegyenOnIsMilliomos\LegyenOnIsMilliomos\bin\Debug\net8.0\LegyenOnIsMilliomos.dll
+H:\C#\12C\LegyenOnIsMilliomos\LegyenOnIsMilliomos\bin\Debug\net8.0\LegyenOnIsMilliomos.pdb
+H:\C#\12C\LegyenOnIsMilliomos\LegyenOnIsMilliomos\obj\Debug\net8.0\LegyenOnIsMilliomos.dll
+H:\C#\12C\LegyenOnIsMilliomos\LegyenOnIsMilliomos\obj\Debug\net8.0\refint\LegyenOnIsMilliomos.dll
+H:\C#\12C\LegyenOnIsMilliomos\LegyenOnIsMilliomos\obj\Debug\net8.0\LegyenOnIsMilliomos.pdb
+H:\C#\12C\LegyenOnIsMilliomos\LegyenOnIsMilliomos\obj\Debug\net8.0\LegyenOnIsMilliomos.genruntimeconfig.cache
+H:\C#\12C\LegyenOnIsMilliomos\LegyenOnIsMilliomos\obj\Debug\net8.0\ref\LegyenOnIsMilliomos.dll
