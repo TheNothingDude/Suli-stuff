@@ -1,0 +1,15 @@
+H:\c#\Biosz\Biosz\bin\Debug\net8.0\Biosz.exe
+H:\c#\Biosz\Biosz\bin\Debug\net8.0\Biosz.deps.json
+H:\c#\Biosz\Biosz\bin\Debug\net8.0\Biosz.runtimeconfig.json
+H:\c#\Biosz\Biosz\bin\Debug\net8.0\Biosz.dll
+H:\c#\Biosz\Biosz\bin\Debug\net8.0\Biosz.pdb
+H:\c#\Biosz\Biosz\obj\Debug\net8.0\Biosz.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\Biosz\Biosz\obj\Debug\net8.0\Biosz.AssemblyInfoInputs.cache
+H:\c#\Biosz\Biosz\obj\Debug\net8.0\Biosz.AssemblyInfo.cs
+H:\c#\Biosz\Biosz\obj\Debug\net8.0\Biosz.csproj.CoreCompileInputs.cache
+H:\c#\Biosz\Biosz\obj\Debug\net8.0\Biosz.sourcelink.json
+H:\c#\Biosz\Biosz\obj\Debug\net8.0\Biosz.dll
+H:\c#\Biosz\Biosz\obj\Debug\net8.0\refint\Biosz.dll
+H:\c#\Biosz\Biosz\obj\Debug\net8.0\Biosz.pdb
+H:\c#\Biosz\Biosz\obj\Debug\net8.0\Biosz.genruntimeconfig.cache
+H:\c#\Biosz\Biosz\obj\Debug\net8.0\ref\Biosz.dll

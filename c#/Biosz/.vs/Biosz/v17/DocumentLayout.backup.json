@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\c#\\Biosz\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|h:\\c#\\biosz\\biosz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|solutionrelative:biosz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|h:\\c#\\biosz\\biosz\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|solutionrelative:biosz\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|h:\\c#\\biosz\\biosz\\examples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|solutionrelative:biosz\\examples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|h:\\c#\\biosz\\biosz\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|solutionrelative:biosz\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|h:\\c#\\biosz\\biosz\\plants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|solutionrelative:biosz\\plants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|h:\\c#\\biosz\\biosz\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|solutionrelative:biosz\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Plants.cs",
+              "DocumentMoniker": "H:\\c#\\Biosz\\Biosz\\Plants.cs",
+              "RelativeDocumentMoniker": "Biosz\\Plants.cs",
+              "ToolTip": "H:\\c#\\Biosz\\Biosz\\Plants.cs",
+              "RelativeToolTip": "Biosz\\Plants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T07:34:49.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Examples.cs",
+              "DocumentMoniker": "H:\\c#\\Biosz\\Biosz\\Examples.cs",
+              "RelativeDocumentMoniker": "Biosz\\Examples.cs",
+              "ToolTip": "H:\\c#\\Biosz\\Biosz\\Examples.cs",
+              "RelativeToolTip": "Biosz\\Examples.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T07:32:33.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Plant.cs",
+              "DocumentMoniker": "H:\\c#\\Biosz\\Biosz\\Plant.cs",
+              "RelativeDocumentMoniker": "Biosz\\Plant.cs",
+              "ToolTip": "H:\\c#\\Biosz\\Biosz\\Plant.cs",
+              "RelativeToolTip": "Biosz\\Plant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T07:30:23.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Animals.cs",
+              "DocumentMoniker": "H:\\c#\\Biosz\\Biosz\\Animals.cs",
+              "RelativeDocumentMoniker": "Biosz\\Animals.cs",
+              "ToolTip": "H:\\c#\\Biosz\\Biosz\\Animals.cs",
+              "RelativeToolTip": "Biosz\\Animals.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwC4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T07:23:34.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Interfaces.cs",
+              "DocumentMoniker": "H:\\c#\\Biosz\\Biosz\\Interfaces.cs",
+              "RelativeDocumentMoniker": "Biosz\\Interfaces.cs",
+              "ToolTip": "H:\\c#\\Biosz\\Biosz\\Interfaces.cs",
+              "RelativeToolTip": "Biosz\\Interfaces.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T07:06:14.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\c#\\Biosz\\Biosz\\Program.cs",
+              "RelativeDocumentMoniker": "Biosz\\Program.cs",
+              "ToolTip": "H:\\c#\\Biosz\\Biosz\\Program.cs",
+              "RelativeToolTip": "Biosz\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T07:05:11.474Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
