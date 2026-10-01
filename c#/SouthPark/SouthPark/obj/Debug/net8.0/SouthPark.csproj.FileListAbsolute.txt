@@ -1,0 +1,15 @@
+H:\c#\SouthPark\SouthPark\bin\Debug\net8.0\SouthPark.exe
+H:\c#\SouthPark\SouthPark\bin\Debug\net8.0\SouthPark.deps.json
+H:\c#\SouthPark\SouthPark\bin\Debug\net8.0\SouthPark.runtimeconfig.json
+H:\c#\SouthPark\SouthPark\bin\Debug\net8.0\SouthPark.dll
+H:\c#\SouthPark\SouthPark\bin\Debug\net8.0\SouthPark.pdb
+H:\c#\SouthPark\SouthPark\obj\Debug\net8.0\SouthPark.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\SouthPark\SouthPark\obj\Debug\net8.0\SouthPark.AssemblyInfoInputs.cache
+H:\c#\SouthPark\SouthPark\obj\Debug\net8.0\SouthPark.AssemblyInfo.cs
+H:\c#\SouthPark\SouthPark\obj\Debug\net8.0\SouthPark.csproj.CoreCompileInputs.cache
+H:\c#\SouthPark\SouthPark\obj\Debug\net8.0\SouthPark.sourcelink.json
+H:\c#\SouthPark\SouthPark\obj\Debug\net8.0\SouthPark.dll
+H:\c#\SouthPark\SouthPark\obj\Debug\net8.0\refint\SouthPark.dll
+H:\c#\SouthPark\SouthPark\obj\Debug\net8.0\SouthPark.pdb
+H:\c#\SouthPark\SouthPark\obj\Debug\net8.0\SouthPark.genruntimeconfig.cache
+H:\c#\SouthPark\SouthPark\obj\Debug\net8.0\ref\SouthPark.dll

@@ -1,0 +1,15 @@
+H:\c#\Millio\Millio\bin\Debug\net8.0\Millio.exe
+H:\c#\Millio\Millio\bin\Debug\net8.0\Millio.deps.json
+H:\c#\Millio\Millio\bin\Debug\net8.0\Millio.runtimeconfig.json
+H:\c#\Millio\Millio\bin\Debug\net8.0\Millio.dll
+H:\c#\Millio\Millio\bin\Debug\net8.0\Millio.pdb
+H:\c#\Millio\Millio\obj\Debug\net8.0\Millio.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\Millio\Millio\obj\Debug\net8.0\Millio.AssemblyInfoInputs.cache
+H:\c#\Millio\Millio\obj\Debug\net8.0\Millio.AssemblyInfo.cs
+H:\c#\Millio\Millio\obj\Debug\net8.0\Millio.csproj.CoreCompileInputs.cache
+H:\c#\Millio\Millio\obj\Debug\net8.0\Millio.sourcelink.json
+H:\c#\Millio\Millio\obj\Debug\net8.0\Millio.dll
+H:\c#\Millio\Millio\obj\Debug\net8.0\refint\Millio.dll
+H:\c#\Millio\Millio\obj\Debug\net8.0\Millio.pdb
+H:\c#\Millio\Millio\obj\Debug\net8.0\Millio.genruntimeconfig.cache
+H:\c#\Millio\Millio\obj\Debug\net8.0\ref\Millio.dll
