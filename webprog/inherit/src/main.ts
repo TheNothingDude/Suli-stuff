@@ -5,9 +5,13 @@ class Car {
   _renCost: number;
   constructor(renCost: number, brand: string, speed: number, doors: number) {
     this._brand = brand;
-    this._doors = doors;
-    this._speed = speed;
-    this._renCost = renCost;
+    if (speed > 0 && doors > 0 && renCost > 0) {
+      this._doors = doors;
+      this._speed = speed;
+      this._renCost = renCost;
+    } else {
+      throw new Error("nem valid input");
+    }
   }
 }
 
