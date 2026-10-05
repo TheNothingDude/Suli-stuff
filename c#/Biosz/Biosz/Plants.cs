@@ -12,6 +12,6 @@ namespace Biosz
     }
     class AppleTree : Plant
     {
-        public AppleTree(int age) : base(age, "AppleTree"){}
+        public AppleTree(int age) : base(age, "Apple Tree"){}
     }
 }

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "H:\\c#\\Biosz\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|h:\\c#\\biosz\\biosz\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|solutionrelative:biosz\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|h:\\c#\\biosz\\biosz\\plants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|solutionrelative:biosz\\plants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|h:\\c#\\biosz\\biosz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|solutionrelative:biosz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|h:\\c#\\biosz\\biosz\\examples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|solutionrelative:biosz\\examples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|h:\\c#\\biosz\\biosz\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|solutionrelative:biosz\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|h:\\c#\\biosz\\biosz\\plants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|solutionrelative:biosz\\plants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E57760D5-C85D-478E-ACC1-F9E7B2884BA5}|Biosz\\Biosz.csproj|h:\\c#\\biosz\\biosz\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Plants.cs",
               "DocumentMoniker": "H:\\c#\\Biosz\\Biosz\\Plants.cs",
               "RelativeDocumentMoniker": "Biosz\\Plants.cs",
               "ToolTip": "H:\\c#\\Biosz\\Biosz\\Plants.cs",
               "RelativeToolTip": "Biosz\\Plants.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T07:34:49.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Examples.cs",
               "DocumentMoniker": "H:\\c#\\Biosz\\Biosz\\Examples.cs",
               "RelativeDocumentMoniker": "Biosz\\Examples.cs",
@@ -63,18 +63,17 @@
               "RelativeToolTip": "Biosz\\Examples.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-01T07:32:33.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-01T07:32:33.416Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Plant.cs",
               "DocumentMoniker": "H:\\c#\\Biosz\\Biosz\\Plant.cs",
               "RelativeDocumentMoniker": "Biosz\\Plant.cs",
               "ToolTip": "H:\\c#\\Biosz\\Biosz\\Plant.cs",
               "RelativeToolTip": "Biosz\\Plant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T07:30:23.042Z",
               "EditorCaption": ""
@@ -89,12 +88,11 @@
               "RelativeToolTip": "Biosz\\Animals.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAcwC4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-01T07:23:34.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-01T07:23:34.757Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Interfaces.cs",
               "DocumentMoniker": "H:\\c#\\Biosz\\Biosz\\Interfaces.cs",
               "RelativeDocumentMoniker": "Biosz\\Interfaces.cs",
@@ -102,18 +100,17 @@
               "RelativeToolTip": "Biosz\\Interfaces.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-01T07:06:14.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-01T07:06:14.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "H:\\c#\\Biosz\\Biosz\\Program.cs",
               "RelativeDocumentMoniker": "Biosz\\Program.cs",
               "ToolTip": "H:\\c#\\Biosz\\Biosz\\Program.cs",
               "RelativeToolTip": "Biosz\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T07:05:11.474Z",
               "EditorCaption": ""

@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "Biosz\\Plants.cs",
               "ToolTip": "H:\\c#\\Biosz\\Biosz\\Plants.cs",
               "RelativeToolTip": "Biosz\\Plants.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T07:34:49.133Z",
               "EditorCaption": ""
@@ -74,7 +74,7 @@
               "RelativeDocumentMoniker": "Biosz\\Plant.cs",
               "ToolTip": "H:\\c#\\Biosz\\Biosz\\Plant.cs",
               "RelativeToolTip": "Biosz\\Plant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T07:30:23.042Z",
               "EditorCaption": ""
@@ -89,8 +89,7 @@
               "RelativeToolTip": "Biosz\\Animals.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAcwC4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-01T07:23:34.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-01T07:23:34.757Z"
             },
             {
               "$type": "Document",
@@ -113,7 +112,7 @@
               "RelativeDocumentMoniker": "Biosz\\Program.cs",
               "ToolTip": "H:\\c#\\Biosz\\Biosz\\Program.cs",
               "RelativeToolTip": "Biosz\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T07:05:11.474Z",
               "EditorCaption": ""

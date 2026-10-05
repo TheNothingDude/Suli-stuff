@@ -14,11 +14,11 @@ namespace Biosz
         public Plant(int age, string name) { Age = age; Name = name; }
         public void Photosynthesis()
         {
-            Console.WriteLine("elvezi a napocskat");
+            Console.WriteLine($"{Name} elvezi a napocskat");
         }
         public void Reproduce()
         {
-            Console.WriteLine("elveti a seedjeit");
+            Console.WriteLine($"{Name} elveti a seedjeit");
         }
     }
 }
