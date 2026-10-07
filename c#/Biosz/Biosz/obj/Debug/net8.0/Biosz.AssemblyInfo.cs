@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Biosz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0ab0d7558136ebf772662c4623c4485a640e466")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acb9f1b5e03a109e0216dae964ab123e81fc96de")]
 [assembly: System.Reflection.AssemblyProductAttribute("Biosz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Biosz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

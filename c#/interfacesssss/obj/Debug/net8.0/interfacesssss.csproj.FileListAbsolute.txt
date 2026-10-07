@@ -1,0 +1,15 @@
+/home/helium/Suli-stuff/c#/interfacesssss/bin/Debug/net8.0/interfacesssss
+/home/helium/Suli-stuff/c#/interfacesssss/bin/Debug/net8.0/interfacesssss.deps.json
+/home/helium/Suli-stuff/c#/interfacesssss/bin/Debug/net8.0/interfacesssss.runtimeconfig.json
+/home/helium/Suli-stuff/c#/interfacesssss/bin/Debug/net8.0/interfacesssss.dll
+/home/helium/Suli-stuff/c#/interfacesssss/bin/Debug/net8.0/interfacesssss.pdb
+/home/helium/Suli-stuff/c#/interfacesssss/obj/Debug/net8.0/interfacesssss.GeneratedMSBuildEditorConfig.editorconfig
+/home/helium/Suli-stuff/c#/interfacesssss/obj/Debug/net8.0/interfacesssss.AssemblyInfoInputs.cache
+/home/helium/Suli-stuff/c#/interfacesssss/obj/Debug/net8.0/interfacesssss.AssemblyInfo.cs
+/home/helium/Suli-stuff/c#/interfacesssss/obj/Debug/net8.0/interfacesssss.csproj.CoreCompileInputs.cache
+/home/helium/Suli-stuff/c#/interfacesssss/obj/Debug/net8.0/interfacesssss.sourcelink.json
+/home/helium/Suli-stuff/c#/interfacesssss/obj/Debug/net8.0/interfacesssss.dll
+/home/helium/Suli-stuff/c#/interfacesssss/obj/Debug/net8.0/refint/interfacesssss.dll
+/home/helium/Suli-stuff/c#/interfacesssss/obj/Debug/net8.0/interfacesssss.pdb
+/home/helium/Suli-stuff/c#/interfacesssss/obj/Debug/net8.0/interfacesssss.genruntimeconfig.cache
+/home/helium/Suli-stuff/c#/interfacesssss/obj/Debug/net8.0/ref/interfacesssss.dll
