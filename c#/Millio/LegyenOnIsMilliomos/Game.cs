@@ -11,10 +11,10 @@ namespace LegyenOnIsMilliomos
     {
         static void Interface()
         {
-            Console.WriteLine("Köszöntünk a Legyen Ön Is Milliomos játékban!");
+            System.Console.WriteLine("Köszöntünk a Legyen Ön Is Milliomos játékban!");
             Console.WriteLine();
-            Console.WriteLine("A játék szintekre osztható, maximum 15 szint lehet. Minden szinten egy kérdésre kell válaszolnia.\nMinden kérdéshez tartozik négy válaszlehetőség (A, B, C, D). A négy válaszlehetőség közül minden esetben csak egy a helyes.");
-            Console.WriteLine("Minden szintnek megfelelően négyzetesen fog pontot kapni.");
+            TypeLine("A játék szintekre osztható, maximum 15 szint lehet. Minden szinten egy kérdésre kell válaszolnia.\nMinden kérdéshez tartozik négy válaszlehetőség (A, B, C, D). A négy válaszlehetőség közül minden esetben csak egy a helyes.");
+            System.Console.WriteLine("Minden szintnek megfelelően négyzetesen fog pontot kapni.");
             Console.WriteLine();
             Console.WriteLine("A továbbhaladáshoz nyomjon entert!");
             Console.ReadLine();
@@ -25,7 +25,10 @@ namespace LegyenOnIsMilliomos
             foreach (char c in letters)
             {
                 Console.Write(c);
-                Thread.Sleep(1);
+                if(c != ' ')
+                {
+                    Thread.Sleep(5);
+                }
             }
         }
         public static void TypeLine(string p_input)
@@ -34,7 +37,10 @@ namespace LegyenOnIsMilliomos
             foreach (char c in letters)
             {
                 Console.Write(c);
-                Thread.Sleep(50);
+                if(c != ' ')
+                {
+                    Thread.Sleep(5);
+                }
             }
             Console.WriteLine();
         }
@@ -101,7 +107,11 @@ namespace LegyenOnIsMilliomos
                 DisplayQuestions(currentQuestion);
                 Console.Write("Írja be a helyes válasz betűjelét: ");
                 char valasz = char.Parse(Console.ReadLine().ToUpper());
-
+                if(char.IsDigit(valasz))
+                {
+                    System.Console.WriteLine("Szamok nem megengedettek");
+                    return;
+                }
                 DisplayAnswers(currentQuestion);
                 if (valasz == currentQuestion.correctAnswear)
                 {
