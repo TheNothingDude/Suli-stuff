@@ -19,22 +19,22 @@ namespace LegyenOnIsMilliomos
             Console.WriteLine("A továbbhaladáshoz nyomjon entert!");
             Console.ReadLine();
         }
-        public static void Type(string p_input, int p_delay)
+        public static void Type(string p_input)
         {
             char[] letters = p_input.ToCharArray();
             foreach (char c in letters)
             {
                 Console.Write(c);
-                Thread.Sleep(p_delay);
+                Thread.Sleep(1);
             }
         }
-        public static void TypeLine(string p_input, int p_delay)
+        public static void TypeLine(string p_input)
         {
             char[] letters = p_input.ToCharArray();
             foreach (char c in letters)
             {
                 Console.Write(c);
-                Thread.Sleep(p_delay);
+                Thread.Sleep(50);
             }
             Console.WriteLine();
         }
@@ -42,15 +42,15 @@ namespace LegyenOnIsMilliomos
         {
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Type($"Nehézségi szint: {currentQuestion.difficulty}\n",10);
+            Type($"Nehézségi szint: {currentQuestion.difficulty}\n");
             Console.ForegroundColor = ConsoleColor.White;
-            Type(currentQuestion.question_string,10);
+            Type(currentQuestion.question_string);
             Console.WriteLine();
-            TypeLine("-----------------------------------------------------------------------------------", 10);
-            TypeLine($"|\tA - {currentQuestion.A_answear,-20}\t|\tB - {currentQuestion.B_answear}", 10);
-            TypeLine("-----------------------------------------------------------------------------------", 10);
-            TypeLine($"|\tC - {currentQuestion.C_answear,-20}\t|\tD - {currentQuestion.D_answear}", 10);
-            TypeLine("-----------------------------------------------------------------------------------", 10);
+            Console.WriteLine("-----------------------------------------------------------------------------------");
+            TypeLine($"|\tA - {currentQuestion.A_answear,-20}\t|\tB - {currentQuestion.B_answear}");
+            System.Console.WriteLine("-----------------------------------------------------------------------------------");
+            TypeLine($"|\tC - {currentQuestion.C_answear,-20}\t|\tD - {currentQuestion.D_answear}");
+            System.Console.WriteLine("-----------------------------------------------------------------------------------");
             Console.WriteLine();
         }
         private static void DisplayAnswers(question currentQuestion)

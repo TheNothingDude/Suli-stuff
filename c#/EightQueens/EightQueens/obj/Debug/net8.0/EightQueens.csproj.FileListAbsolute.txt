@@ -1,0 +1,15 @@
+H:\c#\EightQueens\EightQueens\bin\Debug\net8.0\EightQueens.exe
+H:\c#\EightQueens\EightQueens\bin\Debug\net8.0\EightQueens.deps.json
+H:\c#\EightQueens\EightQueens\bin\Debug\net8.0\EightQueens.runtimeconfig.json
+H:\c#\EightQueens\EightQueens\bin\Debug\net8.0\EightQueens.dll
+H:\c#\EightQueens\EightQueens\bin\Debug\net8.0\EightQueens.pdb
+H:\c#\EightQueens\EightQueens\obj\Debug\net8.0\EightQueens.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\EightQueens\EightQueens\obj\Debug\net8.0\EightQueens.AssemblyInfoInputs.cache
+H:\c#\EightQueens\EightQueens\obj\Debug\net8.0\EightQueens.AssemblyInfo.cs
+H:\c#\EightQueens\EightQueens\obj\Debug\net8.0\EightQueens.csproj.CoreCompileInputs.cache
+H:\c#\EightQueens\EightQueens\obj\Debug\net8.0\EightQueens.sourcelink.json
+H:\c#\EightQueens\EightQueens\obj\Debug\net8.0\EightQueens.dll
+H:\c#\EightQueens\EightQueens\obj\Debug\net8.0\refint\EightQueens.dll
+H:\c#\EightQueens\EightQueens\obj\Debug\net8.0\EightQueens.pdb
+H:\c#\EightQueens\EightQueens\obj\Debug\net8.0\EightQueens.genruntimeconfig.cache
+H:\c#\EightQueens\EightQueens\obj\Debug\net8.0\ref\EightQueens.dll
