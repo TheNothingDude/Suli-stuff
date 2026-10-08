@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Spectre.Console;
 
 namespace LegyenOnIsMilliomos
 {
@@ -11,6 +12,9 @@ namespace LegyenOnIsMilliomos
     {
         static void Interface()
         {
+            var title = new FigletText("Legyen ön is milliomos").Centered();
+            AnsiConsole.Write(title);
+            System.Console.WriteLine();
             System.Console.WriteLine("Köszöntünk a Legyen Ön Is Milliomos játékban!");
             Console.WriteLine();
             TypeLine("A játék szintekre osztható, maximum 15 szint lehet. Minden szinten egy kérdésre kell válaszolnia.\nMinden kérdéshez tartozik négy válaszlehetőség (A, B, C, D). A négy válaszlehetőség közül minden esetben csak egy a helyes.");
@@ -107,10 +111,11 @@ namespace LegyenOnIsMilliomos
                 DisplayQuestions(currentQuestion);
                 Console.Write("Írja be a helyes válasz betűjelét: ");
                 char valasz = char.Parse(Console.ReadLine().ToUpper());
-                if(char.IsDigit(valasz))
+                while(char.IsDigit(valasz))
                 {
                     System.Console.WriteLine("Szamok nem megengedettek");
-                    return;
+                    valasz = char.Parse(Console.ReadLine().ToUpper());
+
                 }
                 DisplayAnswers(currentQuestion);
                 if (valasz == currentQuestion.correctAnswear)

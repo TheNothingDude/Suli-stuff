@@ -45,3 +45,7 @@ H:\c#\Millio\LegyenOnIsMilliomos\obj\Debug\net8.0\refint\LegyenOnIsMilliomos.dll
 H:\c#\Millio\LegyenOnIsMilliomos\obj\Debug\net8.0\LegyenOnIsMilliomos.pdb
 H:\c#\Millio\LegyenOnIsMilliomos\obj\Debug\net8.0\LegyenOnIsMilliomos.genruntimeconfig.cache
 H:\c#\Millio\LegyenOnIsMilliomos\obj\Debug\net8.0\ref\LegyenOnIsMilliomos.dll
+H:\c#\Millio\LegyenOnIsMilliomos\bin\Debug\net8.0\Spectre.Console.dll
+H:\c#\Millio\LegyenOnIsMilliomos\bin\Debug\net8.0\Spectre.Console.Ansi.dll
+H:\c#\Millio\LegyenOnIsMilliomos\obj\Debug\net8.0\LegyenOnIsMilliomos.csproj.AssemblyReference.cache
+H:\c#\Millio\LegyenOnIsMilliomos\obj\Debug\net8.0\LegyenOn.0366A744.Up2Date
