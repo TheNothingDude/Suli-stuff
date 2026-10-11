@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Spectre.Console;
 
 namespace LegyenOnIsMilliomos
@@ -12,7 +7,7 @@ namespace LegyenOnIsMilliomos
     {
         static void Interface()
         {
-            var title = new FigletText("Legyen ön is milliomos").Centered();
+            var title = new FigletText("Legyen Ön is Milliomos").Centered();
             AnsiConsole.Write(title);
             System.Console.WriteLine();
             System.Console.WriteLine("Köszöntünk a Legyen Ön Is Milliomos játékban!");
@@ -68,7 +63,6 @@ namespace LegyenOnIsMilliomos
             Console.Clear();
             string[] answers = new string[] { currentQuestion.A_answear, currentQuestion.B_answear, currentQuestion.C_answear, currentQuestion.D_answear };
             int currectAnsIndex = (int)currentQuestion.correctAnswear - 65;
-
 
             Console.WriteLine("-----------------------------------------------------------------------------------");
             for (int i = 0; i < answers.Length; i++)

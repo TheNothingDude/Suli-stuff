@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("svgesus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6695d25d4ffb4580e608da184a2d61576f17ddf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2cb481d036d8867197ec9e8b1013958d4fb8a2ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("svgesus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("svgesus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
