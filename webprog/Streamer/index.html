@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>streamer</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: #121212;
+        color: #fff;
+        padding: 20px;
+      }
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+      }
+      .player-box {
+        background: #1e1e1e;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        text-align: center;
+        border: 1px solid #333;
+      }
+      audio,
+      video {
+        width: 100%;
+        max-width: 500px;
+        margin-top: 10px;
+      }
+      .form-box {
+        background: #1e1e1e;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+      }
+      .form-group {
+        margin-bottom: 10px;
+      }
+      input,
+      select,
+      button {
+        padding: 8px 12px;
+        border-radius: 4px;
+        border: 1px solid #444;
+        background: #2a2a2a;
+        color: #fff;
+      }
+      button {
+        background: #1db954;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+      }
+      button:hover {
+        background: #1ed760;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+      }
+      .card {
+        background: #181818;
+        padding: 15px;
+        border-radius: 8px;
+        border: 1px solid #282828;
+      }
+      .card-badge {
+        font-size: 0.8rem;
+        padding: 2px 6px;
+        background: #333;
+        border-radius: 4px;
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app" class=".container">
+      <form action="" class="form-box">
+        <label for="cim">Cim: </label>
+        <input type="text" name="cim" id="cim" />
+        <label for="url">url: </label>
+        <input type="text" name="url" id="url" />
+        <select name="type" id="type">
+          <option value="song">Song</option>
+          <option value="podcast">Podcast</option>
+          <option value="vid">Video</option>
+        </select>
+        <label for="extra"></label>
+        <input type="text" name="extra" id="extra" />
+        <br />
+        <button id="add">add</button>
+      </form>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
