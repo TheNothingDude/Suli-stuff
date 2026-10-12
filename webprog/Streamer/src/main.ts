@@ -94,6 +94,10 @@ class Playlist {
 
 (window as any).playMedia = (index: number) => {
   l.items[index].play();
+  const count = document.getElementById(`count-${index}`);
+  if (count) {
+    count.textContent = l.items[index].PlayCount.toString();
+  }
 };
 const l: Playlist = new Playlist();
 const cont = document.getElementById("app");
