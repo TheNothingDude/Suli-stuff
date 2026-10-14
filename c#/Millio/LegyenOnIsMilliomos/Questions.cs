@@ -37,9 +37,9 @@ namespace LegyenOnIsMilliomos
         static question[] SortHelp(int diff)
         {
             question[] array = new question[0];
-            foreach(question q1 in q)
+            foreach (question q1 in q)
             {
-                if(q1.difficulty == diff)
+                if (q1.difficulty == diff)
                 {
                     Add(ref array, q1);
                 }
@@ -49,10 +49,36 @@ namespace LegyenOnIsMilliomos
         static void Sort()
         {
             qsorted = new question[15][];
-            for(int i = 1;i <= 15; i++)
+            for (int i = 1; i <= 15; i++)
             {
-                qsorted[i-1] = SortHelp(i);
+                qsorted[i - 1] = SortHelp(i);
             }
+        }
+        public static void AddQuestion()
+        {
+            question q1 = new question();
+            FileStream fs = new FileStream("./loim.csv", FileMode.Append);
+            StreamWriter sw = new StreamWriter(fs);
+            Console.WriteLine("Add meg a kerdést: ");
+            q1.question_string = Console.ReadLine();
+            System.Console.WriteLine("Add meg az A valaszt: ");
+            q1.A_answear = Console.ReadLine();
+            System.Console.WriteLine("Add meg a B valaszt: ");
+            q1.B_answear = Console.ReadLine();
+            System.Console.WriteLine("Add meg a C valaszt: ");
+            q1.C_answear = Console.ReadLine();
+            System.Console.WriteLine("Add meg a D valaszt: ");
+            q1.D_answear = Console.ReadLine();
+            System.Console.WriteLine("Add meg a helyes valaszt: ");
+            q1.correctAnswear = Console.ReadLine()[0].ToString().ToUpper()[0];
+            System.Console.WriteLine("Add meg a kategoriat: ");
+            q1.category = Console.ReadLine();
+            System.Console.WriteLine("Add meg a nehezseget: ");
+            q1.difficulty = int.Parse(Console.ReadLine());
+            sw.WriteLine($"{q1.difficulty};{q1.question_string};{q1.A_answear};{q1.B_answear};{q1.C_answear};{q1.D_answear};{q1.correctAnswear};{q1.category}");
+            sw.Close();
+            fs.Close();
+            Sort();
         }
         public static void ReadCvs()
         {
@@ -80,6 +106,6 @@ namespace LegyenOnIsMilliomos
             Sort();
 
         }
-     
+
     }
 }

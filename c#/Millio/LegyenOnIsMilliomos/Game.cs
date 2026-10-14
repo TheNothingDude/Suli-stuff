@@ -24,7 +24,7 @@ namespace LegyenOnIsMilliomos
             foreach (char c in letters)
             {
                 Console.Write(c);
-                if(c != ' ')
+                if (c != ' ')
                 {
                     Thread.Sleep(5);
                 }
@@ -36,12 +36,24 @@ namespace LegyenOnIsMilliomos
             foreach (char c in letters)
             {
                 Console.Write(c);
-                if(c != ' ')
+                if (c != ' ')
                 {
                     Thread.Sleep(5);
                 }
             }
             Console.WriteLine();
+        }
+        public static string Menu()
+        {
+            Console.Clear();
+            AnsiConsole.Write(new FigletText("Menü").Centered());
+            AnsiConsole.Write(new Text("1. Játék indítása").Centered());
+            AnsiConsole.Write(new Text("2. Kilépés").Centered());
+            AnsiConsole.Write(new Text("3. Kérdés hozzáadása").Centered());
+            Console.WriteLine();
+            AnsiConsole.Write(new Text("Válasszon a menüpontok közül:").Centered());
+            string input = Console.ReadLine();
+            return input;
         }
         private static void DisplayQuestions(question currentQuestion)
         {
@@ -91,21 +103,20 @@ namespace LegyenOnIsMilliomos
             Console.WriteLine();
             Console.WriteLine("-----------------------------------------------------------------------------------");
         }
-        public static void Gameplay()
+        private static void PlayGame()
         {
-            Interface();
             Questions.ReadCvs();
             Random r = new Random();
             int pontszam = 0;
             bool end = false;
             for (int i = 1; i <= 15 && !end; i++)
             {
-                question[] questions = Questions.qsorted[i-1];
+                question[] questions = Questions.qsorted[i - 1];
                 question currentQuestion = questions[r.Next(0, questions.Length)];
                 DisplayQuestions(currentQuestion);
                 Console.Write("Írja be a helyes válasz betűjelét: ");
                 char valasz = char.Parse(Console.ReadLine().ToUpper());
-                while(char.IsDigit(valasz))
+                while (char.IsDigit(valasz))
                 {
                     System.Console.WriteLine("Szamok nem megengedettek");
                     valasz = char.Parse(Console.ReadLine().ToUpper());
@@ -128,7 +139,33 @@ namespace LegyenOnIsMilliomos
                 }
                 Thread.Sleep(2000);
             }
+        }
+        public static void Gameplay()
+        {
+            Interface();
+            bool exit = false;
+            while (!exit)
+            {
+                string input = Menu();
+                switch (input)
+                {
+                    case "1":
+                        PlayGame();
+                        break;
+                    case "2":
+                        exit = true;
+                        break;
+                    case "3":
+                        Questions.AddQuestion();
+                        break;
+                    default:
+                        Console.WriteLine("Hibás menüpont!");
+                        break;
+                }
+
+            }
 
         }
+
     }
 }
