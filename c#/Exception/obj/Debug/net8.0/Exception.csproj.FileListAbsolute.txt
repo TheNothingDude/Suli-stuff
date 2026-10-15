@@ -1,0 +1,15 @@
+H:\c#\Exception\bin\Debug\net8.0\Exception.exe
+H:\c#\Exception\bin\Debug\net8.0\Exception.deps.json
+H:\c#\Exception\bin\Debug\net8.0\Exception.runtimeconfig.json
+H:\c#\Exception\bin\Debug\net8.0\Exception.dll
+H:\c#\Exception\bin\Debug\net8.0\Exception.pdb
+H:\c#\Exception\obj\Debug\net8.0\Exception.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\Exception\obj\Debug\net8.0\Exception.AssemblyInfoInputs.cache
+H:\c#\Exception\obj\Debug\net8.0\Exception.AssemblyInfo.cs
+H:\c#\Exception\obj\Debug\net8.0\Exception.csproj.CoreCompileInputs.cache
+H:\c#\Exception\obj\Debug\net8.0\Exception.sourcelink.json
+H:\c#\Exception\obj\Debug\net8.0\Exception.dll
+H:\c#\Exception\obj\Debug\net8.0\refint\Exception.dll
+H:\c#\Exception\obj\Debug\net8.0\Exception.pdb
+H:\c#\Exception\obj\Debug\net8.0\Exception.genruntimeconfig.cache
+H:\c#\Exception\obj\Debug\net8.0\ref\Exception.dll
