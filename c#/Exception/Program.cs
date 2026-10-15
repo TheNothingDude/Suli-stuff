@@ -11,7 +11,12 @@ namespace ExceptionShii
             {
                 System.Console.WriteLine("which one do u want?");
                 int i = int.Parse(System.Console.ReadLine());
+                if (i < 0)
+                {
+                    throw (new Exception("no negatives"));
+                }
                 System.Console.WriteLine(t[i]);
+
             }
             catch (IndexOutOfRangeException err)
             {
@@ -28,6 +33,10 @@ namespace ExceptionShii
             catch
             {
                 System.Console.WriteLine("idk smth happened");
+            }
+            finally
+            {
+                System.Console.WriteLine("good job");
             }
             System.Console.WriteLine("veged van kishaver");
         }

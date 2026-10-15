@@ -1,0 +1,15 @@
+H:\c#\MyExeption\bin\Debug\net8.0\MyExeption.exe
+H:\c#\MyExeption\bin\Debug\net8.0\MyExeption.deps.json
+H:\c#\MyExeption\bin\Debug\net8.0\MyExeption.runtimeconfig.json
+H:\c#\MyExeption\bin\Debug\net8.0\MyExeption.dll
+H:\c#\MyExeption\bin\Debug\net8.0\MyExeption.pdb
+H:\c#\MyExeption\obj\Debug\net8.0\MyExeption.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\MyExeption\obj\Debug\net8.0\MyExeption.AssemblyInfoInputs.cache
+H:\c#\MyExeption\obj\Debug\net8.0\MyExeption.AssemblyInfo.cs
+H:\c#\MyExeption\obj\Debug\net8.0\MyExeption.csproj.CoreCompileInputs.cache
+H:\c#\MyExeption\obj\Debug\net8.0\MyExeption.sourcelink.json
+H:\c#\MyExeption\obj\Debug\net8.0\MyExeption.dll
+H:\c#\MyExeption\obj\Debug\net8.0\refint\MyExeption.dll
+H:\c#\MyExeption\obj\Debug\net8.0\MyExeption.pdb
+H:\c#\MyExeption\obj\Debug\net8.0\MyExeption.genruntimeconfig.cache
+H:\c#\MyExeption\obj\Debug\net8.0\ref\MyExeption.dll
