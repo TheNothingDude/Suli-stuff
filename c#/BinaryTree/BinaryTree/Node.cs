@@ -6,33 +6,33 @@ using System.Threading.Tasks;
 
 namespace BinaryTree
 {
-    class Node
+    class Node<T>
     {
-        int data;
-        Node left;
-        Node right;
+        T data;
+        Node<T> left;
+        Node<T> right;
 
-        public Node(int data)
+        public Node(T data)
         {
             this.data = data;
             left = null;
             right = null;
         }
 
-        public int Data
+        public T Data
         {
             get { return data; }
             set { data = value; }
         }
-        public Node Left
+        public Node<T> Left
         {
             get { return left; }
             set { left = value; }
         }
-        public Node Right
+        public Node<T> Right
         {
             get { return right; }
-            set {  right = value; }
+            set { right = value; }
         }
     }
 }

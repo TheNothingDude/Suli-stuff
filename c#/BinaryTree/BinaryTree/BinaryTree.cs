@@ -11,16 +11,20 @@ using System.Xml.Linq;
 
 namespace BinaryTree
 {
-    class BinaryTree
+    class BinaryTree<T> where T : IComparable<T>
     {
-        Node root;
+        Node<T> root;
         public BinaryTree()
         {
             root = null;
         }
-        private void InsertRecursive(Node current, Node newNode)
+        private void InsertRecursive(Node<T> current, Node<T> newNode)
         {
-            if(newNode.Data <= current.Data)
+            if (newNode.Data.GetType() != typeof(T))
+            {
+                throw new ArgumentException("data types are not the same");
+            }
+            if (newNode.Data.CompareTo(current.Data) < 0)
             {
                 //left
                 if (current.Left == null)
@@ -42,19 +46,23 @@ namespace BinaryTree
 
             }
         }
-        public void Insert(int newElement)
+        public void Insert(T newElement)
         {
-            Node newNode = new Node(newElement);
-            if(root == null) 
+            if (newElement.GetType() != typeof(T))
+            {
+                throw new ArgumentException("data types are not the same");
+            }
+            Node<T> newNode = new Node<T>(newElement);
+            if (root == null)
             {
                 root = newNode;
                 return;
             }
             InsertRecursive(root, newNode);
         }
-        private int MinFind(Node current)
+        private T MinFind(Node<T> current)
         {
-            if(current.Left == null)
+            if (current.Left == null)
             {
                 return current.Data;
             }
@@ -63,79 +71,87 @@ namespace BinaryTree
                 return MinFind(current.Left);
             }
         }
-        public int MinValue()
+        public T MinValue()
         {
             return MinFind(root);
         }
-        private void InOrder(Node node)
+        private void InOrder(Node<T> Node)
         {
-            if(node == null)
+            if (Node == null)
             {
                 return;
             }
-            InOrder(node.Left);
-            Console.Write($"{node.Data}, ");
-            InOrder(node.Right);
+            InOrder(Node.Left);
+            Console.Write($"{Node.Data}, ");
+            InOrder(Node.Right);
         }
         public void InOrder()
         {
             InOrder(root);
         }
-        private bool Contains(Node node,int val)
+        private bool Contains(Node<T> Node, T val)
         {
-            if(node == null)
+            if (val.GetType() != typeof(T))
+            {
+                throw new ArgumentException("data types are not the same");
+            }
+            if (Node == null)
             {
                 return false;
             }
 
-            if(node.Data == val)
+            if (Node.Data.CompareTo(val) == 0)
                 return true;
 
-            if(val < node.Data)
+            if (val.CompareTo(Node.Data) < 0)
             {
-                return Contains(node.Left, val);
+                return Contains(Node.Left, val);
             }
             else
             {
-                return Contains(node.Right, val);
+                return Contains(Node.Right, val);
             }
         }
-        public bool Contains(int val)
+        public bool Contains(T val)
         {
             return Contains(root, val);
         }
-        private Node Remove(Node node,int val)
+        private Node<T> Remove(Node<T> Node, T val)
         {
-            if(node == null)
+            if (val.GetType() != typeof(T))
             {
-                return node;
+                throw new ArgumentException("data types are not the same");
             }
-            if (val < node.Data)
+            if (Node == null)
             {
-                node.Left = Remove(node.Left, val);
+                return Node;
             }
-            else if(val > node.Data)
+            if (val.CompareTo(Node.Data) < 0)
             {
-                node.Right = Remove(node.Right , val);
+                Node.Left = Remove(Node.Left, val);
             }
-            else 
+            else if (val.CompareTo(Node.Data) > 0)
+            {
+                Node.Right = Remove(Node.Right, val);
+            }
+            else
             {
                 //0 v 1
-                if (node.Left == null)
+                if (Node.Left == null)
                 {
-                    return node.Right;
+                    return Node.Right;
                 }
-                else if (node.Right == null)
+                else if (Node.Right == null)
                 {
-                    return node.Left;
+                    return Node.Left;
                 }
                 //2
-                node.Data = MinFind(node.Right);
-                node.Right = Remove(node.Right, node.Data);
+                Node.Data = MinFind(Node.Right);
+                Node.Right = Remove(Node.Right, Node.Data);
             }
-            return node;
+            return Node;
         }
-        public void Remove(int val)
+        public void Remove(T val)
         {
             Remove(root, val);
         }
