@@ -43,7 +43,7 @@ namespace LegyenOnIsMilliomos
             }
             Console.WriteLine();
         }
-        public static string Menu()
+        static char Menu()
         {
             Console.Clear();
             AnsiConsole.Write(new FigletText("Menü").Centered());
@@ -52,8 +52,9 @@ namespace LegyenOnIsMilliomos
             AnsiConsole.Write(new Text("3. Kérdés hozzáadása").Centered());
             Console.WriteLine();
             AnsiConsole.Write(new Text("Válasszon a menüpontok közül:").Centered());
-            string input = Console.ReadLine();
-            return input;
+            ConsoleKeyInfo input = Console.ReadKey();
+            Console.Clear();
+            return input.KeyChar;
         }
         private static void DisplayQuestions(question currentQuestion)
         {
@@ -146,20 +147,21 @@ namespace LegyenOnIsMilliomos
             bool exit = false;
             while (!exit)
             {
-                string input = Menu();
+                char input = Menu();
                 switch (input)
                 {
-                    case "1":
+                    case '1':
                         PlayGame();
                         break;
-                    case "2":
+                    case '2':
                         exit = true;
                         break;
-                    case "3":
+                    case '3':
                         Questions.AddQuestion();
                         break;
                     default:
                         Console.WriteLine("Hibás menüpont!");
+                        Thread.Sleep(1000);
                         break;
                 }
 
