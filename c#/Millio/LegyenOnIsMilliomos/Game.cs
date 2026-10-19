@@ -117,9 +117,10 @@ namespace LegyenOnIsMilliomos
                 DisplayQuestions(currentQuestion);
                 Console.Write("Írja be a helyes válasz betűjelét: ");
                 char valasz = char.Parse(Console.ReadLine().ToUpper());
-                while (char.IsDigit(valasz))
+                char[] options = new char[4] { 'A','B','C','D'};
+                while (char.IsDigit(valasz) || !options.Contains(valasz))
                 {
-                    System.Console.WriteLine("Szamok nem megengedettek");
+                    System.Console.WriteLine("Nem helyes bemenet");
                     valasz = char.Parse(Console.ReadLine().ToUpper());
 
                 }
