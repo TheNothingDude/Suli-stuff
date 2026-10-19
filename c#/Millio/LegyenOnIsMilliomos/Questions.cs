@@ -8,7 +8,7 @@ using System.Net.Http.Headers;
 
 namespace LegyenOnIsMilliomos
 {
-    public struct question
+    struct question
     {
         public int difficulty;
         public string question_string;
@@ -46,6 +46,7 @@ namespace LegyenOnIsMilliomos
             }
             return array;
         }
+
         static void Sort()
         {
             qsorted = new question[15][];

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "mY7neM+cKrgW2ZRaQB8x3bPoRY7AHGdUMrDZg1SAR68wrGHjFYa3sy843dOiLeo0quUuFmwGwkBA5I9hdzhHCw==",
+  "dgSpecHash": "jYUN4y2z+yA=",
   "success": true,
-  "projectFilePath": "/home/helium/Suli-stuff/c#/Millio/LegyenOnIsMilliomos/LegyenOnIsMilliomos.csproj",
+  "projectFilePath": "H:\\c#\\Millio\\LegyenOnIsMilliomos\\LegyenOnIsMilliomos.csproj",
   "expectedPackageFiles": [
-    "/home/helium/.nuget/packages/spectre.console/0.57.2/spectre.console.0.57.2.nupkg.sha512",
-    "/home/helium/.nuget/packages/spectre.console.ansi/0.57.2/spectre.console.ansi.0.57.2.nupkg.sha512"
+    "C:\\Users\\nemes.aron\\.nuget\\packages\\spectre.console\\0.57.2\\spectre.console.0.57.2.nupkg.sha512",
+    "C:\\Users\\nemes.aron\\.nuget\\packages\\spectre.console.ansi\\0.57.2\\spectre.console.ansi.0.57.2.nupkg.sha512"
   ],
   "logs": []
 }
