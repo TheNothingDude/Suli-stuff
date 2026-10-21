@@ -1,0 +1,15 @@
+/home/helium/Suli-Stuff/c#/Akcios/obj/Debug/net8.0/Akcios.GeneratedMSBuildEditorConfig.editorconfig
+/home/helium/Suli-Stuff/c#/Akcios/obj/Debug/net8.0/Akcios.AssemblyInfoInputs.cache
+/home/helium/Suli-Stuff/c#/Akcios/obj/Debug/net8.0/Akcios.AssemblyInfo.cs
+/home/helium/Suli-Stuff/c#/Akcios/obj/Debug/net8.0/Akcios.csproj.CoreCompileInputs.cache
+/home/helium/Suli-Stuff/c#/Akcios/obj/Debug/net8.0/Akcios.sourcelink.json
+/home/helium/Suli-Stuff/c#/Akcios/bin/Debug/net8.0/Akcios
+/home/helium/Suli-Stuff/c#/Akcios/bin/Debug/net8.0/Akcios.deps.json
+/home/helium/Suli-Stuff/c#/Akcios/bin/Debug/net8.0/Akcios.runtimeconfig.json
+/home/helium/Suli-Stuff/c#/Akcios/bin/Debug/net8.0/Akcios.dll
+/home/helium/Suli-Stuff/c#/Akcios/bin/Debug/net8.0/Akcios.pdb
+/home/helium/Suli-Stuff/c#/Akcios/obj/Debug/net8.0/Akcios.dll
+/home/helium/Suli-Stuff/c#/Akcios/obj/Debug/net8.0/refint/Akcios.dll
+/home/helium/Suli-Stuff/c#/Akcios/obj/Debug/net8.0/Akcios.pdb
+/home/helium/Suli-Stuff/c#/Akcios/obj/Debug/net8.0/Akcios.genruntimeconfig.cache
+/home/helium/Suli-Stuff/c#/Akcios/obj/Debug/net8.0/ref/Akcios.dll
