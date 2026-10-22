@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = hello12._09
-build_property.ProjectDir = /home/helium/Suli-stuff/c#/hello12.09/
+build_property.ProjectDir = /home/helium/Suli-Stuff/c#/hello12.09/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

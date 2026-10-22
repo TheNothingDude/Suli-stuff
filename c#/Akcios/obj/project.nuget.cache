@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ecbFCHocPO8p/JE95bBxiqWMFyYsJOFyfoiEClBgu+a6BeiV03nI6E6KNfJiiI7BZfzuFXrRZXJHWOy8AMsIoA==",
+  "success": true,
+  "projectFilePath": "/home/helium/Suli-Stuff/c#/Akcios/Akcios.csproj",
+  "expectedPackageFiles": [
+    "/home/helium/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.32/microsoft.aspnetcore.app.ref.8.0.32.nupkg.sha512"
+  ],
+  "logs": []
+}
