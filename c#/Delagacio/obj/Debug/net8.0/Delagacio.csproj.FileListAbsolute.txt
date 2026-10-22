@@ -1,0 +1,15 @@
+H:\c#\Delagacio\bin\Debug\net8.0\Delagacio.exe
+H:\c#\Delagacio\bin\Debug\net8.0\Delagacio.deps.json
+H:\c#\Delagacio\bin\Debug\net8.0\Delagacio.runtimeconfig.json
+H:\c#\Delagacio\bin\Debug\net8.0\Delagacio.dll
+H:\c#\Delagacio\bin\Debug\net8.0\Delagacio.pdb
+H:\c#\Delagacio\obj\Debug\net8.0\Delagacio.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\Delagacio\obj\Debug\net8.0\Delagacio.AssemblyInfoInputs.cache
+H:\c#\Delagacio\obj\Debug\net8.0\Delagacio.AssemblyInfo.cs
+H:\c#\Delagacio\obj\Debug\net8.0\Delagacio.csproj.CoreCompileInputs.cache
+H:\c#\Delagacio\obj\Debug\net8.0\Delagacio.sourcelink.json
+H:\c#\Delagacio\obj\Debug\net8.0\Delagacio.dll
+H:\c#\Delagacio\obj\Debug\net8.0\refint\Delagacio.dll
+H:\c#\Delagacio\obj\Debug\net8.0\Delagacio.pdb
+H:\c#\Delagacio\obj\Debug\net8.0\Delagacio.genruntimeconfig.cache
+H:\c#\Delagacio\obj\Debug\net8.0\ref\Delagacio.dll
