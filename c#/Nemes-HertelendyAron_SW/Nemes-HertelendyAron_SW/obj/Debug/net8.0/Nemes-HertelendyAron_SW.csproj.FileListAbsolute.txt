@@ -1,0 +1,15 @@
+H:\c#\Nemes-HertelendyAron_SW\Nemes-HertelendyAron_SW\bin\Debug\net8.0\Nemes-HertelendyAron_SW.exe
+H:\c#\Nemes-HertelendyAron_SW\Nemes-HertelendyAron_SW\bin\Debug\net8.0\Nemes-HertelendyAron_SW.deps.json
+H:\c#\Nemes-HertelendyAron_SW\Nemes-HertelendyAron_SW\bin\Debug\net8.0\Nemes-HertelendyAron_SW.runtimeconfig.json
+H:\c#\Nemes-HertelendyAron_SW\Nemes-HertelendyAron_SW\bin\Debug\net8.0\Nemes-HertelendyAron_SW.dll
+H:\c#\Nemes-HertelendyAron_SW\Nemes-HertelendyAron_SW\bin\Debug\net8.0\Nemes-HertelendyAron_SW.pdb
+H:\c#\Nemes-HertelendyAron_SW\Nemes-HertelendyAron_SW\obj\Debug\net8.0\Nemes-HertelendyAron_SW.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\Nemes-HertelendyAron_SW\Nemes-HertelendyAron_SW\obj\Debug\net8.0\Nemes-HertelendyAron_SW.AssemblyInfoInputs.cache
+H:\c#\Nemes-HertelendyAron_SW\Nemes-HertelendyAron_SW\obj\Debug\net8.0\Nemes-HertelendyAron_SW.AssemblyInfo.cs
+H:\c#\Nemes-HertelendyAron_SW\Nemes-HertelendyAron_SW\obj\Debug\net8.0\Nemes-HertelendyAron_SW.csproj.CoreCompileInputs.cache
+H:\c#\Nemes-HertelendyAron_SW\Nemes-HertelendyAron_SW\obj\Debug\net8.0\Nemes-HertelendyAron_SW.sourcelink.json
+H:\c#\Nemes-HertelendyAron_SW\Nemes-HertelendyAron_SW\obj\Debug\net8.0\Nemes-HertelendyAron_SW.dll
+H:\c#\Nemes-HertelendyAron_SW\Nemes-HertelendyAron_SW\obj\Debug\net8.0\refint\Nemes-HertelendyAron_SW.dll
+H:\c#\Nemes-HertelendyAron_SW\Nemes-HertelendyAron_SW\obj\Debug\net8.0\Nemes-HertelendyAron_SW.pdb
+H:\c#\Nemes-HertelendyAron_SW\Nemes-HertelendyAron_SW\obj\Debug\net8.0\Nemes-HertelendyAron_SW.genruntimeconfig.cache
+H:\c#\Nemes-HertelendyAron_SW\Nemes-HertelendyAron_SW\obj\Debug\net8.0\ref\Nemes-HertelendyAron_SW.dll
