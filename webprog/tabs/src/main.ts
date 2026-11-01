@@ -13,13 +13,8 @@ class Tabs {
           e.classList.remove("active");
           this.tabs[this.buttons.indexOf(e)].classList.remove("active");
         });
-        if (!e.classList.contains("active")) {
-          e.classList.add("active");
-          this.tabs[this.buttons.indexOf(e)].classList.add("active");
-        } else {
-          e.classList.remove("active");
-          this.tabs[this.buttons.indexOf(e)].classList.remove("active");
-        }
+        e.classList.add("active");
+        this.tabs[this.buttons.indexOf(e)].classList.add("active");
       });
     });
   }
