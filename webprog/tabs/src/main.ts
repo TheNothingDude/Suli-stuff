@@ -5,7 +5,6 @@ class Tabs {
   static tabs: HTMLButtonElement[] = Array.from(
     document.querySelectorAll(".tabs div"),
   );
-
   static addEventListeners(): void {
     this.buttons.forEach((e) => {
       e.addEventListener("click", () => {
