@@ -1,0 +1,15 @@
+H:\c#\Event\obj\Debug\net8.0\Event.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\Event\obj\Debug\net8.0\Event.AssemblyInfoInputs.cache
+H:\c#\Event\obj\Debug\net8.0\Event.AssemblyInfo.cs
+H:\c#\Event\obj\Debug\net8.0\Event.csproj.CoreCompileInputs.cache
+H:\c#\Event\obj\Debug\net8.0\Event.sourcelink.json
+H:\c#\Event\bin\Debug\net8.0\Event.exe
+H:\c#\Event\bin\Debug\net8.0\Event.deps.json
+H:\c#\Event\bin\Debug\net8.0\Event.runtimeconfig.json
+H:\c#\Event\bin\Debug\net8.0\Event.dll
+H:\c#\Event\bin\Debug\net8.0\Event.pdb
+H:\c#\Event\obj\Debug\net8.0\Event.dll
+H:\c#\Event\obj\Debug\net8.0\refint\Event.dll
+H:\c#\Event\obj\Debug\net8.0\Event.pdb
+H:\c#\Event\obj\Debug\net8.0\Event.genruntimeconfig.cache
+H:\c#\Event\obj\Debug\net8.0\ref\Event.dll

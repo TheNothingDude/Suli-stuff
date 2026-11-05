@@ -1,0 +1,15 @@
+H:\c#\GenericDel\bin\Debug\net8.0\GenericDel.exe
+H:\c#\GenericDel\bin\Debug\net8.0\GenericDel.deps.json
+H:\c#\GenericDel\bin\Debug\net8.0\GenericDel.runtimeconfig.json
+H:\c#\GenericDel\bin\Debug\net8.0\GenericDel.dll
+H:\c#\GenericDel\bin\Debug\net8.0\GenericDel.pdb
+H:\c#\GenericDel\obj\Debug\net8.0\GenericDel.GeneratedMSBuildEditorConfig.editorconfig
+H:\c#\GenericDel\obj\Debug\net8.0\GenericDel.AssemblyInfoInputs.cache
+H:\c#\GenericDel\obj\Debug\net8.0\GenericDel.AssemblyInfo.cs
+H:\c#\GenericDel\obj\Debug\net8.0\GenericDel.csproj.CoreCompileInputs.cache
+H:\c#\GenericDel\obj\Debug\net8.0\GenericDel.sourcelink.json
+H:\c#\GenericDel\obj\Debug\net8.0\GenericDel.dll
+H:\c#\GenericDel\obj\Debug\net8.0\refint\GenericDel.dll
+H:\c#\GenericDel\obj\Debug\net8.0\GenericDel.pdb
+H:\c#\GenericDel\obj\Debug\net8.0\GenericDel.genruntimeconfig.cache
+H:\c#\GenericDel\obj\Debug\net8.0\ref\GenericDel.dll
