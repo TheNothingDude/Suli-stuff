@@ -13,13 +13,18 @@ public class ContentCreator
     public void Follow(Follower f)
     {
         Subcribe += f.FollowerEventHandler;
-        OnSubcribe($"feliratkozott a {Name} csatornara");
+        //OnSubcribe($"feliratkozott a {Name} csatornara");
     }
 
     public void Unfollow(Follower f)
     {
         Subcribe -= f.FollowerEventHandler;
-        OnSubcribe($"lefeliratkozott a {Name} csatornarol");
+        //OnSubcribe($"lefeliratkozott a {Name} csatornarol");
+    }
+
+    public void NewVideo(string title)
+    {
+        OnSubcribe($"NEW VIDEO!!! {title} from {Name}");
     }
 
     protected void OnSubcribe(string m)
