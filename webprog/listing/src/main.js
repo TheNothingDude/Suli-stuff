@@ -57,26 +57,31 @@ const apiResponse = {
 };
 class APIHandler {
   _product;
-  constructor({ data: { products } }) {
+  _shopName;
+  constructor({ data: { shopName, products } }) {
     this._product = products;
+    this._shopName = shopName;
   }
-  elsoFel = () => {
+  elsoFel() {
     return this._product.filter((x) => x.inStock);
-  };
-
-  masodikFel = () => {
+  }
+  masodikFel() {
     return this._product
       .filter(({ rating, price }) => rating >= 4.6 && price >= 40000)
       .map(({ name }) => ({ name }));
-  };
-  harmadikFel = () => {
+  }
+  harmadikFel() {
     return this._product
       .map((p) => (p = p.price))
       .reduce((sum, curent) => sum + curent, 0);
-  };
+  }
+  negyedikFel() {
+    return this._product.find((n) => n.category === "kijelző");
+  }
 }
 
 const api = new APIHandler(apiResponse);
 console.log(api.elsoFel());
 console.log(api.masodikFel());
 console.log(api.harmadikFel());
+console.log(api.negyedikFel());
