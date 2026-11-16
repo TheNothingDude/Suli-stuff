@@ -81,6 +81,40 @@ class Array
             QuickSort(pivot + 1, right);
         }
     }
+    public void HeapSort()
+    {
+        int n = array.Length;
+        for (int i = (n / 2) - 1; i >= 0; i--)
+            Heapify(n, i);
+        for (int i = n - 1; i > 0; i--)
+        {
+            int tmp = array[i];
+            array[i] = array[0];
+            array[0] = tmp;
+            Heapify(i, 0);
+        }
+
+    }
+    private void Heapify(int n, int i)
+    {
+        int left = 2 * i + 1;
+        int right = 2 * i + 2;
+        int max_index = i;
+
+        if (left < n && array[left] > array[max_index])
+            max_index = left;
+        if (right < n && array[right] > array[max_index])
+        {
+            max_index = right;
+        }
+        if (max_index != i)
+        {
+            int tmp = array[i];
+            array[i] = array[max_index];
+            array[max_index] = tmp;
+            Heapify(n, max_index);
+        }
+    }
     public override string ToString()
     {
         string s = String.Empty;

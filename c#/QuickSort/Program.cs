@@ -9,19 +9,20 @@ namespace QuickSort
 
         static void Main(string[] args)
         {
-            Array quick = new Array(1000000);
-            Array bubble = new Array(quick);
+            Array quick = new Array(100);
+            Array heap = new Array(quick);
             Stopwatch sw = new Stopwatch();
             sw.Reset();
             sw.Start();
             quick.QuickSort();
             sw.Stop();
-            System.Console.WriteLine(sw.Elapsed);
+            System.Console.WriteLine("quick " + sw.Elapsed);
             sw.Reset();
             sw.Start();
-            bubble.BubbleSort();
+            heap.HeapSort();
             sw.Stop();
-            System.Console.WriteLine(sw.Elapsed);
+            System.Console.WriteLine("kupac " + sw.Elapsed);
+            System.Console.WriteLine(heap);
         }
     }
 }

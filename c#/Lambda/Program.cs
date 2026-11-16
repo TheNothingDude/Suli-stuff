@@ -19,6 +19,7 @@ namespace Lambda
 
             szamok.ForEach(i => { System.Console.Write($"{i + 2}, "); });
 
+            Muvelet apple = (a, b) => a - b;
             Muvelet osszead = (a, b) => a + b;
             Muvelet osztas = (x, y) => x / y;
             System.Console.WriteLine();

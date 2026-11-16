@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Toto\\Game.cs",
               "ToolTip": "H:\\c#\\Toto\\Toto\\Game.cs",
               "RelativeToolTip": "Toto\\Game.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-02T11:44:57.929Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "Toto\\Data.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAowCEAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T11:34:38.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T11:34:38.39Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "Toto\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T11:31:43.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T11:31:43.351Z"
             }
           ]
         }

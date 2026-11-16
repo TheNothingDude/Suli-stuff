@@ -1,16 +1,3 @@
-interface Product {
-  id: number;
-  name: string;
-  category: string;
-  price: number;
-  inStock: boolean;
-  rating: number;
-}
-interface API {
-  status: string;
-  timestamp: number;
-  data: { shopName: string; products: Product[] };
-}
 const apiResponse = {
   status: "success",
   timestamp: 1711982400,
@@ -69,29 +56,27 @@ const apiResponse = {
   },
 };
 class APIHandler {
-  private products: Product[];
-  constructor({ data: { products } }: API) {
-    this.products = products;
+  _product;
+  constructor({ data: { products } }) {
+    this._product = products;
   }
-  public static elsoFel = ({
-    data: { products },
-  }: {
-    status: string;
-    timestamp: number;
-    data: { shopName: string; products: Product[] };
-  }) => {
-    return products.filter((x) => x.inStock);
+  elsoFel = () => {
+    return this._product.filter((x) => x.inStock);
   };
 
-  public static masodikFel = () => {
-    return this.products
+  masodikFel = () => {
+    return this._product
       .filter(({ rating, price }) => rating >= 4.6 && price >= 40000)
       .map(({ name }) => ({ name }));
   };
-  public static harmadikFel = () 
+  harmadikFel = () => {
+    return this._product
+      .map((p) => (p = p.price))
+      .reduce((sum, curent) => sum + curent, 0);
+  };
 }
 
-const harmadikFel = () => {};
-
-console.log(elsoFel(apiResponse));
-console.log(masodikFel(apiResponse));
+const api = new APIHandler(apiResponse);
+console.log(api.elsoFel());
+console.log(api.masodikFel());
+console.log(api.harmadikFel());
