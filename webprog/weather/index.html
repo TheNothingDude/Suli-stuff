@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>weather</title>
+        <style>
+            #app {
+                width: 60%;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+            }
+            #app div {
+                margin: 1em;
+                padding: 0.5em;
+                border: black 5px solid;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="app">
+            <div id="actual"></div>
+            <div id="avg"></div>
+        </div>
+        <script type="module" src="/src/main.ts"></script>
+    </body>
+</html>
