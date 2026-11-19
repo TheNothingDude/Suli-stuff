@@ -6,15 +6,15 @@ unit test => integration test => E2E
  - gyors
  - automatikusan futtathato
  - izolalhato - fuggetlen
- - - mock (tobbet tud)
- - - stub
+    - mock (tobbet tud)
+    - stub
 
 ## Integration test
  - lasubb
  - hogyan mukodnek egyutt a moduljaink
  - pls: 
- - - kod + DB
- - - kod + API
+    - kod + DB
+    - kod + API
 <table>
     <tr>
         <th></th>
@@ -41,4 +41,57 @@ unit test => integration test => E2E
         <td> szoftvertesztelo</td>
         <td>fejleszto vagy tesztelo</td>
     </tr>
+ 
 </table>
+
+<table>
+    <tr>
+        <th>Rendszerteszt</th>
+        <th>Atadasi/Atveteli teszt</th>
+    </tr>
+    <tr>
+        <td>E2E: End to End</td>
+        <td>Acceptance testing</td>
+    </tr>
+    <tr>
+        <td>nem functios</td>
+        <td>UAT (user acceptance test)</td>
+    </tr>
+    <tr>
+        <td>lassu</td>
+        <td>alfa/beta testing <br>
+            - fejlesztok <br> 
+            - felhasznalok egy csoportja</td>
+    </tr>
+    <tr>
+        <td>Staging</td>
+        <td>OAT Mukodesi/uzelmeltetesi <br>
+            - rendszergazdak</td>
+    </tr>
+    <tr>
+        <td>Cel: hibak feltarasa <br>
+            - helyi mernokok</td>
+        <td>Cel: uzleti alkalmassag vizsgalata <br>
+        - megrendelok</td>
+    </tr>
+</table>
+
+```text
+           / \
+          /   \
+         /unit \
+        /-------\
+       /   int.  \
+      /-----------\
+     /     E2E     \
+    /---------------\
+```
+# Icecream cone anti pattern
+ - lassu visszajelzes
+ - draga karbantartas
+ - nahezen behatarolhato hibak
+
+```mermaid
+flowchart LR
+    A([start]) --> B[good]
+```
