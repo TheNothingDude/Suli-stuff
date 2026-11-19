@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\c#\\Graphics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{493F2962-51BD-4C5B-97EF-354086719CD7}|Graphics\\Graphics.csproj|h:\\c#\\graphics\\graphics\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{493F2962-51BD-4C5B-97EF-354086719CD7}|Graphics\\Graphics.csproj|solutionrelative:graphics\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{493F2962-51BD-4C5B-97EF-354086719CD7}|Graphics\\Graphics.csproj|h:\\c#\\graphics\\graphics\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{493F2962-51BD-4C5B-97EF-354086719CD7}|Graphics\\Graphics.csproj|solutionrelative:graphics\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{493F2962-51BD-4C5B-97EF-354086719CD7}|Graphics\\Graphics.csproj|h:\\c#\\graphics\\graphics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{493F2962-51BD-4C5B-97EF-354086719CD7}|Graphics\\Graphics.csproj|solutionrelative:graphics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{493F2962-51BD-4C5B-97EF-354086719CD7}|Graphics\\Graphics.csproj|h:\\c#\\graphics\\graphics\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{493F2962-51BD-4C5B-97EF-354086719CD7}|Graphics\\Graphics.csproj|solutionrelative:graphics\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "H:\\c#\\Graphics\\Graphics\\Form1.cs",
+              "RelativeDocumentMoniker": "Graphics\\Form1.cs",
+              "ToolTip": "H:\\c#\\Graphics\\Graphics\\Form1.cs",
+              "RelativeToolTip": "Graphics\\Form1.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAawDoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T06:56:24.931Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "H:\\c#\\Graphics\\Graphics\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Graphics\\Form1.Designer.cs",
+              "ToolTip": "H:\\c#\\Graphics\\Graphics\\Form1.Designer.cs",
+              "RelativeToolTip": "Graphics\\Form1.Designer.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAWwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T07:03:58.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "H:\\c#\\Graphics\\Graphics\\Form1.cs",
+              "RelativeDocumentMoniker": "Graphics\\Form1.cs",
+              "ToolTip": "H:\\c#\\Graphics\\Graphics\\Form1.cs [Design]",
+              "RelativeToolTip": "Graphics\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T06:42:01.291Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\c#\\Graphics\\Graphics\\Program.cs",
+              "RelativeDocumentMoniker": "Graphics\\Program.cs",
+              "ToolTip": "H:\\c#\\Graphics\\Graphics\\Program.cs",
+              "RelativeToolTip": "Graphics\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T06:44:58.405Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
